@@ -1,89 +1,2283 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.0.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.0.2/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.0.2/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+  <meta charset="utf-8">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
+  <!--    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Vinny Application</title>
+
+
+  <!-- uncomment if need normal condition
+  <!-- update the version number as needed -->
+  <!-- <script defer src="/__/firebase/7.24.0/firebase-app.js"></script> -->
+  <!-- include only the Firebase features as you need -->
+
+  <!--
+  <script defer src="/__/firebase/7.24.0/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-storage.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-performance.js"></script>
+-->
+  <!-- initialize the SDK after all desired features are loaded -->
+  <!-- <script defer src="/__/firebase/init.js"></script>
+  To Here
+-->
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
+
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+  <!-- Start TagEditor Lib -->
+
+  <link rel="stylesheet" type="text/css" href="jquery.tagsinput.css" rel="stylesheet">
+
+  <script type="text/javascript" src="jquery.tagsinput.js"></script>
+
+  <!--  <script type="text/javascript" src="./js/bootstrap-material-datetimepicker.js"></script>
+  <script type="text/javascript" src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+
+  <link rel="stylesheet" href="./css/bootstrap-material-datetimepicker.css" /> -->
+
+  <!-- End TagEditor Lib -->
+
+
+  <!-- Text Autocomplete plugin -->
+  <script src="jquery.textcomplete.min.js"></script>
+  <!-- Algolia Search API Client - latest version -->
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- DateTime Picker Optional theme
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+  END DateTime Picker -->
+
+  <!-- Load From Local DateTime Picker Optional theme -->
+  <link rel="stylesheet" href="./datepickersource/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="./datepickersource/bootstrap-datetimepicker.min.css" />
+
+  <script src="./datepickersource/moment.min.js"></script>
+  <script src="./datepickersource/jquery.min.js"></script>
+  <script src="./datepickersource/bootstrap.min.js"></script>
+
+  <script src="./datepickersource/bootstrap-datetimepicker.min.js"></script>
+  <!-- END DateTime Picker -->
+
+  <!-- Firebase UI -->
+  <script src="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/5.0.0/firebase-ui-auth.css" />
+
+  <!-- End Firebase UI -->
+
+  <style>
+    body {
+      padding-top: 70px;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h2 {
+      padding: 0 20px 10px 20px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .form-control-wrapper {
+      margin: 10px 20px;
+    }
+
+    code {
+      padding: 10px;
+      background: #eee !important;
+      display: block;
+      color: #000;
+    }
+
+    code>p {
+      font-weight: bold;
+      color: #000;
+      font-size: 1.5em;
+    }
+
+    @media(max-width: 300px) {
+      .well {
+        margin: 0
       }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    }
+  </style>
+
+  <!--
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-60343429-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+-->
+
+
+  <style media="screen">
+    body {
+      background: #ECEFF1;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #message {
+      background: white;
+      max-width: 690px;
+      margin: 100px auto 16px;
+      padding: 32px 24px;
+      border-radius: 3px;
+    }
+
+    #message h2 {
+      color: #ffa100;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 0 8px;
+    }
+
+    }
+
+    .input-group .form-control {
+
+      width: 75%;
+
+    }
+
+
+    #message h1 {
+      font-size: 22px;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 0 0 16px;
+    }
+
+    #message p {
+      line-height: 140%;
+      margin: 16px 0 24px;
+      font-size: 14px;
+    }
+
+    /*
+    #message a {
+      display: block;
+      text-align: center;
+      background: #039be5;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      padding: 16px;
+      border-radius: 4px;
+    }
+
+    #message,
+    #message a {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    */
+
+    #load {
+      color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+
+      body,
+      #message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+      }
+
+      body {
+        border-top: 16px solid #ffe4c4;
+      }
+    }
+
+    #contextMenu {
+      position: absolute;
+      display: none;
+    }
+
+
+    #snackbar {
+      visibility: hidden;
+      min-width: 250px;
+      margin-left: -125px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 2px;
+      padding: 16px;
+      position: fixed;
+      z-index: 100000;
+      left: 50%;
+      bottom: 30px;
+      font-size: 17px;
+    }
+
+    #snackbar.show {
+      visibility: visible;
+      -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+
+    @-webkit-keyframes fadein {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 30px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadein {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+
+      to {
+        bottom: 30px;
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fadeout {
+      from {
+        bottom: 30px;
+        opacity: 1;
+      }
+
+      to {
+        bottom: 0;
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeout {
+      from {
+        bottom: 30px;
+        opacity: 1;
+      }
+
+      to {
+        bottom: 0;
+        opacity: 0;
+      }
+    }
+
+    .modal-backdrop {
+      display: none;
+      z-index: 9999 !important;
+    }
+
+    .modal-content {
+      margin: 2px auto;
+      z-index: 9999 !important;
+    }
+
+
+    /* Modify the backgorund color */
+    .navbar-custom {
+      background-color: #ffe4c4;
+    }
+
+    .toggle {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .white {
+      background-color: #fff !important;
+      color: #000
+    }
+
+    .input-group .width75 {
+      width: 75%;
+    }
+
+
+    /* algoria textarea start */
+
+
+
+    #autocomplete-textarea {
+      min-height: 80px;
+      color: #000;
+
+
+    }
+
+    #autocomplete-textarea a {
+      text-decoration: none;
+      font-weight: normal;
+      color: #181818;
+
+    }
+
+    .dropdown-menu .textcomplete-item a,
+    .dropdown-menu .textcomplete-item a:hover {
+      cursor: pointer;
+      font-weight: normal;
+      color: #000;
+      position: relative;
+      padding: 3px 10px;
+
+    }
+
+    .dropdown-menu .textcomplete-item.active a {
+      background: #F0F0F0;
+
+
+    }
+
+    /* Highlighting of the matching part
+   of each search result */
+    .dropdown-menu .textcomplete-item a em {
+      font-style: normal;
+      font-weight: bold;
+
+    }
+
+    .dropdown-menu .textcomplete-footer {
+      border-top: solid 1px #F0F0F0;
+      margin-top: 3px;
+    }
+
+    .table-hover tbody tr:hover td,
+    .table-hover tbody tr:hover th {
+      background-color: orange;
+    }
+
+    /* algoria textarea end */
+  </style>
+
+
+</head>
+
+<body id="mainbody" ng-app="myApp" ng-controller="myCtrl" ng-init="patientRange=500">
+
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/8.1.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/8.1.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/8.1.1/firebase-auth.js"></script>
+
+  <script defer src="/__/firebase/7.24.0/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-storage.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-analytics.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-remote-config.js"></script>
+  <script defer src="/__/firebase/7.24.0/firebase-performance.js"></script>
+
+  <script src="/__/firebase/8.1.1/firebase-firestore.js"></script>
+  <script src="/__/firebase/init.js?useEmulator=true"></script>
+
+
+  <!--
+    <div id="navbar" class="navbar navbar-default">
+  		<div class="container">
+  			<div class="navbar-header">
+
+  				<button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+  					<span class="sr-only">Toggle Navigation</span>
+  					<i class="fa fa-align-justify"></i>
+  				</button>
+
+  			</div>
+  				<div class="navbar-collapse collapse" id="navigation">
+  					<div class="padding-nav">
+  						<ul class="nav navbar-nav left">
+  							<li class="active">
+  								<a href="index.php">Home</a>
+  							</li>
+  							<li>
+  								<a href="shop.php">Shop</a>
+  							</li>
+  							<li>
+  								<a href="checkout.php">My Account</a>
+  							</li>
+  							<li>
+  								<a href="cart.php">Shopping Cart</a>
+  							</li>
+  							<li>
+  								<a href="contact.php">Contact Us</a>
+  							</li>
+  						</ul>
+  					</div>
+  				</div>
+  		</div>
+  	</div>
+  -->
+
+  <!--
+  <nav class="navbar navbar-fixed-bottom  navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+
+        <button id="btnadd" type="button" class="btn btn-success" style="margin-top: 10px;margin-left: 10px;" data-toggle="modal" data-target="#myModal2">အချက်အလက်ထည့်ရန်</button>
+
+        <button id="btnNew" type="button" class="btn btn-primary" style="margin-top: 10px;margin-left: 10px;" ng-click="searchNew()">New</button>
+
+        <button id="btnSetting" type="button" class="btn btn-warning" style="margin-top: 10px;margin-left: 10px;" data-toggle="modal" data-target="#myModal3">Setting</button>
+
+
+
+
+        <button id="btnFilter" class="btn btn-secondary" type="button" data-toggle="collapse" style="margin-top: 10px;margin-left: 10px;" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          <span>Filter Off</span>
+          <span style="display:none">Filter On</span>
+        </button>
+
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <div class="input-group">
+              <input type="text" class="form-control" id="textFilter" type="text" style="margin-top: 10px;margin-bottom: 10px;padding-left: 10px;padding-right: 10px;" ng-model="searchText" placeholder="Type Filter Text">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit" ng-click="clearFilterText()" id="btnFilterClear" style="visibility : hidden"><i class="glyphicon glyphicon-remove"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  </nav>
+-->
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+  <div id="content" ng-init="words=[]">
+    <div id="message">
+      <h2>Welcomes Vinny App</h2>
+      <h1>Vinny App</h1>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+    </div>
+
+    <!--
+        <input id="text_search" oninput="textChangeUpper(this.value)" type="text" class="form-control" placeholder="Search" name="search" ng-model="name5">
+      -->
+    <div id="firebaseui-auth-container"></div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class='col col-lg-6'>
+          <div class="form-group">
+            <div class='input-group date' id='datetimepicker2'>
+              <input type='text' class="form-control" ng-model="datepick2" id="date2" />
+              <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 input-group mb-3">
+          <label for="SearchType" class="form-label mt-5"></label>
+          <select class="form-select mt-5" id="SearchType" ng-model="searchtype">
+
+            <option value="Search All" selected>Search All</option>
+            <option value="Search By Date">Search By Date</option>
+
+          </select>
+        </div>
+
+        <div class="col-4 input-group-btn">
+          <button class="btn btn-default" type="submit" id="btnRefresh" ng-click="refreshTable()"><i class="glyphicon glyphicon-refresh"></i></button>
+        </div>
+
+        <div class="col-4 input-group-btn">
+          <!-- data-toggle="modal" data-target="#myModal5" -->
+          <button class="btn btn-default" type="submit" id="btnShowDailyPlus" ng-click="showDailyPlus()"><i class="glyphicon glyphicon-plus"></i></button>
+        </div>
+
+        <div class="col-4 input-group-btn">
+          <button class="btn btn-default" type="submit" id="btnShowDailyMinus" ng-click="showDailyMinus()"><i class="glyphicon glyphicon-minus"></i></button>
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="table-responsive">
+          <table id="mt" class="table table-hover">
+            <thead>
+              <tr>
+                <!--  <th scope="col">#</th> -->
+                <th scope="col">Date</th>
+                <th scope="col">Cash From</th>
+                <th scope="col">Cash In</th>
+                <th scope="col">Source</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Deficit</th>
+                <th scope="col">Note</th>
+                <th scope="col">Total Cash In</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="x in incomes" ng-click="showIncomeData(x)">
+                <!-- <th scope="row">1</th> -->
+                <td>{{x.date | date:'dd-MM-yyyy HH:mm'}}</td>
+                <td>{{x.cashfrom_name}}</td>
+                <td>{{x.cashin_name}}</td>
+                <td>{{x.cashfrom_source}}</td>
+                <td>{{x.cashfrom_amount}}</td>
+                <td>{{x.cashfrom_deficit}}</td>
+                <td>{{x.cashfrom_note}}</td>
+                <td>{{x.cashfrom_totalin}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <h3> Total Income : {{total_income}}</h3>
+
+
+      </div>
+
+      <div class="row">
+
+        <div class="table-responsive">
+          <table id="mt" class="table table-hover">
+            <thead>
+              <tr>
+                <!--  <th scope="col">#</th> -->
+                <th scope="col">Date</th>
+                <th scope="col">WithDrawal</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Description</th>
+                <th scope="col">Cash Back</th>
+                <th scope="col">Note</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="x in records" ng-click="showRowData(x)">
+                <!-- <th scope="row">1</th> -->
+                <td>{{x.date | date:'dd-MM-yyyy HH:mm'}}</td>
+                <td>{{x.withdrawal_name}}</td>
+                <td>{{x.withdrawal_amount}}</td>
+                <td>{{x.withdrawal_des}}</td>
+                <td>{{x.withdrawal_cashback}}</td>
+                <td>{{x.withdrawal_note}}</td>
+                <td>{{x.withdrawal_total}}</td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <h3>Total Expense : {{total_expense}}</h3>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <h3>Balance Sheet : {{total_income - total_expense}}</h3>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+  -->
+
+    <!--
+      <div class="list-group" ng-repeat="x in names | filter:searchText" style="margin-top: 10px;" ng-init="font_size='16'">
+        <button id="btn_results" ng-style="x.styles" type="button" class="list-group-item" ng-click="showDataComment(x)" data-toggle="modal" data-target="#myModal">{{x.name}}</button>
+
+      </div>
+    -->
+
+
+
+
+
+
+
+
+    <!-- The Modal 5  style="z-index: 9999;" > -->
+    <div class="modal" id="myModal5" ng-model="rowdatainfo">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" style="margin-left : 15px;margin-right : 15px;">
+
+
+            <div class='mb-3'>
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker3'>
+                  <label for="date3" class="form-label">Date</label>
+                  <input type='text' class="form-control" id="date3" ng-model="datepick3" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="mb-3">
+              <label for="WithDrawal" class="form-label">WithDrawal Name</label>
+              <input type="text" class="form-control" id="WithDrawal" ng-model="withdrawal_name">
+
+            </div>
+
+            <!--
+                <div class="form-control-wrapper">
+                  <input type="text" id="date" class="form-control floating-label" placeholder="Date">
+                </div>
+              -->
+
+
+
+
+            <div class="mb-3 mt-5">
+              <label for="Amount" class="form-label">Amount</label>
+              <input type="number" class="form-control" id="Amount" ng-model="withdrawal_amount">
+            </div>
+
+
+            <div class="mb-3 mt-5">
+              <label for="Description" class="form-label mt-5" style="margin-top : 10px;">Description</label>
+              <select class="form-select mt-5" id="Description" ng-model="withdrawal_des" style="margin-top : 10px;">
+
+                <option value="General">General</option>
+                <option value="Raw Materials">Raw Materials</option>
+                <option value="Salary">Salary</option>
+              </select>
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="CashBack" class="form-label">CashBack</label>
+              <input type="number" class="form-control" id="CashBack" ng-model="withdrawal_cashback">
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="Note" class="form-label">Note</label>
+              <textarea class="form-control" rows="5" id="Note" ng-model="withdrawal_note"></textarea>
+            </div>
+
+            <!--
+            <fieldset id="myfields">
+              <div class="mb-3 mt-5">
+                <label for="cashTotal" class="form-label">Total</label>
+                <input type="number" class="form-control" id="cashTotal" ng-model="withdrawal_cashtotal">
+              </div>
+            </fieldset>
+          -->
+
+            <div class="row mb-3 mt-5" style="margin-top : 15px">
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_daily_insert" ng-click="addDailyRecord()">Insert</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_daily_update" ng-click="updateDailyRecord()">Update</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_daily_delete" ng-click="deleteDailyRecord()">Delete</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="byn_daily_cancel" data-dismiss="modal">Cancel</button>
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- The Modal 9  style="z-index: 9999;" > -->
+    <div class="modal" id="myModal9" ng-model="cashrowdatainfo">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" style="margin-left : 15px;margin-right : 15px;">
+
+
+            <div class='mb-3'>
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker4'>
+                  <label for="date4" class="form-label">Date</label>
+                  <input type='text' class="form-control" id="date4" ng-model="datepick4" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="mb-3">
+              <label for="CashFrom" class="form-label">Cash From Name</label>
+              <input type="text" class="form-control" id="CashFrom" ng-model="cashfrom_name">
+
+            </div>
+
+            <div class="mb-3">
+              <label for="CashIn" class="form-label">Cash In Name</label>
+              <input type="text" class="form-control" id="CashIn" ng-model="cashin_name">
+
+            </div>
+
+            <!--
+                    <div class="form-control-wrapper">
+                      <input type="text" id="date" class="form-control floating-label" placeholder="Date">
+                    </div>
+                  -->
+
+
+
+
+            <div class="mb-3 mt-5">
+              <label for="CashfromAmount" class="form-label">Amount</label>
+              <input type="number" class="form-control" id="CashfromAmount" ng-model="cashfrom_amount">
+            </div>
+
+
+            <div class="mb-3 mt-5">
+              <label for="CashFromSource" class="form-label mt-5" style="margin-top : 10px;">Source</label>
+              <select class="form-select mt-5" id="CashFromSource" ng-model="cashfrom_source" style="margin-top : 10px;">
+
+                <option value="Wave">Wave</option>
+                <option value="KPay">KPay</option>
+                <option value="AYA">AYA</option>
+                <option value="CB">CB</option>
+                <option value="Cash Down">Cash Down</option>
+                <option value="Balance Sheet">Balance Sheet</option>
+              </select>
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="CashFromTotalIn" class="form-label">Total CashIn</label>
+              <input type="number" class="form-control" id="CashFromTotalIn" ng-model="cashfrom_totalin">
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="CashFromNote" class="form-label">Note</label>
+              <textarea class="form-control" rows="5" id="CashFromNote" ng-model="cashfrom_note"></textarea>
+            </div>
+
+            <!--
+                <fieldset id="myfields">
+                  <div class="mb-3 mt-5">
+                    <label for="cashTotal" class="form-label">Total</label>
+                    <input type="number" class="form-control" id="cashTotal" ng-model="withdrawal_cashtotal">
+                  </div>
+                </fieldset>
+              -->
+
+            <div class="row mb-3 mt-5" style="margin-top : 15px">
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_cash_insert" ng-click="addCashRecord()">Insert</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_cash_update" ng-click="updateCashRecord()">Update</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_cash_delete" ng-click="deleteCashRecord()">Delete</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="byn_cash_cancel" data-dismiss="modal">Cancel</button>
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div id="snackbar">{{message}}</div>
+
+  </div>
+
+  <p id="load">Firebase SDK Loading&hellip;</p>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const loadEl = document.querySelector('#load');
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      // firebase.analytics(); // call to activate
+      // firebase.analytics().logEvent('tutorial_completed');
+      // firebase.performance(); // call to activate
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = [
+          'auth',
+          'database',
+          'messaging',
+          'storage',
+          'analytics',
+          'remoteConfig',
+          'performance',
+          'firestore',
+        ].filter(feature => typeof app[feature] === 'function');
+        loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+
+
+        /*
+        const firebase = require("firebase");
+        // Required for side-effects
+        require("firebase/firestore");
+
+        // Initialize Cloud Firestore through Firebase
+        firebase.initializeApp({
+          apiKey: "AIzaSyB9_v6JNmxyk7q1mznyUKv3Ad7DslaNcCk",
+          authDomain: "memohealthcareclinic.firebaseapp.com",
+          databaseURL: "https://memohealthcareclinic.firebaseio.com",
+          projectId: "memohealthcareclinic",
+          storageBucket: "memohealthcareclinic.appspot.com",
+          messagingSenderId: "224696101345",
+          appId: "1:224696101345:web:f4ffa0fe1571fbd5364aa0",
+          measurementId: "G-L5LEKWMW27"
+        });
+        */
+
+      } catch (e) {
+        console.error(e);
+        loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+      }
+
+        // 
+        // firebase.auth().onAuthStateChanged((user) => {
+        //   if (user) {
+        //     // User is signed in, see docs for a list of available properties
+        //     // https://firebase.google.com/docs/reference/js/firebase.User
+        //     var uid = user.uid;
+        //
+        //     alert("User Name : " + user.displayName);
+        //
+        //
+        //     // ...
+        //   } else {
+        //     // User is signed out
+        //     // ...
+        //
+        //     console.log("user log out");
+        //
+        //     //  window.location.replace("404.html");
+        //     alert("user not exists");
+        //
+        //     firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+        //       .then(() => {
+        //         // Existing and future Auth states are now persisted in the current
+        //         // session only. Closing the window would clear any existing state even
+        //         // if a user forgets to sign out.
+        //         // ...
+        //         // New sign-in will be persisted with session persistence.
+        //
+        //         var provider = new firebase.auth.GoogleAuthProvider();
+        //
+        //         provider.setCustomParameters({
+        //           'login_hint': 'user@example.com'
+        //         });
+        //
+        //         provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+        //
+        //
+        //
+        //
+        //         return firebase.auth()
+        //           .signInWithPopup(provider)
+        //           .then((result) => {
+        //             /** @type {firebase.auth.OAuthCredential} */
+        //             var credential = result.credential;
+        //
+        //             // This gives you a Google Access Token. You can use it to access the Google API.
+        //             var token = credential.accessToken;
+        //             // The signed-in user info.
+        //             var user = result.user;
+        //             // ...
+        //
+        //             alert("credential : " + credential + "\ntoke " + token + "\nuser " + user);
+        //
+        //           }).catch((error) => {
+        //             // Handle Errors here.
+        //             var errorCode = error.code;
+        //             var errorMessage = error.message;
+        //             // The email of the user's account used.
+        //             var email = error.email;
+        //             // The firebase.auth.AuthCredential type that was used.
+        //             var credential = error.credential;
+        //             // ...
+        //
+        //             alert("errorCode : " + errorCode + "\nerrorMessage " + errorMessage + "\nemail " + email + "\ncredential " + credential);
+        //           //  window.location.replace("404.html");
+        //
+        //
+        //           });
+        //       })
+        //       .catch((error) => {
+        //         // Handle Errors here.
+        //         var errorCode = error.code;
+        //         var errorMessage = error.message;
+        //       });
+        //
+        //
+        //   }
+        // });
+
+
+    });
+  </script>
+  <script>
+    function textChangeUpper(e) {
+
+      console.log(e.length);
+      if (e.length == 1) {
+        $("#text_search").val(e.toUpperCase());
+      } else {
+        if (e.substring(e.length - 2, e.length).match(/ [a-zA-Z]/g)) {
+
+          $("#text_search").val(e.substring(0, e.length - 1) + e.substring(e.length - 1, e.length).toUpperCase());
         }
+
+      }
+      if (e.length == 1) {
+        $("#text_add").val(e.toUpperCase());
+      } else {
+        if (e.substring(e.length - 2, e.length).match(/ [a-zA-Z]/g)) {
+
+          $("#text_add").val(e.substring(0, e.length - 1) + e.substring(e.length - 1, e.length).toUpperCase());
+        }
+
+      }
+
+      //
+    }
+
+
+    $("#contextTest").contextmenu(function() {
+      alert("Test");
+    });
+
+    // $(function() {
+    //
+    //   $('#mt').contextmenu({
+    //     target: '#context-menu',
+    //     scopes: 'tbody > tr',
+    //     onItem: function(row, e) {
+    //       var name = $(row.children('*')[1]).text();
+    //       var action = $(e.target).text();
+    //       alert('You right clicked on ' + name + '\'s row and selected menu item "' + action + '".');
+    //     }
+    //   });
+    //
+    //   $("#addRow").click(function() {
+    //     var row = $("<tr><td>1</td><td>Mark</td><td>Otto</td><td>@mdo</td></tr>");
+    //     $("#mt > tbody").append(row);
+    //   });
+    //
+    // });
+  </script>
+
+
+
+
+  <script>
+    var app = angular.module("myApp", []);
+
+    app.controller("myCtrl", function($scope, $http, $log) {
+      $log.debug("hi");
+
+
+      $("#datetimepicker2").datetimepicker({
+        locale: 'en'
+
       });
-    </script>
-  </body>
+
+      $("#datetimepicker3").datetimepicker({
+        locale: 'en'
+
+      });
+
+      $("#datetimepicker4").datetimepicker({
+        locale: 'en'
+      });
+
+
+
+      // var ui = new firebaseui.auth.AuthUI(firebase.auth());
+      //
+      // ui.start('#firebaseui-auth-container', {
+      //   signInOptions: [{
+      //     provider: firebase.auth.EmailAuthProvider.PROVIDER_ID,
+      //     requireDisplayName: false
+      //   }]
+      // });
+  //    alert("This message should display ^_^ ");
+
+      //
+      // firebase.auth().onAuthStateChanged((user) => {
+      //   if (user) {
+      //     // User is signed in, see docs for a list of available properties
+      //     // https://firebase.google.com/docs/reference/js/firebase.User
+      //     var uid = user.uid;
+      //
+      //     console.log("user  id " + uid);
+      //
+      //
+      //     // ...
+      //   } else {
+      //     // User is signed out
+      //     // ...
+      //
+      //     console.log("user log out");
+      //
+      //     //  window.location.replace("404.html");
+      //
+      //   }
+      // });
+
+      var patientTest = {
+        key: 1,
+        id: 1,
+        name: "Blank",
+        comment: "XXXX",
+        styles: {
+          "font-size": $scope.font_size + "px",
+        }
+      };
+      //  var ar = [];
+      //ar.push(patientTest);
+      // alert("Child Add " + data.val().name + " dataarry size " + data_array[0].name + " $scope " +  $scope.names.length);
+      //  $scope.names = ar;
+
+      /*
+      $scope.records = [{
+        date : new Date().getTime(),
+        withdrawal_amount : 1000,
+        withdrawal_cashback : 200,
+        withdrawal_des : "Raw Materials",
+        withdrawal_name : "Ko Ko",
+        withdrawal_note : "test"
+      }]; */
+
+
+      $scope.records = [];
+
+      $scope.incomes = [];
+
+      /*
+      angular.element(document).ready(function() {
+        var connectedRef = firebase.database().ref(".info/connected");
+        connectedRef.on("value", function(snap) {
+          if (snap.val() === true) {
+            //alert("connected");
+            showToast("connected");
+
+            var query11 = firebase.database().ref('dailyrecord');
+
+            query11.once('value', (snapshot) => {
+              snapshot.forEach((childSnapshot) => {
+                var childKey = childSnapshot.key;
+                var childData = childSnapshot.val();
+
+
+                $scope.records.push(childData);
+
+                console.log($scope.records.length);
+
+              });
+            });
+
+
+
+          } else {
+
+            showToast("not connected");
+          }
+        });
+
+
+      });
+      */
+
+      function clearModalBox() {
+
+        $scope.withdrawal_name = ' ';
+        $scope.withdrawal_amount = 0;
+        $scope.withdrawal_des = 'General';
+        $scope.withdrawal_note = ' ';
+        $scope.withdrawal_cashback = 0;
+
+
+      }
+
+      function clearModalBox2() {
+
+        $scope.cashin_name = ' ';
+        $scope.cashfrom_name = ' ';
+        $scope.cashfrom_amount = 0;
+        $scope.cashfrom_source = 'KPay';
+        $scope.cashfrom_note = ' ';
+
+
+
+      }
+
+
+      $scope.showRowData = function(x) {
+        $("#myModal5").modal();
+
+
+
+        $scope.withdrawal_name = x.withdrawal_name;
+        $scope.withdrawal_amount = x.withdrawal_amount;
+        $scope.withdrawal_des = x.withdrawal_des;
+        $scope.withdrawal_note = x.withdrawal_note;
+        $scope.withdrawal_cashback = x.withdrawal_cashback == null ? 0 : x.withdrawal_cashback;
+
+        //  alert("found key " + x.key);
+
+        $scope.rowdatainfo = x.key;
+
+        $("#btn_daily_update").show();
+
+        $("#btn_daily_delete").show();
+
+        $("#btn_daily_insert").hide();
+
+        //TOFIX
+        $scope.datepick3 = getDateFormat(x.date);
+
+      }
+
+      $scope.showIncomeData = function(x) {
+
+        $("#myModal9").modal();
+
+
+
+        $scope.cashfrom_name = x.cashfrom_name;
+        $scope.cashin_name = x.cashin_name;
+        $scope.cashfrom_source = x.cashfrom_source;
+        $scope.cashfrom_amount = x.cashfrom_amount;
+        $scope.cashfrom_deficit = x.cashfrom_deficit;
+        $scope.cashfrom_note = x.cashfrom_note;
+        $scope.cashfrom_totalin = x.cashfrom_totalin; // == null ? 0 : x.withdrawal_cashback;
+
+        //  alert("found key " + x.key);
+
+        $scope.cashrowdatainfo = x.key;
+
+        $("#btn_cash_update").show();
+
+        $("#btn_cash_delete").show();
+
+        $("#btn_cash_insert").hide();
+
+        //TOFIX
+        $scope.datepick4 = getDateFormat(x.date);
+
+      }
+
+      $scope.showDailyPlus = function() {
+        $("#myModal9").modal();
+
+        //  $("#myfields").prop("disabled", true);
+
+        $("#btn_cash_insert").show();
+
+        $("#btn_cash_update").hide();
+
+        $("#btn_cash_delete").hide();
+
+        clearModalBox2();
+
+        $scope.datepick4 = getDateFormat(Date.now());
+
+
+
+      }
+
+      $scope.showDailyMinus = function() {
+        $("#myModal5").modal();
+
+        //  $("#myfields").prop("disabled", false);
+
+
+
+        $("#btn_daily_insert").show();
+
+        $("#btn_daily_update").hide();
+
+        $("#btn_daily_delete").hide();
+
+
+        clearModalBox();
+
+        $scope.datepick3 = getDateFormat(Date.now());
+
+      }
+
+
+      /*
+
+      $('#datetimepicker2').datetimepicker({
+        locale: 'en'
+      });
+
+      $('#datetimepicker2').datetimepicker({
+        locale: 'en'
+      });
+
+      */
+
+      //    $('#datetimepicker2').datepicker('setDate', new Date());
+
+      //  $('#datetimepicker3').datepicker('setDate', new Date());
+
+      function getDateFormat(millsecond) {
+        var d = new Date(millsecond);
+        var month = d.getMonth() + 1;
+        var day = d.getDate();
+        var year = d.getFullYear();
+        var hour = d.getHours() > 12 ? d.getHours() - 12 : d.getHours() == 0 ? 12 : d.getHours();
+        var minutes = d.getMinutes();
+        var ampm = hour >= 12 ? 'AM' : 'PM';
+
+        return month + "/" + day + "/" + year + " " + hour + ":" + minutes + " " + ampm;
+
+      }
+
+
+      var dateNow = new Date();
+
+      $scope.datepick2 = getDateFormat(Date.now());
+
+
+      //$("#searchType option[value='Search All']").attr('selected','selected');
+
+
+
+
+
+
+
+
+
+      //Testing DatePicker For Set Time
+      //  $("#datetimepicker2").data('DateTimePicker').setDate(new Date());
+
+      //  $("#datetimepicker3").data('DateTimePicker').setDate(new Date());
+
+      //  $("#date2").val($('#datetimepicker2').data('date'));
+
+      //    $("#date3").val($('#datetimepicker3').data('date'));
+
+      // $('#date2').datepicker({
+      //   "setDate": new Date(),
+      //   "autoclose": true
+      // });
+      //
+      // $('#date3').datepicker({
+      //   "setDate": new Date(),
+      //   "autoclose": true
+      // });
+
+
+
+      /*
+      $('#datetimepicker2').datetimepicker({
+        format: 'YYYY-MM-DD HH:mm:ss',
+        useCurrent: false
+      }).on('dp.show', function() {
+        // https://github.com/Eonasdan/bootstrap-datetimepicker/issues/1311 (Time always starts at 12:00 AM)
+        if ($(this).data("DateTimePicker").date() === null)
+          $(this).data("DateTimePicker").date(new Date());
+      });
+      */
+
+
+      function getLoadAllData() {
+
+        var query = firebase.database().ref('dailyrecord');
+
+        query.on('child_added', function(data) {
+
+
+          console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+
+
+          var record = {
+            date: data.val().date,
+            withdrawal_amount: data.val().withdrawal_amount,
+            withdrawal_cashback: data.val().withdrawal_cashback,
+            withdrawal_des: data.val().withdrawal_des,
+            withdrawal_name: data.val().withdrawal_name,
+            withdrawal_note: data.val().withdrawal_note,
+            withdrawal_total: data.val().withdrawal_total
+          };
+
+          $scope.records.push(record);
+
+
+          // alert("Child Add " + data.val().name + " dataarry size " + data_array[0].name + " $scope " + $scope.names.length);
+          //  $scope.names = data_array;
+
+
+
+        });
+
+        /*
+        query.on('child_changed', function(data) {
+          showToast("UPDATE : " + data.val().withdrawal_name);
+
+          //  const array1 = $scope.names;
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.names.findIndex(isNameIndex);
+          //  console.log(" comment " + $scope.names[indexz].comment);
+          $scope.names[indexz].name = data.val().name;
+          $scope.names[indexz].comment = data.val().comment;
+
+          if ($("#name_update").val() == data.val().name) {
+
+            $("#comment_update").val(data.val().comment.trim());
+
+          }
+
+        });
+        */
+
+        query.on('child_removed', function(data) {
+          showToast("DELETE : " + data.val().withdrawal_name);
+
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.names.findIndex(isNameIndex);
+          //console.log(" comment " + $scope.names[indexz].comment);
+          $scope.names.splice(indexz, 1);
+
+        });
+
+      }
+
+      //  getLoadAllData();
+
+
+      //  alert("test failed " + $('#date2').val());
+
+      function getDateFormatForQuery(millsecond) {
+        var d = new Date(millsecond);
+        var month = d.getMonth();
+        var day = d.getDate();
+        var year = d.getFullYear();
+        var hour = d.getHours() > 12 ? d.getHours() - 12 : d.getHours() == 0 ? 12 : d.getHours();
+        var minutes = d.getMinutes();
+        var ampm = hour >= 12 ? 'AM' : 'PM';
+        var second = d.getSeconds();
+
+        return month + "/" + day + "/" + year + " " + hour + ":" + minutes + ":" + second;
+
+
+      }
+
+      //  $scope.searchtype = "Search All";
+
+      $scope.refreshTable = function() {
+
+        //alert("Test Date " + new Date($('#date2').val()).getTime());
+
+        //alert($scope.datepick2);
+
+        //  alert(new Date($('#date2').val()).getTime());
+
+        $scope.records = [];
+
+        //  alert($scope.searchtype);
+
+        $scope.incomes = []
+
+
+        var query22 = firebase.database().ref('dailyrecord');
+
+        var query44 = firebase.database().ref('dailyincome');
+        //
+        // query22.once('value', (snapshot) => {
+        //   snapshot.forEach((childSnapshot) => {
+        //     var childKey = childSnapshot.key;
+        //     var childData = childSnapshot.val();
+        //     childData['key'] = childKey;
+        //
+        //     $scope.records.push(childData);
+        //
+        //     console.log($scope.records.length);
+        //
+        //   });
+        // });
+
+        //Date With Filer But Still Got Errors
+
+        var dateStartmilli = new Date($('#date2').val()).getTime();
+
+
+
+        const dateStart = new Date(dateStartmilli);
+
+        //
+        var dateS = new Date(dateStart.getFullYear() + "-" + (dateStart.getMonth() + 1) + "-" + dateStart.getDate());
+        //
+        // alert("dateStart : " + dateS.getTime()+ "actual date " + getDateFormatForQuery(dateS.getTime()));
+        //
+        var dateE = new Date(dateStart.getFullYear() + "-" + (dateStart.getMonth() + 1) + "-" + dateStart.getDate() + "  23:59:59");
+        //
+        // alert("dateEnd : " + dateE.getTime() + "actual date " + getDateFormatForQuery(dateE.getTime()));
+
+
+        //
+        //   query22.orderByChild("date").startAt(getDateFormatForQuery(dateS.getTime())).endAt(getDateFormatForQuery(dateE.getTime())).on("child_added", function(snapshot) {
+        //     console.log(snapshot.key)
+        //
+        //     var childKey = snapshot.key;
+        //     var childData = snapshot.val();
+        //     childData['key'] = childKey;
+        //
+        //     $scope.records.push(childData);
+        //
+        //
+        //   });
+
+        //End
+
+        $scope.total_expense = 0;
+
+        $scope.total_income = 0;
+
+        if ($scope.searchtype == "Search By Date") {
+
+          query22.orderByChild("date").startAt(dateS.getTime()).endAt(dateE.getTime()).on('child_added', function(data) {
+
+
+            console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.records.findIndex(isNameIndex);
+            console.log("Child Add Indez" + indexz);
+
+
+            if (data.val().withdrawal_total != null) {
+              //  console.log("data.val().withdrawal_total " + data.val().withdrawal_total);
+              var data1 = parseInt(data.val().withdrawal_total);
+              var data2 = parseInt($scope.total_expense);
+
+              var total = data1 + data2;
+
+              $scope.total_expense = total;
+
+              //  console.log("total : "  + $scope.total_expense);
+
+
+            }
+
+
+            var record = {
+              date: data.val().date,
+              withdrawal_amount: data.val().withdrawal_amount,
+              withdrawal_cashback: data.val().withdrawal_cashback,
+              withdrawal_des: data.val().withdrawal_des,
+              withdrawal_name: data.val().withdrawal_name,
+              withdrawal_note: data.val().withdrawal_note,
+              withdrawal_total: data.val().withdrawal_total,
+              key: data.key
+            };
+
+
+            if (indexz == -1)
+              $scope.records.push(record);
+
+
+
+            // if (dateS.getTime() < data.val().date && dateE.getTime()> data.val().date) {
+            //
+            // console.log("if " + dateS.getTime() + " < " + data.val().date + " && "+ dateE.getTime() + "> " +data.val().date);
+            //
+            // $scope.records.push(record);
+            //
+            // }else{
+            //
+            //
+            // console.log("check dateStart " + dateStart);
+            //
+            // console.log("else " + dateS.getTime() + " < " + data.val().date + "=" + (dateS.getTime() < data.val().date) + " && "+ dateE.getTime() + "> " +data.val().date + " = " + (dateE.getTime() > data.val().date));
+            //
+            // console.log(dateE + " > " + new Date(data.val().date));
+            //
+            // }
+
+
+
+
+          });
+
+          query44.orderByChild("date").startAt(dateS.getTime()).endAt(dateE.getTime()).on('child_added', function(data) {
+
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.incomes.findIndex(isNameIndex);
+            console.log("Child Add Indez" + indexz);
+
+            //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+            if (data.val().cashfrom_totalin != null) {
+
+              var data1 = parseInt(data.val().cashfrom_totalin);
+              var data2 = parseInt($scope.total_income);
+
+              var total = data1 + data2;
+
+              $scope.total_income = total;
+
+
+            }
+
+
+            var record = {
+              date: data.val().date,
+              cashfrom_name: data.val().cashfrom_name,
+              cashin_name: data.val().cashin_name,
+              cashfrom_source: data.val().cashfrom_source,
+              cashfrom_amount: data.val().cashfrom_amount,
+              cashfrom_deficit: data.val().cashfrom_deficit,
+              cashfrom_note: data.val().cashfrom_note,
+              cashfrom_totalin: data.val().cashfrom_totalin,
+              key: data.key
+            };
+
+
+
+            //  income_all += data.val().cashfrom_totalin;
+
+            if (indexz == -1)
+              $scope.incomes.push(record);
+
+
+
+
+
+            // if (dateS.getTime() < data.val().date && dateE.getTime()> data.val().date) {
+            //
+            // console.log("if " + dateS.getTime() + " < " + data.val().date + " && "+ dateE.getTime() + "> " +data.val().date);
+            //
+            // $scope.records.push(record);
+            //
+            // }else{
+            //
+            //
+            // console.log("check dateStart " + dateStart);
+            //
+            // console.log("else " + dateS.getTime() + " < " + data.val().date + "=" + (dateS.getTime() < data.val().date) + " && "+ dateE.getTime() + "> " +data.val().date + " = " + (dateE.getTime() > data.val().date));
+            //
+            // console.log(dateE + " > " + new Date(data.val().date));
+            //
+            // }
+
+
+
+
+          });
+
+        } else {
+
+          query22.on('child_added', function(data) {
+
+
+
+            console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.records.findIndex(isNameIndex);
+            console.log("Child Add Indez" + indexz);
+
+
+            if (data.val().withdrawal_total != null) {
+              //  console.log("data.val().withdrawal_total " + data.val().withdrawal_total);
+              var data1 = parseInt(data.val().withdrawal_total);
+              var data2 = parseInt($scope.total_expense);
+
+              var total = data1 + data2;
+
+              $scope.total_expense = total;
+
+              //  console.log("total : "  + $scope.total_expense);
+
+
+            }
+
+
+            var record = {
+              date: data.val().date,
+              withdrawal_amount: data.val().withdrawal_amount,
+              withdrawal_cashback: data.val().withdrawal_cashback,
+              withdrawal_des: data.val().withdrawal_des,
+              withdrawal_name: data.val().withdrawal_name,
+              withdrawal_note: data.val().withdrawal_note,
+              withdrawal_total: data.val().withdrawal_total,
+              key: data.key
+            };
+
+            //expense_all += data.val().withdrawal_total;
+            if (indexz == -1)
+              $scope.records.push(record);
+
+            //  $scope.total_expense = expense_all;
+
+            // if (dateS.getTime() < data.val().date && dateE.getTime()> data.val().date) {
+            //
+            // console.log("if " + dateS.getTime() + " < " + data.val().date + " && "+ dateE.getTime() + "> " +data.val().date);
+            //
+            // $scope.records.push(record);
+            //
+            // }else{
+            //
+            //
+            // console.log("check dateStart " + dateStart);
+            //
+            // console.log("else " + dateS.getTime() + " < " + data.val().date + "=" + (dateS.getTime() < data.val().date) + " && "+ dateE.getTime() + "> " +data.val().date + " = " + (dateE.getTime() > data.val().date));
+            //
+            // console.log(dateE + " > " + new Date(data.val().date));
+            //
+            // }
+
+
+
+
+          });
+
+          query44.on('child_added', function(data) {
+
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.incomes.findIndex(isNameIndex);
+
+            //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+            if (data.val().cashfrom_totalin != null) {
+
+              var data1 = parseInt(data.val().cashfrom_totalin);
+              var data2 = parseInt($scope.total_income);
+
+              var total = data1 + data2;
+
+              $scope.total_income = total;
+
+
+            }
+
+
+
+            var record = {
+              date: data.val().date,
+              cashfrom_name: data.val().cashfrom_name,
+              cashin_name: data.val().cashin_name,
+              cashfrom_source: data.val().cashfrom_source,
+              cashfrom_amount: data.val().cashfrom_amount,
+              cashfrom_deficit: data.val().cashfrom_deficit,
+              cashfrom_note: data.val().cashfrom_note,
+              cashfrom_totalin: data.val().cashfrom_totalin,
+              key: data.key
+            };
+
+            //income_all += data.val().cashfrom_totalin;
+
+            if (indexz == -1)
+              $scope.incomes.push(record);
+
+            //  $scope.total_income = income_all;
+
+
+            // if (dateS.getTime() < data.val().date && dateE.getTime()> data.val().date) {
+            //
+            // console.log("if " + dateS.getTime() + " < " + data.val().date + " && "+ dateE.getTime() + "> " +data.val().date);
+            //
+            // $scope.records.push(record);
+            //
+            // }else{
+            //
+            //
+            // console.log("check dateStart " + dateStart);
+            //
+            // console.log("else " + dateS.getTime() + " < " + data.val().date + "=" + (dateS.getTime() < data.val().date) + " && "+ dateE.getTime() + "> " +data.val().date + " = " + (dateE.getTime() > data.val().date));
+            //
+            // console.log(dateE + " > " + new Date(data.val().date));
+            //
+            // }
+
+
+
+
+          });
+
+
+
+
+        }
+
+
+        query22.on('child_changed', function(data) {
+          // showToast("UPDATE : " + data.val().withdrawal_name);
+          // alert("update data " + data.val().withdrawal_name);
+          // const array1 = $scope.names;
+
+
+          // console.log(" comment " + $scope.names[indexz].comment);
+
+          // $scope.names[indexz].name = data.val().name;
+          // $scope.names[indexz].comment = data.val().comment;
+
+
+          $scope.records[indexz].withdrawal_name = data.val().withdrawal_name;
+          $scope.records[indexz].withdrawal_amount = data.val().withdrawal_amount;
+          $scope.records[indexz].withdrawal_des = data.val().withdrawal_des;
+          $scope.records[indexz].withdrawal_note = data.val().withdrawal_note;
+          $scope.records[indexz].withdrawal_cashback = data.val().withdrawal_cashback == null ? 0 : data.val().withdrawal_cashback;
+          $scope.records[indexz].withdrawal_total = data.val().withdrawal_total;
+          $scope.records[indexz].date = data.val().date;
+
+
+
+        });
+
+
+        query44.on('child_changed', function(data) {
+          // showToast("UPDATE : " + data.val().withdrawal_name);
+          // alert("update data " + data.val().withdrawal_name);
+          // const array1 = $scope.names;
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.incomes.findIndex(isNameIndex);
+          // console.log(" comment " + $scope.names[indexz].comment);
+
+          // $scope.names[indexz].name = data.val().name;
+          // $scope.names[indexz].comment = data.val().comment;
+
+
+          $scope.incomes[indexz].cashfrom_name = data.val().cashfrom_name;
+          $scope.incomes[indexz].cashin_name = data.val().cashin_name;
+          $scope.incomes[indexz].cashfrom_source = data.val().cashfrom_source;
+          $scope.incomes[indexz].cashfrom_amount = data.val().cashfrom_amount;
+          $scope.incomes[indexz].cashfrom_deficit = data.val().cashfrom_deficit;
+          $scope.incomes[indexz].cashfrom_note = data.val().cashfrom_note;
+          $scope.incomes[indexz].cashfrom_totalin = data.val().cashfrom_totalin;
+          $scope.incomes[indexz].date = data.val().date;
+
+
+
+        });
+
+
+        query22.on('child_removed', function(data) {
+          //  alert("delete data " + data.val().withdrawal_name);
+          // const array1 = $scope.names;
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.records.findIndex(isNameIndex);
+
+
+          //console.log(" comment " + $scope.names[indexz].comment);
+          $scope.records.splice(indexz, 1);
+
+        });
+
+        query44.on('child_removed', function(data) {
+          //alert("delete data " + data.val().withdrawal_name);
+          // const array1 = $scope.names;
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.incomes.findIndex(isNameIndex);
+
+
+          //console.log(" comment " + $scope.names[indexz].comment);
+          $scope.incomes.splice(indexz, 1);
+
+        });
+
+
+
+
+      }
+
+
+      //This Code Load Only One Data
+      /*
+      var query = firebase.database().ref('dailyrecord').orderByChild('date').once('child_added', function(data) {
+
+
+        var n = data.val();
+
+        $scope.records.push(n);
+
+        console.log($scope.records.length);
+      });
+      */
+
+
+
+      function setMyFontSize(e) {
+        $scope.MyFont = {
+          "font-size": e + 'px',
+        };
+
+      }
+
+
+      function showToast(ms) {
+        $scope.message = ms;
+        var x = document.getElementById("snackbar");
+        x.className = "show";
+        setTimeout(function() {
+          x.className = x.className.replace("show", "");
+        }, 3000);
+
+      }
+
+
+
+      $scope.updateDailyRecord = function() {
+
+        //alert("name " + $scope.rowdatainfo.withdrawal_name + " key : " + $scope.rowdatainfo.key + " cashback " + $scope.rowdatainfo.withdrawal_cashback);
+
+        var r = confirm("Are U Sure Want To Update ?? ");
+
+        if (r == true) {
+
+
+          var total = $scope.withdrawal_amount - $scope.withdrawal_cashback;
+
+          firebase.database().ref("dailyrecord/" + $scope.rowdatainfo).update({
+
+              date: new Date($('#date3').val()).getTime(),
+              withdrawal_name: $scope.withdrawal_name == " " ? "unavailable" : $scope.withdrawal_name,
+              withdrawal_amount: $scope.withdrawal_amount == " " ? 0 : $scope.withdrawal_amount,
+              withdrawal_des: $scope.withdrawal_des == " " ? "unavailable" : $scope.withdrawal_des,
+              withdrawal_note: $scope.withdrawal_note == " " ? "General" : $scope.withdrawal_note,
+              withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
+              withdrawal_total: total
+            },
+            function(error) {
+              if (error) {
+                console.log("Data could not be updated." + error);
+              } else {
+                console.log("Data updated successfully. complete");
+
+              }
+            });
+          //UPDATE FUNTION END
+
+
+
+
+        }
+
+
+
+        // firebase.database().ref('test/43e6dgrdy').update({
+        //     name: "Ma MA Moe",
+        //     commentnew: "this data is new update",
+        //     utime: new Date().getTime()
+        //   },
+        //   function(error) {
+        //     if (error) {
+        //       console.log("Data could not be updated." + error);
+        //     } else {
+        //       console.log("Data updated successfully. complete");
+        //
+        //     }
+        //   });
+
+      }
+
+
+      $scope.updateCashRecord = function() {
+
+        //alert("name " + $scope.rowdatainfo.withdrawal_name + " key : " + $scope.rowdatainfo.key + " cashback " + $scope.rowdatainfo.withdrawal_cashback);
+
+        var r = confirm("Are U Sure Want To Update ?? ");
+
+        if (r == true) {
+
+          var dateStartmilli = new Date($('#date4').val()).getTime();
+
+          var deficit = $scope.cashfrom_amount - $scope.cashfrom_totalin;
+
+          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo).update({
+
+              date: dateStartmilli,
+              cashfrom_name: $scope.cashfrom_name == " " ? "unavailable" : $scope.cashfrom_name,
+              cashfrom_amount: $scope.cashfrom_amount == " " ? 0 : $scope.cashfrom_amount,
+              cashfrom_source: $scope.cashfrom_source == " " ? "KPay" : $scope.cashfrom_source,
+              cashfrom_note: $scope.cashfrom_note == " " ? "unavailable" : $scope.cashfrom_note,
+              cashfrom_deficit: deficit,
+              cashfrom_totalin: $scope.cashfrom_totalin == " " ? 0 : $scope.cashfrom_totalin,
+              cashin_name: $scope.cashin_name == " " ? 0 : $scope.cashin_name
+            },
+            function(error) {
+              if (error) {
+                console.log("Data could not be updated." + error);
+              } else {
+                console.log("Data updated successfully. complete");
+
+              }
+            });
+          //UPDATE FUNTION END
+
+
+
+
+        }
+
+
+
+        // firebase.database().ref('test/43e6dgrdy').update({
+        //     name: "Ma MA Moe",
+        //     commentnew: "this data is new update",
+        //     utime: new Date().getTime()
+        //   },
+        //   function(error) {
+        //     if (error) {
+        //       console.log("Data could not be updated." + error);
+        //     } else {
+        //       console.log("Data updated successfully. complete");
+        //
+        //     }
+        //   });
+
+      }
+
+
+      $scope.deleteDailyRecord = function() {
+
+        //  alert($('#date3').val());
+
+        //  alert($('#datetimepicker3').datetimepicker().getDate().getTime());
+
+        //  alert($('#datetimepicker3').val());
+
+        //  alert(new Date($('#datetimepicker3').data('date')).getTime());
+
+        var r = confirm("Are U Sure Want To Delete ??");
+
+        if (r == true) {
+
+
+
+          firebase.database().ref("dailyrecord/" + $scope.rowdatainfo).remove().then(function() {
+              console.log('Delete Data successfully ');
+
+              $("#myModal5").modal('hide');
+
+            })
+            .catch(function(error) {
+              console.log(error);
+
+            });
+
+
+        }
+      }
+
+
+      $scope.deleteCashRecord = function() {
+
+        //  alert($('#date3').val());
+
+        //  alert($('#datetimepicker3').datetimepicker().getDate().getTime());
+
+        //  alert($('#datetimepicker3').val());
+
+        //  alert(new Date($('#datetimepicker3').data('date')).getTime());
+
+        var r = confirm("Are U Sure Want To Delete ??");
+
+        if (r == true) {
+
+
+
+          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo).remove().then(function() {
+              console.log('Delete Data successfully ');
+
+              $("#myModal9").modal('hide');
+
+
+            })
+            .catch(function(error) {
+              console.log(error);
+
+            });
+
+
+        }
+      }
+
+      $scope.addDailyRecord = function() {
+
+
+
+        //alert($scope.withdrawal_des + " " + $scope.withdrawal_name + " " + $scope.withdrawal_note + " " +  $scope.withdrawal_amount + " " +  $scope.withdrawal_cashback);
+
+        //  var testempty = $scope.withdrawal_amount == " " ? true : false;
+
+        //  var testnull = $scope.withdrawal_amount == null ? true : false;
+
+        //  alert("testempty : "  + testempty + " testnull " + testnull);
+
+        var r = confirm("Are U Sure Want To Add ??");
+
+        if (r == true) {
+          var currentdate = new Date();
+          //  var ampm = (currentdate.getHours() >= 12) ? "PM" : "AM";
+          var result2 = (currentdate.getFullYear() + "" + currentdate.getMonth() + 1) + "" + currentdate.getDate() + "" + currentdate.getHours() + "" + currentdate.getMinutes();
+
+
+
+          var messageListRef = firebase.database().ref("dailyrecord");
+          var newMessageRef = messageListRef.push();
+
+          var dateStartmilli = new Date($('#date3').val()).getTime();
+
+          var total = $scope.withdrawal_amount - $scope.withdrawal_cashback;
+
+          var check = $scope.withdrawal_name == null ? true : false;
+
+          //  alert("datavalue " + $scope.withdrawal_name + ":check:" + check);
+
+
+          newMessageRef.set({
+            date: dateStartmilli,
+            withdrawal_name: $scope.withdrawal_name == " " ? "unavailable" : $scope.withdrawal_name,
+            withdrawal_amount: $scope.withdrawal_amount == " " ? 0 : $scope.withdrawal_amount,
+            withdrawal_des: $scope.withdrawal_des == " " ? "General" : $scope.withdrawal_des,
+            withdrawal_note: $scope.withdrawal_note == " " ? "unavailable" : $scope.withdrawal_note,
+            withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
+            withdrawal_total: total
+          }, function(error) {
+            if (error) {
+              //  showToast(error + " add failed");
+              //alert(p_name + " add failed");
+
+            } else {
+              //  showToast(error + " add completed");
+              //alert(p_name + " add completed");
+              //  alert("should hide");
+              $("#myModal5").modal('hide');
+
+
+            }
+          });
+
+        }
+
+
+
+      }
+
+
+      $scope.addCashRecord = function() {
+
+
+
+        //alert($scope.withdrawal_des + " " + $scope.withdrawal_name + " " + $scope.withdrawal_note + " " +  $scope.withdrawal_amount + " " +  $scope.withdrawal_cashback);
+
+        //alert("note " + $scope.cashfrom_note);
+
+        var r = confirm("Are U Sure Want To Add ??");
+
+        if (r == true) {
+          var currentdate = new Date();
+          //  var ampm = (currentdate.getHours() >= 12) ? "PM" : "AM";
+          var result2 = (currentdate.getFullYear() + "" + currentdate.getMonth() + 1) + "" + currentdate.getDate() + "" + currentdate.getHours() + "" + currentdate.getMinutes();
+
+
+
+          var messageListRef = firebase.database().ref("dailyincome");
+          var newMessageRef = messageListRef.push();
+
+          var dateStartmilli = new Date($('#date4').val()).getTime();
+
+          var deficit = $scope.cashfrom_amount - $scope.cashfrom_totalin;
+
+          newMessageRef.set({
+            date: dateStartmilli,
+            cashfrom_name: $scope.cashfrom_name == " " ? "unavailable" : $scope.cashfrom_name,
+            cashfrom_amount: $scope.cashfrom_amount == " " ? 0 : $scope.cashfrom_amount,
+            cashfrom_source: $scope.cashfrom_source == " " ? "KPay" : $scope.cashfrom_source,
+            cashfrom_note: $scope.cashfrom_note == " " ? "unavailable" : $scope.cashfrom_note,
+            cashfrom_deficit: deficit,
+            cashfrom_totalin: $scope.cashfrom_totalin == " " ? 0 : $scope.cashfrom_totalin,
+            cashin_name: $scope.cashin_name == " " ? 0 : $scope.cashin_name
+          }, function(error) {
+            if (error) {
+              //  showToast(error + " add failed");
+              //alert(p_name + " add failed");
+
+            } else {
+              //  showToast(error + " add completed");
+              //alert(p_name + " add completed");
+              $("#myModal9").modal('hide');
+
+
+
+            }
+          });
+
+        }
+
+
+
+      }
+
+
+      /*
+      $("#btn_daily_insert").on('click', function() {
+
+        alert($scope.withdrawal_name);
+
+
+
+      });
+      */
+
+
+
+
+
+
+
+
+
+    });
+  </script>
+</body>
+
 </html>
