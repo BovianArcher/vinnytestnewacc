@@ -504,8 +504,8 @@
 
   <div id="content" ng-init="words=[]">
     <div id="message">
-      <h2>Welcomes Vinny App</h2>
-      <h1>Vinny App</h1>
+      <!-- <h2>Welcomes Vinny App</h2> -->
+      <h1 id="loginuser">Vinny App</h1>
 
     </div>
 
@@ -729,6 +729,7 @@
                 <option value="General">General</option>
                 <option value="Raw Materials">Raw Materials</option>
                 <option value="Salary">Salary</option>
+                <option value="Credit">Outcome Credit</option>
               </select>
             </div>
 
@@ -850,6 +851,7 @@
                 <option value="CB">CB</option>
                 <option value="Cash Down">Cash Down</option>
                 <option value="Balance Sheet">Balance Sheet</option>
+                <option value="Credit">Income Credit</option>
               </select>
             </div>
 
@@ -968,84 +970,84 @@
         loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
       }
 
-        // 
-        // firebase.auth().onAuthStateChanged((user) => {
-        //   if (user) {
-        //     // User is signed in, see docs for a list of available properties
-        //     // https://firebase.google.com/docs/reference/js/firebase.User
-        //     var uid = user.uid;
-        //
-        //     alert("User Name : " + user.displayName);
-        //
-        //
-        //     // ...
-        //   } else {
-        //     // User is signed out
-        //     // ...
-        //
-        //     console.log("user log out");
-        //
-        //     //  window.location.replace("404.html");
-        //     alert("user not exists");
-        //
-        //     firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
-        //       .then(() => {
-        //         // Existing and future Auth states are now persisted in the current
-        //         // session only. Closing the window would clear any existing state even
-        //         // if a user forgets to sign out.
-        //         // ...
-        //         // New sign-in will be persisted with session persistence.
-        //
-        //         var provider = new firebase.auth.GoogleAuthProvider();
-        //
-        //         provider.setCustomParameters({
-        //           'login_hint': 'user@example.com'
-        //         });
-        //
-        //         provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
-        //
-        //
-        //
-        //
-        //         return firebase.auth()
-        //           .signInWithPopup(provider)
-        //           .then((result) => {
-        //             /** @type {firebase.auth.OAuthCredential} */
-        //             var credential = result.credential;
-        //
-        //             // This gives you a Google Access Token. You can use it to access the Google API.
-        //             var token = credential.accessToken;
-        //             // The signed-in user info.
-        //             var user = result.user;
-        //             // ...
-        //
-        //             alert("credential : " + credential + "\ntoke " + token + "\nuser " + user);
-        //
-        //           }).catch((error) => {
-        //             // Handle Errors here.
-        //             var errorCode = error.code;
-        //             var errorMessage = error.message;
-        //             // The email of the user's account used.
-        //             var email = error.email;
-        //             // The firebase.auth.AuthCredential type that was used.
-        //             var credential = error.credential;
-        //             // ...
-        //
-        //             alert("errorCode : " + errorCode + "\nerrorMessage " + errorMessage + "\nemail " + email + "\ncredential " + credential);
-        //           //  window.location.replace("404.html");
-        //
-        //
-        //           });
-        //       })
-        //       .catch((error) => {
-        //         // Handle Errors here.
-        //         var errorCode = error.code;
-        //         var errorMessage = error.message;
-        //       });
-        //
-        //
-        //   }
-        // });
+
+      firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+          // User is signed in, see docs for a list of available properties
+          // https://firebase.google.com/docs/reference/js/firebase.User
+          var uid = user.uid;
+
+          alert("User Name : " + user.displayName);
+          $("#loginuser").text("Login As : " + user.displayName );
+
+          // ...
+        } else {
+          // User is signed out
+          // ...
+
+          console.log("user log out");
+
+          //  window.location.replace("404.html");
+          alert("user not exists need to login with gmail");
+
+          firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+            .then(() => {
+              // Existing and future Auth states are now persisted in the current
+              // session only. Closing the window would clear any existing state even
+              // if a user forgets to sign out.
+              // ...
+              // New sign-in will be persisted with session persistence.
+
+              var provider = new firebase.auth.GoogleAuthProvider();
+
+              provider.setCustomParameters({
+                'login_hint': 'user@example.com'
+              });
+
+              provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+
+
+
+
+              return firebase.auth()
+                .signInWithPopup(provider)
+                .then((result) => {
+                  /** @type {firebase.auth.OAuthCredential} */
+                  var credential = result.credential;
+
+                  // This gives you a Google Access Token. You can use it to access the Google API.
+                  var token = credential.accessToken;
+                  // The signed-in user info.
+                  var user = result.user;
+                  // ...
+
+                  alert("credential : " + credential + "\ntoke " + token + "\nuser " + user);
+
+                }).catch((error) => {
+                  // Handle Errors here.
+                  var errorCode = error.code;
+                  var errorMessage = error.message;
+                  // The email of the user's account used.
+                  var email = error.email;
+                  // The firebase.auth.AuthCredential type that was used.
+                  var credential = error.credential;
+                  // ...
+
+                  //  alert("errorCode : " + errorCode + "\nerrorMessage " + errorMessage + "\nemail " + email + "\ncredential " + credential);
+                  window.location.replace("404.html");
+
+
+                });
+            })
+            .catch((error) => {
+              // Handle Errors here.
+              var errorCode = error.code;
+              var errorMessage = error.message;
+            });
+
+
+        }
+      });
 
 
     });
@@ -1135,7 +1137,7 @@
       //     requireDisplayName: false
       //   }]
       // });
-  //    alert("This message should display ^_^ ");
+      //    alert("This message should display ^_^ ");
 
       //
       // firebase.auth().onAuthStateChanged((user) => {
