@@ -644,6 +644,52 @@
         </div>
       </div>
 
+      <!--Credit Table Start -->
+
+      <div class="row">
+
+        <div class="table-responsive">
+          <table id="mt" class="table table-hover">
+            <thead>
+              <tr>
+                <!--  <th scope="col">#</th> -->
+                <th scope="col">Date</th>
+                <th scope="col">Name</th>
+                <th scope="col">WithDrawal</th>
+                <th scope="col">Credit Type</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Note</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="x in creditrecords" ng-click="showCreditData(x)">
+                <!-- <th scope="row">1</th> -->
+                <td>{{x.date | date:'dd-MM-yyyy HH:mm'}}</td>
+                <td>{{x.creditfrom_name}}</td>
+                <td>{{x.creditto_name}}</td>
+                <td>{{x.credit_source}}</td>
+                <td>{{x.credit_amount}}</td>
+                <td>{{x.credit_note}}</td>
+                <!--<td><div class="form-check"><input class="form-check-input" type="checkbox"   ng-checked=x.credit_status disabled></div></td> -->
+                <td>
+                  <div ng-if="x.credit_status == true" style="background-color: red;"><i class="glyphicon glyphicon-flash"></i></div>
+                  <div ng-if="x.credit_status == false" style="background-color: green;"><i class="glyphicon glyphicon-ok"></i></div>
+                </td>
+
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Credit Table End -->
+
     </div>
 
 
@@ -851,7 +897,8 @@
                 <option value="CB">CB</option>
                 <option value="Cash Down">Cash Down</option>
                 <option value="Balance Sheet">Balance Sheet</option>
-                <option value="Credit">Income Credit</option>
+                <option value="I_Credit">I_Credit</option>
+                <option value="A_Credit">A_Credit</option>
               </select>
             </div>
 
@@ -978,7 +1025,7 @@
           var uid = user.uid;
 
           alert("User Name : " + user.displayName);
-          $("#loginuser").text("Login As : " + user.displayName );
+          $("#loginuser").text("Login As : " + user.displayName);
 
           // ...
         } else {
@@ -1190,6 +1237,8 @@
 
       $scope.incomes = [];
 
+      $scope.creditrecords = [];
+
       /*
       angular.element(document).ready(function() {
         var connectedRef = firebase.database().ref(".info/connected");
@@ -1243,7 +1292,7 @@
         $scope.cashfrom_amount = 0;
         $scope.cashfrom_source = 'KPay';
         $scope.cashfrom_note = ' ';
-
+        $scope.cashfrom_totalin = 0;
 
 
       }
@@ -1291,7 +1340,8 @@
 
         //  alert("found key " + x.key);
 
-        $scope.cashrowdatainfo = x.key;
+        $scope.cashrowdatainfo = x;
+
 
         $("#btn_cash_update").show();
 
@@ -1521,12 +1571,16 @@
 
         //  alert($scope.searchtype);
 
-        $scope.incomes = []
+        $scope.incomes = [];
+
+        $scope.creditrecords = [];
 
 
         var query22 = firebase.database().ref('dailyrecord');
 
         var query44 = firebase.database().ref('dailyincome');
+
+        var querycredits = firebase.database().ref('creditdatas');
         //
         // query22.once('value', (snapshot) => {
         //   snapshot.forEach((childSnapshot) => {
@@ -1665,6 +1719,7 @@
             }
 
 
+
             var record = {
               date: data.val().date,
               cashfrom_name: data.val().cashfrom_name,
@@ -1678,6 +1733,17 @@
             };
 
 
+            if (data.child("creditlink").exists()) {
+
+              record["creditlink"] = data.val().creditlink;
+
+              //  alert("link add " + data.val().creditlink);
+
+            } else {
+
+              //  console.log("data.val().withdrawal_note : " + data.val().withdrawal_note);
+
+            }
 
             //  income_all += data.val().cashfrom_totalin;
 
@@ -1737,6 +1803,10 @@
 
             }
 
+            //  data.val().creditlink = 'testsett';
+
+            //alert("test if credit : " + (data.val().date == undefined));
+
 
             var record = {
               date: data.val().date,
@@ -1748,6 +1818,9 @@
               withdrawal_total: data.val().withdrawal_total,
               key: data.key
             };
+
+
+
 
             //expense_all += data.val().withdrawal_total;
             if (indexz == -1)
@@ -1811,6 +1884,19 @@
               key: data.key
             };
 
+
+            if (data.child("creditlink").exists()) {
+
+              record["creditlink"] = data.val().creditlink;
+
+              //  alert("link add " + data.val().creditlink);
+
+            } else {
+
+              //  console.log("data.val().withdrawal_note : " + data.val().withdrawal_note);
+
+            }
+
             //income_all += data.val().cashfrom_totalin;
 
             if (indexz == -1)
@@ -1845,6 +1931,48 @@
 
 
         }
+
+        querycredits.on('child_added', function(data) {
+
+
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.incomes.findIndex(isNameIndex);
+
+          //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+
+          var link = data.val().creditlink;
+
+          var status = data.val().creditstatus;
+
+          firebase.database().ref('dailyincome').orderByKey().equalTo(link).once("child_added", function(snapshott) {
+            console.log(snapshott.key);
+            //  alert("Found From Link " + snapshott.val().cashin_name);
+
+
+
+
+            var record = {
+              date: snapshott.val().date,
+              creditfrom_name: snapshott.val().cashfrom_name,
+              creditto_name: snapshott.val().cashin_name,
+              credit_source: snapshott.val().cashfrom_source,
+              credit_amount: snapshott.val().cashfrom_amount,
+              credit_note: snapshott.val().cashfrom_note,
+              credit_status: status,
+              key: snapshott.key
+            };
+
+
+
+            $scope.creditrecords.push(record);
+
+
+
+          });
+
+        });
+
 
 
         query22.on('child_changed', function(data) {
@@ -2033,7 +2161,7 @@
 
           var deficit = $scope.cashfrom_amount - $scope.cashfrom_totalin;
 
-          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo).update({
+          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo.key).update({
 
               date: dateStartmilli,
               cashfrom_name: $scope.cashfrom_name == " " ? "unavailable" : $scope.cashfrom_name,
@@ -2120,20 +2248,34 @@
 
         //  alert(new Date($('#datetimepicker3').data('date')).getTime());
 
+        //  alert("key " + $scope.cashrowdatainfo.key);
+
         var r = confirm("Are U Sure Want To Delete ??");
 
         if (r == true) {
 
 
 
-          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo).remove().then(function() {
+          firebase.database().ref("dailyincome/" + $scope.cashrowdatainfo.key).remove().then(function() {
               console.log('Delete Data successfully ');
+
+              alert("Found Creditlink " + $scope.cashrowdatainfo.creditlink);
+
+
+                 if($scope.cashrowdatainfo.creditlin != " "){
+
+                   firebase.database().ref("creditdatas/" + $scope.cashrowdatainfo.creditlink).remove().then(function() {
+                      console.log('Delete Creditlink successfully ');
+                   });
+
+                 }
 
               $("#myModal9").modal('hide');
 
 
             })
             .catch(function(error) {
+
               console.log(error);
 
             });
@@ -2229,6 +2371,8 @@
 
           var deficit = $scope.cashfrom_amount - $scope.cashfrom_totalin;
 
+          alert("$scope.cashfrom_totalin check : " + $scope.cashfrom_totalin);
+
           newMessageRef.set({
             date: dateStartmilli,
             cashfrom_name: $scope.cashfrom_name == " " ? "unavailable" : $scope.cashfrom_name,
@@ -2245,8 +2389,54 @@
 
             } else {
               //  showToast(error + " add completed");
-              //alert(p_name + " add completed");
+              alert("Key Test " + newMessageRef.key);
+
+
+              if ($scope.cashfrom_source == "I_Credit") {
+
+                var creddb = firebase.database().ref("creditdatas").push();
+
+                creddb.set({
+                  creditlink: newMessageRef.key,
+                  creditstatus: true,
+                  credittype: "income"
+                }, function(error) {
+
+                  if (error) {
+
+                    console.log("errro add credit");
+
+                  } else {
+
+                    firebase.database().ref("dailyincome/" + newMessageRef.key).update({
+                        creditlink: creddb.key
+                      },
+                      function(error) {
+                        if (error) {
+                          console.log("Credit Key could not be updated." + error);
+                        } else {
+                          console.log("Credit Key updated successfully. complete");
+
+                        }
+                      });
+
+
+                  }
+
+
+                });
+
+
+
+
+
+              }
+
+
+
               $("#myModal9").modal('hide');
+
+
 
 
 
