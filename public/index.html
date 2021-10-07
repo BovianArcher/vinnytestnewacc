@@ -100,6 +100,12 @@
 
   <!-- End Firebase UI -->
 
+  <!-- Toggle Switch -->
+  <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+  <!-- End Toggle Switch -->
+
+
   <style>
     body {
       padding-top: 70px;
@@ -533,7 +539,7 @@
 
             <option value="Search All" selected>Search All</option>
             <option value="Search By Date">Search By Date</option>
-
+            <option value="Search By Month">Search By Month</option>
           </select>
         </div>
 
@@ -580,10 +586,10 @@
                 <td>{{x.cashfrom_name}}</td>
                 <td>{{x.cashin_name}}</td>
                 <td>{{x.cashfrom_source}}</td>
-                <td>{{x.cashfrom_amount}}</td>
-                <td>{{x.cashfrom_deficit}}</td>
+                <td>{{x.cashfrom_amount | number:'1.0':'en-US'}}</td>
+                <td>{{x.cashfrom_deficit | number:'1.0':'en-US'}}</td>
                 <td>{{x.cashfrom_note}}</td>
-                <td>{{x.cashfrom_totalin}}</td>
+                <td>{{x.cashfrom_totalin | number:'1.0':'en-US'}}</td>
               </tr>
             </tbody>
           </table>
@@ -592,12 +598,34 @@
 
       <div class="row">
 
-        <h3> Total Income : {{total_income}}</h3>
+        <h3> Total Income : {{total_income | number:'1.0':'en-US'}}</h3>
 
 
       </div>
 
+      <hr>
+
+
+
       <div class="row">
+
+
+        <div class="mb-3 mt-5">
+          <label for="Description_Filter" class="form-label mt-5" style="margin-top : 10px;">Filter By </label>
+          <select class="form-select mt-5" id="Description_Filter" ng-model="searchdes" style="margin-top : 10px;">
+
+            <option value="General">General</option>
+            <option value="Raw Materials">Raw Materials</option>
+            <option value="Salary">Salary</option>
+            <option value="W_Credit">W_Credit</option>
+            <option value="None">None</option>
+          </select>
+
+          <!--  <div ng-if="searchdes != null || searchdes != 'None'" ><h1>Total {{searchdes}} :  {{searchdestotal}}</h2></div> -->
+
+        </div>
+
+
 
         <div class="table-responsive">
           <table id="mt" class="table table-hover">
@@ -609,20 +637,22 @@
                 <th scope="col">Amount</th>
                 <th scope="col">Description</th>
                 <th scope="col">Cash Back</th>
+                <th scope="col">Credit</th>
                 <th scope="col">Note</th>
                 <th scope="col">Total</th>
               </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="x in records" ng-click="showRowData(x)">
+              <tr ng-repeat="x in records | advsearch:searchdes" ng-click="showRowData(x)">
                 <!-- <th scope="row">1</th> -->
                 <td>{{x.date | date:'dd-MM-yyyy HH:mm'}}</td>
                 <td>{{x.withdrawal_name}}</td>
-                <td>{{x.withdrawal_amount}}</td>
+                <td>{{x.withdrawal_amount | number:'1.0':'en-US'}}</td>
                 <td>{{x.withdrawal_des}}</td>
-                <td>{{x.withdrawal_cashback}}</td>
+                <td>{{x.withdrawal_cashback | number:'1.0':'en-US'}}</td>
+                <td>{{x.withdrawal_credit | number:'1.0':'en-US'}}</td>
                 <td>{{x.withdrawal_note}}</td>
-                <td>{{x.withdrawal_total}}</td>
+                <td>{{x.withdrawal_total | number:'1.0':'en-US'}}</td>
 
               </tr>
             </tbody>
@@ -633,16 +663,19 @@
       <div class="row">
 
         <div class="col">
-          <h3>Total Expense : {{total_expense}}</h3>
+          <h3>Total Expense : {{total_expense | number:'1.0':'en-US'}}</h3>
         </div>
       </div>
 
       <div class="row">
 
         <div class="col">
-          <h3>Balance Sheet : {{total_income - total_expense}}</h3>
+          <h3>Balance Sheet : {{total_income - total_expense | number:'1.0':'en-US'}}</h3>
         </div>
       </div>
+
+
+      <hr>
 
       <!--Credit Table Start -->
 
@@ -657,7 +690,12 @@
                 <th scope="col">Name</th>
                 <th scope="col">WithDrawal</th>
                 <th scope="col">Credit Type</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Total Amount</th>
+
+                <th scope="col">Pay Amount</th>
+                <th scope="col">Credit Amount</th>
+                <th scope="col">Active Amount</th>
+
                 <th scope="col">Note</th>
                 <th scope="col">Status</th>
               </tr>
@@ -669,7 +707,10 @@
                 <td>{{x.creditfrom_name}}</td>
                 <td>{{x.creditto_name}}</td>
                 <td>{{x.credit_source}}</td>
-                <td>{{x.credit_amount}}</td>
+                <td>{{x.credit_total_amount | number:'1.0':'en-US'}}</td>
+                <td>{{x.credit_pay_amount | number:'1.0':'en-US'}}</td>
+                <td>{{x.credit_amount | number:'1.0':'en-US'}}</td>
+                <td>{{x.credit_active_amount | number:'1.0':'en-US'}}</td>
                 <td>{{x.credit_note}}</td>
                 <!--<td><div class="form-check"><input class="form-check-input" type="checkbox"   ng-checked=x.credit_status disabled></div></td> -->
                 <td>
@@ -678,22 +719,7 @@
                 </td>
                 <td><button class="btn btn-primary" id="btn_apply_credit" ng-click="applyCreditData(x)">Pay</button></td>
 
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          X
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as
-                          well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                          <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
 
               </tr>
             </tbody>
@@ -792,7 +818,7 @@
                 <option value="General">General</option>
                 <option value="Raw Materials">Raw Materials</option>
                 <option value="Salary">Salary</option>
-                <option value="Credit">Outcome Credit</option>
+                <option value="W_Credit">W_Credit</option>
               </select>
             </div>
 
@@ -804,6 +830,10 @@
             <div class="mb-3 mt-5">
               <label for="Note" class="form-label">Note</label>
               <textarea class="form-control" rows="5" id="Note" ng-model="withdrawal_note"></textarea>
+            </div>
+            <div class="mb-3 mt-5">
+              <label for="ExCredit" class="form-label">Credit</label>
+              <input type="number" class="form-control" id="ExCredit" ng-model="withdrawal_credit">
             </div>
 
             <!--
@@ -822,11 +852,11 @@
               </div>
 
               <div class="col-6 col-md-4">
-                <button class="btn btn-primary" id="btn_daily_update" ng-click="updateDailyRecord()">Update</button>
+                <button class="btn btn-primary" id="btn_daily_update" ng-click="updateDailyRecord(rowdatainfo)">Update</button>
               </div>
 
               <div class="col-6 col-md-4">
-                <button class="btn btn-primary" id="btn_daily_delete" ng-click="deleteDailyRecord()">Delete</button>
+                <button class="btn btn-primary" id="btn_daily_delete" ng-click="deleteDailyRecord(rowdatainfo)">Delete</button>
               </div>
 
               <div class="col-6 col-md-4">
@@ -955,6 +985,170 @@
               <div class="col-6 col-md-4">
                 <button class="btn btn-primary" id="byn_cash_cancel" data-dismiss="modal">Cancel</button>
               </div>
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- The Modal 10  style="z-index: 9999;" > -->
+    <div class="modal" id="myModal10" ng-model="creditrowdatainfo">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" style="margin-left : 15px;margin-right : 15px;">
+
+
+
+            <div class='mb-3'>
+              <div class="form-group">
+                <div class='input-group date' id='datetimepicker5'>
+                  <label for="date5" class="form-label">Date</label>
+                  <input type='text' class="form-control" id="date5" ng-model="datepick5" />
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!--
+            <div class="mb-3">
+              <label for="CashFrom" class="form-label">Cash From Name</label>
+              <input type="text" class="form-control" id="CashFromCredit" ng-model="cashfrom_name_credit">
+
+            </div>
+          -->
+
+            <div class="mb-3">
+              <label for="CashIn" class="form-label">Withdrawal Name</label>
+              <input type="text" class="form-control" id="CashWithdrawalNameCredit" ng-model="cashto_name_credit">
+
+            </div>
+
+            <!--
+            <div class="mb-3 mt-5">
+              <label for="CashFromSourceCredit" class="form-label mt-5" style="margin-top : 10px;">Source</label>
+              <select class="form-select mt-5" id="CashFromSourceCredit" ng-model="cashfrom_source_credit" style="margin-top : 10px;">
+
+
+                <option value="W_Credit">W_Credit</option>
+                <option value="I_Credit">I_Credit</option>
+
+              </select>
+            </div>
+          -->
+
+
+
+
+            <div class="mb-3 mt-5">
+              <label for="CashfromAmount" class="form-label">Amount</label>
+              <input type="number" class="form-control" id="CashfromAmountCredit" ng-model="cashfrom_amount_credit">
+            </div>
+
+
+            <!--
+            <div class="mb-3 mt-5">
+              <label for="CashFromSource" class="form-label mt-5" style="margin-top : 10px;">Source</label>
+              <select class="form-select mt-5" id="CashFromSource" ng-model="cashfrom_source_credit" style="margin-top : 10px;">
+
+
+                <option value="W_Credit">W_Credit</option>
+                <option value="I_Credit">I_Credit</option>
+
+              </select>
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="CashFromTotalIn" class="form-label">Total CashIn</label>
+              <input type="number" class="form-control" id="CashFromTotalIn" ng-model="cashfrom_totalin_credit">
+            </div>
+
+            <div class="mb-3 mt-5">
+              <label for="CashFromNote" class="form-label">Note</label>
+              <textarea class="form-control" rows="5" id="CashFromNote" ng-model="cashfrom_note_credit"></textarea>
+            </div>
+
+              -->
+
+            <div class="row mb-3 mt-5" style="margin-top : 15px">
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_credit_pay" ng-click="addComfirmPay(creditrowdatainfo)">Confirm Pay</button>
+              </div>
+
+
+
+              <!--
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_cash_update" ng-click="updateCashRecord()">Update</button>
+              </div>
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_cash_delete" ng-click="deleteCashRecord()">Delete</button>
+              </div>
+            -->
+
+
+              <div class="col-6 col-md-4">
+                <button class="btn btn-primary" id="btn_credit_cancel" data-dismiss="modal">Cancel</button>
+              </div>
+
+              <!--
+              <div class="col-6 col-md-4">
+              <input id="chkToggle2" type="checkbox" checked> <script> $(function(){ $('#chkToggle2').bootstrapToggle() }); </script>
+              </div>
+            -->
+
+
+              <h3>Pay History</h3>
+              <div class="row">
+
+                <div class="table-responsive">
+                  <table id="mt" class="table table-hover">
+                    <thead>
+                      <tr>
+                        <!--  <th scope="col">#</th> -->
+                        <th scope="col">Date</th>
+                        <th scope="col">WithDrawal Name</th>
+                        <th scope="col">Amount</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="x in payhistory" ng-click="editPay(x)">
+                        <!-- <th scope="row">1</th> -->
+                        <td>{{x.paytime | date:'dd-MM-yyyy HH:mm'}}</td>
+                        <td>{{x.payname}}</td>
+                        <td>{{x.payamount}}</td>
+                        <!--<td><button class="btn btn-secondary" id="btn_payhistory_update" ng-click="updatePayHistory(x,creditrowdatainfo)">Update</button></td>
+                        <td><button class="btn btn-warning" id="btn_payhistory_delete" ng-click="deletePayHistory(x,creditrowdatainfo)">Delete</button></td> -->
+
+
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
 
             </div>
 
@@ -1173,8 +1367,45 @@
   <script>
     var app = angular.module("myApp", []);
 
+
+    app.filter('advsearch', function() {
+      return function(items, tagName) {
+        var filtered = [];
+        //  alert("tagName : " + tagName + " : " + (tagName == null));
+        var destotal = 0;
+        var destype = null;
+        angular.forEach(items, function(el) {
+          if (el.withdrawal_des == tagName) {
+            filtered.push(el);
+            destotal += el.withdrawal_total;
+            if (destype == null) {
+              destype = el.withdrawal_des;
+            }
+            // alert(" el.Total " +  el.withdrawal_total);
+          }
+          if (tagName == null || tagName == "None") {
+            filtered.push(el);
+          }
+
+        });
+
+        if (destotal > 0) {
+
+          alert("total " + destype + " : " + destotal);
+
+        } else {
+          console.log("destoal " + destotal);
+        }
+
+        return filtered;
+      }
+    });
+
+
     app.controller("myCtrl", function($scope, $http, $log) {
       $log.debug("hi");
+
+
 
 
       $("#datetimepicker2").datetimepicker({
@@ -1191,7 +1422,13 @@
         locale: 'en'
       });
 
+      $("#datetimepicker5").datetimepicker({
+        locale: 'en'
+      });
 
+      //  $('#paytoggle').bootstrapToggle('enable');
+      //  	$('#paytoggle').bootstrapToggle({ on: 'Insert', off: 'Update' });
+      //    $('#paytoggle').change(function() { console.log('Toggle: ' + $(this).prop('checked')) })
 
       // var ui = new firebaseui.auth.AuthUI(firebase.auth());
       //
@@ -1301,7 +1538,7 @@
 
         if (e.keyCode == 73 && event.ctrlKey) {
 
-          $("#btnShowDailyPlus").click();
+          $("#btnShowDailyMinus").click();
 
 
         }
@@ -1326,7 +1563,9 @@
         $scope.withdrawal_des = 'General';
         $scope.withdrawal_note = ' ';
         $scope.withdrawal_cashback = 0;
+        $scope.withdrawal_credit = 0;
 
+        //  alert($scope.withdrawl_credit);
 
       }
 
@@ -1338,7 +1577,6 @@
         $scope.cashfrom_source = 'KPay';
         $scope.cashfrom_note = ' ';
         $scope.cashfrom_totalin = 0;
-
 
       }
 
@@ -1353,10 +1591,12 @@
         $scope.withdrawal_des = x.withdrawal_des;
         $scope.withdrawal_note = x.withdrawal_note;
         $scope.withdrawal_cashback = x.withdrawal_cashback == null ? 0 : x.withdrawal_cashback;
-
+        $scope.withdrawal_credit = x.withdrawal_credit == null ? 0 : x.withdrawal_credit;
         //  alert("found key " + x.key);
 
-        $scope.rowdatainfo = x.key;
+        //alert("value test : " + $scope.withdrawal_cashback);
+
+        $scope.rowdatainfo = x;
 
         $("#btn_daily_update").show();
 
@@ -1612,7 +1852,7 @@
           $scope.creditrecords.push(callback());
         var rowCount = $("#mtcredit tr").length - 1;
         //  alert("$scope.creditrecords : " + $scope.creditrecords.length + ",row : " + rowCount + " : ");
-        setTimeout(() => $("#mtcredit tr").trigger("onchange"), 2000);
+        setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
 
 
       }
@@ -1704,6 +1944,17 @@
         // alert("dateStart : " + dateS.getTime()+ "actual date " + getDateFormatForQuery(dateS.getTime()));
         //
         var dateE = new Date(dateStart.getFullYear() + "-" + (dateStart.getMonth() + 1) + "-" + dateStart.getDate() + "  23:59:59");
+
+
+        //
+        var monthS = new Date(dateStart.getFullYear() + "-" + (dateStart.getMonth() + 1) + "-" + 1 + "  00:00:00");
+        //
+        //alert("monthS : " + monthS.getTime()+ "actual date " + getDateFormatForQuery(monthS.getTime()));
+        //
+        var monthE = new Date(dateStart.getFullYear() + "-" + (dateStart.getMonth() + 2) + "-" + 1 + "  00:00:00");
+
+        //  alert("monthE : " + (monthE.getTime() -1)+ "actual date " + getDateFormatForQuery((monthE.getTime()-1)));
+
         //
         // alert("dateEnd : " + dateE.getTime() + "actual date " + getDateFormatForQuery(dateE.getTime()));
 
@@ -1758,12 +2009,24 @@
               date: data.val().date,
               withdrawal_amount: data.val().withdrawal_amount,
               withdrawal_cashback: data.val().withdrawal_cashback,
+              withdrawal_credit: data.val().withdrawal_credit == " " ? 0 : data.val().withdrawal_credit,
               withdrawal_des: data.val().withdrawal_des,
               withdrawal_name: data.val().withdrawal_name,
               withdrawal_note: data.val().withdrawal_note,
               withdrawal_total: data.val().withdrawal_total,
+
               key: data.key
             };
+
+            if (data.child("withdrawal_credit_link").exists()) {
+
+              record["withdrawal_credit_link"] = data.val().withdrawal_credit_link;
+
+              //  alert("link add " + data.val().creditlink);
+
+
+
+            }
 
 
             if (indexz == -1)
@@ -1841,6 +2104,134 @@
 
           });
 
+        } else if ($scope.searchtype == "Search By Month") {
+
+
+          query22.orderByChild("date").startAt(monthS.getTime()).endAt((monthE.getTime() - 1)).on('child_added', function(data) {
+
+
+            //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.records.findIndex(isNameIndex);
+            //  console.log("Child Add Indez" + indexz);
+
+
+            if (data.val().withdrawal_total != null) {
+              //  console.log("data.val().withdrawal_total " + data.val().withdrawal_total);
+              var data1 = parseInt(data.val().withdrawal_total);
+              var data2 = parseInt($scope.total_expense);
+
+              var total = data1 + data2;
+
+              $scope.total_expense = total;
+
+              //  console.log("total : "  + $scope.total_expense);
+
+
+            }
+
+
+            var record = {
+              date: data.val().date,
+              withdrawal_amount: data.val().withdrawal_amount,
+              withdrawal_cashback: data.val().withdrawal_cashback,
+              withdrawal_credit: data.val().withdrawal_credit == " " ? 0 : data.val().withdrawal_credit,
+              withdrawal_des: data.val().withdrawal_des,
+              withdrawal_name: data.val().withdrawal_name,
+              withdrawal_note: data.val().withdrawal_note,
+              withdrawal_total: data.val().withdrawal_total,
+              key: data.key
+            };
+
+
+            if (data.child("withdrawal_credit_link").exists()) {
+
+              record["withdrawal_credit_link"] = data.val().withdrawal_credit_link;
+
+              //  alert("link add " + data.val().creditlink);
+
+
+
+            }
+
+            if (indexz == -1)
+              $scope.records.push(record);
+
+
+
+
+
+
+          });
+
+          query44.orderByChild("date").startAt(monthS.getTime()).endAt((monthE.getTime() - 1)).on('child_added', function(data) {
+
+
+            const isNameIndex = (element) => element.key == data.key;
+            const indexz = $scope.incomes.findIndex(isNameIndex);
+            //  console.log("Child Add Indez" + indexz);
+
+            //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+            if (data.val().cashfrom_totalin != null) {
+
+              var data1 = parseInt(data.val().cashfrom_totalin);
+              var data2 = parseInt($scope.total_income);
+
+              var total = data1 + data2;
+
+              $scope.total_income = total;
+
+
+            }
+
+
+
+            var record = {
+              date: data.val().date,
+              cashfrom_name: data.val().cashfrom_name,
+              cashin_name: data.val().cashin_name,
+              cashfrom_source: data.val().cashfrom_source,
+              cashfrom_amount: data.val().cashfrom_amount,
+              cashfrom_deficit: data.val().cashfrom_deficit,
+              cashfrom_note: data.val().cashfrom_note,
+              cashfrom_totalin: data.val().cashfrom_totalin,
+              key: data.key
+            };
+
+            //CTF
+
+            if (data.child("creditlink").exists()) {
+
+              record["creditlink"] = data.val().creditlink;
+
+              //  alert("link add " + data.val().creditlink);
+
+
+
+            } else {
+
+              //  console.log("data.val().withdrawal_note : " + data.val().withdrawal_note);
+
+            }
+
+
+
+            if (indexz == -1)
+              $scope.incomes.push(record);
+
+
+
+
+
+
+
+
+
+          });
+
+
+
         } else {
 
           query22.on('child_added', function(data) {
@@ -1871,12 +2262,17 @@
             //  data.val().creditlink = 'testsett';
 
             //alert("test if credit : " + (data.val().date == undefined));
+            //  alert("credit check " + data.val().withdrawal_credit + " : " + (data.val().withdrawal_credit == " "));
 
+            var credit_data = data.val().withdrawal_credit == null ? 0 : data.val().withdrawal_credit;
+
+            //alert("value check " + credit_data);
 
             var record = {
               date: data.val().date,
               withdrawal_amount: data.val().withdrawal_amount,
               withdrawal_cashback: data.val().withdrawal_cashback,
+              withdrawal_credit: credit_data,
               withdrawal_des: data.val().withdrawal_des,
               withdrawal_name: data.val().withdrawal_name,
               withdrawal_note: data.val().withdrawal_note,
@@ -1885,7 +2281,15 @@
             };
 
 
+            if (data.child("withdrawal_credit_link").exists()) {
 
+              record["withdrawal_credit_link"] = data.val().withdrawal_credit_link;
+
+              //  alert("link add " + data.val().creditlink);
+
+
+
+            }
 
             //expense_all += data.val().withdrawal_total;
             if (indexz == -1)
@@ -1975,6 +2379,8 @@
 
         }
 
+        var count = 0;
+
         querycredits.on('child_added', function(data) {
 
           if (data.key != "FFFF") {
@@ -1984,93 +2390,194 @@
 
             //var link = data.val().creditlink;
 
-
+          // alert(data.key + " count " + (++count));
 
 
             var status = data.val().creditstatus;
 
+            if (data.val().credittype == "income") {
+
+              firebase.database().ref('dailyincome').child(data.key).once("value", function(snapshott) {
+
+                console.log("credit retrive key from daily income suuccess " + snapshott.key + " from " + snapshott.val().cashfrom_name + " to " + snapshott.val().cashin_name);
+                console.log(snapshott.key);
+                //  alert("Found From Link " + snapshott.val().cashin_name);
+                const isNameIndex = (element) => element.key == snapshott.key;
+                const indexz = $scope.creditrecords.findIndex(isNameIndex);
 
 
-            firebase.database().ref('dailyincome').child(data.key).once("value", function(snapshott) {
+                //CTF
+                var out_total_amount = snapshott.val().cashfrom_amount;
 
-              console.log("credit retrive key from daily income suuccess " + snapshott.key + " from " + snapshott.val().cashfrom_name + " to " + snapshott.val().cashin_name);
-              console.log(snapshott.key);
-              //  alert("Found From Link " + snapshott.val().cashin_name);
-              const isNameIndex = (element) => element.key == snapshott.key;
-              const indexz = $scope.creditrecords.findIndex(isNameIndex);
+                var out_pay_amount = 0;
+
+                var out_credit = snapshott.val().cashfrom_amount;
+
+                var out_active = snapshott.val().cashfrom_amount;
+
+                if (data.child("payhistory").exists() == true) {
+
+                  data.child("payhistory").forEach((childSnapshot) => {
+                    var childKey = childSnapshot.key;
+                    var payamount  = childSnapshot.val().payamount;
+                    //childData['payamount'] = childKey;
+
+                    out_active = out_active - payamount;
+
+                  //  console.log($scope.records.length);
+
+                  });
+
+                }
+
+                var record = {
+                  date: snapshott.val().date,
+                  creditfrom_name: snapshott.val().cashfrom_name,
+                  creditto_name: snapshott.val().cashin_name,
+                  credit_source: snapshott.val().cashfrom_source,
+                  credit_total_amount: out_total_amount,
+                  credit_pay_amount: out_pay_amount,
+                  credit_amount: out_credit,
+                  credit_active_amount: out_active,
+                  credit_note: snapshott.val().cashfrom_note,
+                  credit_status: status,
+                  key: snapshott.key
+                };
+
+                var recordtest = {
+                  date: new Date().getTime(),
+                  creditfrom_name: "TempFrom",
+                  creditto_name: "TempTo",
+                  credit_source: "I_Credit",
+                  credit_amount: 1000,
+                  credit_note: "Test Add Temp",
+                  credit_status: true,
+                  key: "_ATESTSETEST"
+                };
+
+                //$scope.creditrecords.push(recordtest);
+
+                //$scope.creditrecords.push(record);
+
+                console.log("add to record " + record.creditto_name + " before add " + $scope.creditrecords.length);
+
+                if (indexz == -1) {
+
+                  addRecordCallback(function() {
+
+                    return record;
 
 
-              //CTF
-
-              var record = {
-                date: snapshott.val().date,
-                creditfrom_name: snapshott.val().cashfrom_name,
-                creditto_name: snapshott.val().cashin_name,
-                credit_source: snapshott.val().cashfrom_source,
-                credit_amount: snapshott.val().cashfrom_amount,
-                credit_note: snapshott.val().cashfrom_note,
-                credit_status: status,
-                key: snapshott.key
-              };
-
-              var recordtest = {
-                date: new Date().getTime(),
-                creditfrom_name: "TempFrom",
-                creditto_name: "TempTo",
-                credit_source: "I_Credit",
-                credit_amount: 1000,
-                credit_note: "Test Add Temp",
-                credit_status: true,
-                key: "_ATESTSETEST"
-              };
-
-              //$scope.creditrecords.push(recordtest);
-
-              //$scope.creditrecords.push(record);
-
-              console.log("add to record " + record.creditto_name + " before add " + $scope.creditrecords.length);
-
-              if (indexz == -1) {
-
-                addRecordCallback(function() {
-
-                  return record;
+                  });
 
 
-                });
+
+                }
+                console.log("after add " + $scope.creditrecords.length);
+
+              });
+
+            }
+
+            if (data.val().credittype == "outcome") {
+
+              console.log("key " + data.key );
+
+              firebase.database().ref('dailyrecord').child(data.key).once("value", function(snapshott) {
+
+                //    console.log("credit retrive key from daily income suuccess " + snapshott.key + " from " + snapshott.val().cashfrom_name + " to " + snapshott.val().cashin_name);
+                console.log(snapshott.key);
+                //  alert("Found From Link " + snapshott.val().cashin_name);
+                const isNameIndex = (element) => element.key == snapshott.key;
+                const indexz = $scope.creditrecords.findIndex(isNameIndex);
 
 
-                //   if ($scope.creditrecords.length < 2) {
+                // //start
                 //
-                //     $scope.creditrecords.push(record);
-                //
-                //     alert("$scope.creditrecords.length < 2");
-                //
-                //
-                //   } else {
-                //
-                //     if ($scope.creditrecords[$scope.creditrecords.length - 1].key != snapshott.key) {
-                //
-                //       setTimeout(function later() {
-                //         console.log('later() called');
-                //         $scope.creditrecords.push(record);
-                //       }, 2000);
-                //       //  $scope.creditrecords.push(record);
-                //     }
-                //
-                //   }
-                //
-                //
-                //
-                //
-                // }
+                // //CTF
+                if(snapshott.exists() == true){
+
+
+                var creditdata = snapshott.val().withdrawal_amount;
+
+                console.log("data check " + creditdata);
+               var out_total_amount = snapshott.val().withdrawal_amount + snapshott.val().withdrawal_credit;
+
+
+
+                var out_pay_amount = snapshott.val().withdrawal_amount;
+
+                var out_credit = snapshott.val().withdrawal_credit;
+
+                var out_active = snapshott.val().withdrawal_credit;
+
+                if (data.child("payhistory").exists() == true) {
+
+                  data.child("payhistory").forEach((childSnapshot) => {
+                    var childKey = childSnapshot.key;
+                    var payamount  = childSnapshot.val().payamount;
+
+
+                    out_active = out_active - payamount;
+
+
+
+                  });
+
+
+
+                }
+
+                var record = {
+                  date: snapshott.val().date,
+                  creditfrom_name: "-",
+                  creditto_name: snapshott.val().withdrawal_name,
+                  credit_source: "W_Credit",
+                  credit_total_amount: out_total_amount,
+                  credit_pay_amount: out_pay_amount,
+                  credit_amount: out_credit,
+                  credit_active_amount: out_active,
+                  credit_note: snapshott.val().withdrawal_note,
+                  credit_status: out_active == 0 ? false : true,
+                  key: snapshott.key
+                };
+
+                var recordtest = {
+                  date: new Date().getTime(),
+                  creditfrom_name: "TempFrom",
+                  creditto_name: "TempTo",
+                  credit_source: "I_Credit",
+                  credit_amount: 1000,
+                  credit_note: "Test Add Temp",
+                  credit_status: true,
+                  key: "_ATESTSETEST"
+                };
+
+
+
+                console.log("add to record " + record.creditto_name + " before add " + $scope.creditrecords.length);
+
+                if (indexz == -1) {
+
+                  addRecordCallback(function() {
+
+                    return record;
+
+
+                  });
+
+
+
+                }
+                console.log("after add " + $scope.creditrecords.length);
 
               }
-              console.log("after add " + $scope.creditrecords.length);
+                //end
+              });
 
-            });
 
 
+            }
 
           } else {
 
@@ -2082,44 +2589,148 @@
 
         querycredits.on('child_changed', function(data) {
 
-          //alert("Credit Table Change : " + data.key);
+           //alert("Credit Table Change : " + data.key);
+
+          if (data.val().credittype == "outcome") {
 
 
 
-          firebase.database().ref('dailyincome').child(data.key).once("value", function(snapshott) {
+            firebase.database().ref('dailyrecord').child(data.key).once("value", function(snapshott) {
 
 
-            const isNameIndex = (element) => element.key == snapshott.key;
-            const indexz = $scope.creditrecords.findIndex(isNameIndex);
-
-            //alert("indexz found " + indexz + " data ");
-            if (indexz != -1) {
-
-
-              $scope.creditrecords[indexz].date = snapshott.val().date;
-              //  alert("date check " + snapshott.val().date);
-
-              $scope.creditrecords[indexz].creditfrom_name = snapshott.val().cashfrom_name;
-              $scope.creditrecords[indexz].creditto_name = snapshott.val().cashin_name;
-              $scope.creditrecords[indexz].credit_source = snapshott.val().cashfrom_source;
-              $scope.creditrecords[indexz].credit_amount = snapshott.val().cashfrom_amount;
-              $scope.creditrecords[indexz].credit_note = snapshott.val().cashfrom_note;
-              $scope.creditrecords[indexz].credit_status = data.val().creditstatus;
-              //  alert("credit_status " + data.val().creditstatus);
-
-
-              clickProxyCredit(() => {
-                return true;
-              });
-
-              setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
+              const isNameIndex = (element) => element.key == snapshott.key;
+              const indexz = $scope.creditrecords.findIndex(isNameIndex);
 
 
 
-              //setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
-            }
 
-          });
+              //  alert("indexz found " + indexz + " data ");
+              if (indexz != -1) {
+                var out_total_amount = snapshott.val().withdrawal_amount + snapshott.val().withdrawal_credit;
+
+
+
+                var out_pay_amount = snapshott.val().withdrawal_amount;
+
+                var out_credit = snapshott.val().withdrawal_credit;
+
+                var out_active = snapshott.val().withdrawal_credit;
+
+                if (data.child("payhistory").exists() == true) {
+
+                  data.child("payhistory").forEach((childSnapshot) => {
+                    var childKey = childSnapshot.key;
+                    var payamount  = childSnapshot.val().payamount;
+                    //childData['payamount'] = childKey;
+
+                    out_active = out_active - payamount;
+
+                  //  console.log($scope.records.length);
+
+                  });
+
+                }
+
+
+                $scope.creditrecords[indexz].date = snapshott.val().date;
+                //  alert("date check " + snapshott.val().date);
+
+
+                $scope.creditrecords[indexz].creditfrom_name = "-";
+                $scope.creditrecords[indexz].creditto_name = snapshott.val().withdrawal_name;
+                $scope.creditrecords[indexz].credit_source = "W_Credit";
+                //$scope.creditrecords[indexz].credit_amount = snapshott.val().withdrawal_amount;
+                $scope.creditrecords[indexz].credit_total_amount = out_total_amount;
+                $scope.creditrecords[indexz].credit_pay_amount =  out_pay_amount;
+                $scope.creditrecords[indexz].credit_amount = out_credit;
+                $scope.creditrecords[indexz].credit_active_amount = out_active;
+                $scope.creditrecords[indexz].credit_note = snapshott.val().withdrawal_note;
+                $scope.creditrecords[indexz].credit_status = data.val().creditstatus;
+                //  alert("credit_status " + data.val().creditstatus);
+
+
+                //  clickProxyCredit(() => {
+                //    return true;
+                //  });
+
+                setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
+
+
+
+                //setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
+              }
+
+            });
+
+
+
+          } else {
+
+            firebase.database().ref('dailyincome').child(data.key).once("value", function(snapshott) {
+
+
+              const isNameIndex = (element) => element.key == snapshott.key;
+              const indexz = $scope.creditrecords.findIndex(isNameIndex);
+
+              //alert("indexz found " + indexz + " data ");
+              if (indexz != -1) {
+
+                var out_total_amount = snapshott.val().cashfrom_amount;
+
+                var out_pay_amount = 0;
+
+                var out_credit = snapshott.val().cashfrom_amount;
+
+                var out_active = snapshott.val().cashfrom_amount;
+
+                if (data.child("payhistory").exists() == true) {
+
+                  data.child("payhistory").forEach((childSnapshot) => {
+                    var childKey = childSnapshot.key;
+                    var payamount  = childSnapshot.val().payamount;
+                    //childData['payamount'] = childKey;
+
+                    out_active = out_active - payamount;
+
+                  //  console.log($scope.records.length);
+
+                  });
+
+                }
+
+                $scope.creditrecords[indexz].date = snapshott.val().date;
+                //  alert("date check " + snapshott.val().date);
+
+                $scope.creditrecords[indexz].creditfrom_name = snapshott.val().cashfrom_name;
+                $scope.creditrecords[indexz].creditto_name = snapshott.val().cashin_name;
+                $scope.creditrecords[indexz].credit_source = snapshott.val().cashfrom_source;
+                $scope.creditrecords[indexz].credit_total_amount =  out_total_amount;
+                $scope.creditrecords[indexz].credit_pay_amount =  out_pay_amount;
+                $scope.creditrecords[indexz].credit_amount =  out_credit;
+                $scope.creditrecords[indexz].credit_active_amount =  out_active;
+                $scope.creditrecords[indexz].credit_note = snapshott.val().cashfrom_note;
+                $scope.creditrecords[indexz].credit_status = data.val().creditstatus;
+                //  alert("credit_status " + data.val().creditstatus);
+
+
+                //  clickProxyCredit(() => {
+                //  return true;
+                //  });
+
+                setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
+
+
+
+                //setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
+              }
+
+            });
+
+
+
+          }
+
+
 
 
 
@@ -2135,12 +2746,12 @@
           const isNameIndex = (element) => element.key == data.key;
           const indexz = $scope.creditrecords.findIndex(isNameIndex);
 
-          //alert("check index indexz " + indexz);
+          //  alert("check index indexz " + indexz);
           //console.log(" comment " + $scope.names[indexz].comment);
           if (indexz != -1) {
-
+            //  alert(" != -1");
             $scope.creditrecords.splice(indexz, 1);
-            setTimeout(() => $("#mtcredit tr").trigger("onchange"), 2000)
+            setTimeout(() => $("#mtcredit tr").trigger("click"), 2000);
           }
 
 
@@ -2153,14 +2764,17 @@
           // showToast("UPDATE : " + data.val().withdrawal_name);
           // alert("update data " + data.val().withdrawal_name);
           // const array1 = $scope.names;
-          const isNameIndex = (element) => element.key == data.key;
-          const indexz = $scope.incomes.findIndex(isNameIndex);
+          //    alert("key test : " + data.key + " > data.val().withdrawal_name " + data.val().withdrawal_name);
 
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.records.findIndex(isNameIndex);
+
+          //    alert("isNameIndex : " + isNameIndex + " > indexz " + indexz);
           // console.log(" comment " + $scope.names[indexz].comment);
 
           // $scope.names[indexz].name = data.val().name;
           // $scope.names[indexz].comment = data.val().comment;
-
+          //  alert("$scope.records[indexz].withdrawal_name  " + $scope.records[indexz].withdrawal_name );
 
           $scope.records[indexz].withdrawal_name = data.val().withdrawal_name;
           $scope.records[indexz].withdrawal_amount = data.val().withdrawal_amount;
@@ -2273,7 +2887,88 @@
 
       $scope.applyCreditData = function(data) {
 
-        alert(data.creditfrom_name);
+        $("#myModal10").modal();
+        //  alert(data.creditfrom_name);
+
+        $scope.payhistory = [];
+
+        var dateNow = new Date();
+
+        $scope.creditrowdatainfo = data;
+
+        $scope.datepick5 = getDateFormat(Date.now());
+
+        var querypay = firebase.database().ref("creditdatas/" + data.key + "/payhistory/");
+
+
+        querypay.on('child_added', function(data) {
+
+          //alert("pay history add");
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.payhistory.findIndex(isNameIndex);
+
+          //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+          var record = {
+            key: data.key,
+            paytime: data.val().paytime,
+            payname: data.val().payname,
+            payamount: data.val().payamount,
+
+          };
+
+          $scope.payhistory.push(record);
+
+
+        });
+
+        querypay.on('child_removed', function(data) {
+
+          console.log("pay history remove");
+          const isNameIndex = (element) => element.key == data.key;
+          const indexz = $scope.payhistory.findIndex(isNameIndex);
+
+          //  console.log("ADD : " + data.val().withdrawal_name + " date :" + data.val().date);
+
+
+          $scope.payhistory.splice(indexz, 1);
+
+
+        });
+
+
+      }
+
+      $scope.deletePayHistory = function(x, creditrowdatainfo) {
+
+        //  alert(x.key);
+
+        //  alert(creditrowdatainfo.key)
+
+        firebase.database().ref("creditdatas/" + creditrowdatainfo.key + "/payhistory/" + x.key).remove().then(function() {
+            console.log(creditrowdatainfo.key + ' Delete Data successfully ' + x.key);
+
+
+          })
+          .catch(function(error) {
+            console.log(error);
+
+          });
+
+
+      }
+
+      $scope.updatePayHistory = function(x, creditrowdatainfo) {
+
+        //alert();
+
+
+        $scope.cashto_name_credit = x.payname;
+
+        $scope.cashfrom_amount_credit = x.payamount;
+
+        $scope.datepick5 = getDateFormat(x.paytime);
+
+
 
       }
 
@@ -2288,7 +2983,7 @@
       }
 
 
-      $scope.updateDailyRecord = function() {
+      $scope.updateDailyRecord = function(rowdatainfo) {
 
         //alert("name " + $scope.rowdatainfo.withdrawal_name + " key : " + $scope.rowdatainfo.key + " cashback " + $scope.rowdatainfo.withdrawal_cashback);
 
@@ -2296,27 +2991,87 @@
 
         if (r == true) {
 
+          if ($scope.rowdatainfo.withdrawal_des == "I_Credit" || $scope.rowdatainfo.withdrawal_des == "W_Credit") {
 
-          var total = $scope.withdrawal_amount - $scope.withdrawal_cashback;
+            var total = $scope.withdrawal_amount - $scope.withdrawal_cashback;
 
-          firebase.database().ref("dailyrecord/" + $scope.rowdatainfo).update({
+            firebase.database().ref("dailyrecord/" + $scope.rowdatainfo.key).update({
 
-              date: new Date($('#date3').val()).getTime(),
-              withdrawal_name: $scope.withdrawal_name == " " ? "unavailable" : $scope.withdrawal_name,
-              withdrawal_amount: $scope.withdrawal_amount == " " ? 0 : $scope.withdrawal_amount,
-              withdrawal_des: $scope.withdrawal_des == " " ? "unavailable" : $scope.withdrawal_des,
-              withdrawal_note: $scope.withdrawal_note == " " ? "General" : $scope.withdrawal_note,
-              withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
-              withdrawal_total: total
-            },
-            function(error) {
-              if (error) {
-                console.log("Data could not be updated." + error);
-              } else {
-                console.log("Data updated successfully. complete");
+                date: new Date($('#date3').val()).getTime(),
+                withdrawal_name: $scope.withdrawal_name == " " ? "unavailable" : $scope.withdrawal_name,
+                withdrawal_amount: $scope.withdrawal_amount == " " ? 0 : $scope.withdrawal_amount,
+                withdrawal_des: $scope.withdrawal_des == " " ? "unavailable" : $scope.withdrawal_des,
+                withdrawal_note: $scope.withdrawal_note == " " ? "General" : $scope.withdrawal_note,
+                withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
+                withdrawal_credit: $scope.withdrawal_credit == " " ? 0 : $scope.withdrawal_credit,
+                withdrawal_total: total
+              },
+              function(error) {
+                if (error) {
+                  console.log("Data could not be updated." + error);
+                } else {
 
-              }
-            });
+                  console.log("Data Expense updated successfully. complete");
+
+
+                  firebase.database().ref("creditdatas/" + rowdatainfo.withdrawal_credit_link + "/payhistory/" + $scope.rowdatainfo.key).update({
+                    paytime: new Date($('#date3').val()).getTime(),
+                    payamount: $scope.withdrawal_amount == null ? 0 : $scope.withdrawal_amount,
+                    payname: $scope.withdrawal_name == null ? "unavailable" : $scope.withdrawal_name
+                  }, function(error) {
+                    if (error) {} else {
+                      console.log("Expensde credit table updated");
+                    }
+                  });
+
+
+
+
+                }
+              });
+
+
+
+          } else {
+
+            var total = $scope.withdrawal_amount - $scope.withdrawal_cashback;
+
+            firebase.database().ref("dailyrecord/" + $scope.rowdatainfo.key).update({
+
+                date: new Date($('#date3').val()).getTime(),
+                withdrawal_name: $scope.withdrawal_name == " " ? "unavailable" : $scope.withdrawal_name,
+                withdrawal_amount: $scope.withdrawal_amount == " " ? 0 : $scope.withdrawal_amount,
+                withdrawal_des: $scope.withdrawal_des == " " ? "unavailable" : $scope.withdrawal_des,
+                withdrawal_note: $scope.withdrawal_note == " " ? "General" : $scope.withdrawal_note,
+                withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
+                withdrawal_credit: $scope.withdrawal_credit == " " ? 0 : $scope.withdrawal_credit,
+                withdrawal_total: total
+              },
+              function(error) {
+                if (error) {
+                  console.log("Data could not be updated." + error);
+                } else {
+
+                  if ($scope.withdrawal_credit > 0) {
+                    firebase.database().ref("creditdatas/" + $scope.rowdatainfo.key).update({
+                      udate: new Date().getTime()
+                    }, function(error) {
+                      if (error) {} else {
+                        console.log("Expensde credit table updated");
+                      }
+                    });
+                    console.log("Data updated successfully. complete");
+                  }
+
+
+                }
+              });
+
+
+          }
+
+
+
           //UPDATE FUNTION END
 
 
@@ -2371,18 +3126,21 @@
                 console.log("Data could not be updated." + error);
               } else {
 
+                if ($scope.cashrowdatainfo.cashfrom_source == "I_Credit") {
+                  firebase.database().ref("creditdatas/" + $scope.cashrowdatainfo.key).update({
+                    udate: new Date().getTime()
+                  }, function(error) {
+                    if (error) {} else {
+                      console.log("credit table updated");
+                    }
+                  });
 
-                firebase.database().ref("creditdatas/" + $scope.cashrowdatainfo.key).update({
-                  udate: new Date().getTime()
-                }, function(error) {
-                  if (error) {} else {
-                    console.log("credit table updated");
-                  }
-                });
+                  console.log("Data updated successfully. complete");
 
-                console.log("Data updated successfully. complete");
-
+                }
               }
+
+
             });
           //UPDATE FUNTION END
 
@@ -2410,7 +3168,7 @@
       }
 
 
-      $scope.deleteDailyRecord = function() {
+      $scope.deleteDailyRecord = function(rowdatainfo) {
 
         //  alert($('#date3').val());
 
@@ -2419,23 +3177,66 @@
         //  alert($('#datetimepicker3').val());
 
         //  alert(new Date($('#datetimepicker3').data('date')).getTime());
+        //  alert(rowdatainfo.withdrawal_credit_link + " " + (rowdatainfo.withdrawal_credit_link == null));
 
+        //alert(" $scope.rowdatainfo.key " +  $scope.rowdatainfo.key + " rowdatainfo.withdrawal_credit_link  " + rowdatainfo.withdrawal_credit_link);
+        //  alert(firebase.database().ref("creditdatas/" + $scope.rowdatainfo.key +"/payhistory/"+rowdatainfo.withdrawal_credit_link).exists());
         var r = confirm("Are U Sure Want To Delete ??");
 
         if (r == true) {
 
+          if ($scope.rowdatainfo.withdrawal_des == "I_Credit" || $scope.rowdatainfo.withdrawal_des == "W_Credit") {
 
 
-          firebase.database().ref("dailyrecord/" + $scope.rowdatainfo).remove().then(function() {
-              console.log('Delete Data successfully ');
+            firebase.database().ref("dailyrecord/" + $scope.rowdatainfo.key).remove().then(function() {
+                console.log('Delete Data successfully ');
 
-              $("#myModal5").modal('hide');
 
-            })
-            .catch(function(error) {
-              console.log(error);
 
-            });
+                firebase.database().ref("creditdatas/" + rowdatainfo.withdrawal_credit_link + "/payhistory/" + $scope.rowdatainfo.key).remove().then(function() {
+                  console.log('Delete PayHistory Creditlink successfully ');
+                });
+
+
+
+                $("#myModal5").modal('hide');
+
+              })
+              .catch(function(error) {
+                console.log(error);
+
+              });
+
+
+          } else {
+
+
+            firebase.database().ref("dailyrecord/" + $scope.rowdatainfo.key).remove().then(function() {
+                console.log('Delete Data successfully ');
+
+                if ($scope.withdrawal_credit > 0) {
+                  //   alert("Found ICredit so need to delete");
+                  firebase.database().ref("creditdatas/" + $scope.rowdatainfo.key).remove().then(function() {
+                    console.log('Delete Creditlink successfully ');
+                  });
+
+                } else {
+                  // alert("Found ICredit so need to delete");
+                }
+
+
+                $("#myModal5").modal('hide');
+
+              })
+              .catch(function(error) {
+                console.log(error);
+
+              });
+
+
+          }
+
+
 
 
         }
@@ -2518,8 +3319,9 @@
 
           var check = $scope.withdrawal_name == null ? true : false;
 
-          //  alert("datavalue " + $scope.withdrawal_name + ":check:" + check);
+          // alert("datavalue " + $scope.withdrawal_credit);
 
+          var credit_value = $scope.withdrawal_credit == " " ? 0 : $scope.withdrawal_credit;
 
           newMessageRef.set({
             date: dateStartmilli,
@@ -2528,6 +3330,7 @@
             withdrawal_des: $scope.withdrawal_des == " " ? "General" : $scope.withdrawal_des,
             withdrawal_note: $scope.withdrawal_note == " " ? "unavailable" : $scope.withdrawal_note,
             withdrawal_cashback: $scope.withdrawal_cashback == " " ? 0 : $scope.withdrawal_cashback,
+            withdrawal_credit: credit_value,
             withdrawal_total: total
           }, function(error) {
             if (error) {
@@ -2538,6 +3341,50 @@
               //  showToast(error + " add completed");
               //alert(p_name + " add completed");
               //  alert("should hide");
+
+              //alert("credit_value : " + credit_value + "credit_value < 0 " +(credit_value < 0));
+              if (credit_value > 0) {
+
+                var creddb = firebase.database().ref("creditdatas").child(newMessageRef.key);
+
+                creddb.set({
+                  creditstatus: true,
+                  credittype: "outcome"
+                }, function(error) {
+
+                  if (error) {
+
+                    console.log("errro add credit");
+
+                  } else {
+
+                    //  alert("add credit success and chid added need to alert");
+
+                    // firebase.database().ref("dailyincome/" + newMessageRef.key).update({
+                    //     creditlink: creddb.key
+                    //   },
+                    //   function(error) {
+                    //     if (error) {
+                    //       console.log("Credit Key could not be updated." + error);
+                    //     } else {
+                    //       console.log("Credit Key updated successfully. complete");
+                    //
+                    //     }
+                    //   });
+
+
+                  }
+
+
+                });
+
+
+
+
+
+              }
+
+
               $("#myModal5").modal('hide');
 
 
@@ -2546,6 +3393,61 @@
 
         }
 
+
+
+      }
+
+      $scope.addComfirmPay = function(creditrowdatainfo) {
+
+        // alert("$scope.cashto_name_credit : " + ($scope.cashto_name_credit == null));
+
+        var noteadd = "(Date->" + getDateFormat(creditrowdatainfo.date) + ")\n(Name->" + creditrowdatainfo.creditfrom_name + ")\n(WithDrawal->" + creditrowdatainfo.creditto_name + ")\n(Amount->" + creditrowdatainfo.credit_amount +
+          ")\n(note->" +
+          creditrowdatainfo.credit_note + ")";
+
+
+
+        alert(noteadd);
+
+        //alert("creditrowdatainfo.key " + ($scope.cashfrom_amount_credit == null) + " : " + $scope.cashfrom_amount_credit);
+        var dateCreditmilli = new Date($('#date5').val()).getTime();
+
+        var now = new Date().getTime();
+
+        var db = firebase.database().ref("creditdatas/" + creditrowdatainfo.key + "/payhistory/").push();
+
+        firebase.database().ref("creditdatas/" + creditrowdatainfo.key + "/payhistory/" + db.key).update({
+          paytime: dateCreditmilli,
+          payamount: $scope.cashfrom_amount_credit == null ? 0 : $scope.cashfrom_amount_credit,
+          payname: $scope.cashto_name_credit == null ? "unavailable" : $scope.cashto_name_credit
+        }, function(error) {
+          if (error) {} else {
+
+            console.log("Expensde credit table updated " + db.key);
+
+            firebase.database().ref("dailyrecord").child(db.key).set({
+              date: dateCreditmilli,
+              withdrawal_name: $scope.cashto_name_credit == " " ? "unavailable" : $scope.cashto_name_credit,
+              withdrawal_amount: $scope.cashfrom_amount_credit == " " ? 0 : $scope.cashfrom_amount_credit,
+              withdrawal_des: creditrowdatainfo.credit_source == " " ? "General" : creditrowdatainfo.credit_source,
+              withdrawal_note: noteadd,
+              withdrawal_cashback: 0,
+              withdrawal_credit: 0,
+              withdrawal_total: $scope.cashfrom_amount_credit,
+              withdrawal_credit_link: creditrowdatainfo.key
+            }, function(error) {
+              if (error) {
+                //  showToast(error + " add failed");
+                //alert(p_name + " add failed");
+
+              } else {
+
+              }
+
+            });
+
+          }
+        });
 
 
       }
