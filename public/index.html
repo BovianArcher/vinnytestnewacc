@@ -2390,7 +2390,7 @@
 
             //var link = data.val().creditlink;
 
-          // alert(data.key + " count " + (++count));
+            // alert(data.key + " count " + (++count));
 
 
             var status = data.val().creditstatus;
@@ -2419,12 +2419,12 @@
 
                   data.child("payhistory").forEach((childSnapshot) => {
                     var childKey = childSnapshot.key;
-                    var payamount  = childSnapshot.val().payamount;
+                    var payamount = childSnapshot.val().payamount;
                     //childData['payamount'] = childKey;
 
                     out_active = out_active - payamount;
 
-                  //  console.log($scope.records.length);
+                    //  console.log($scope.records.length);
 
                   });
 
@@ -2481,7 +2481,7 @@
 
             if (data.val().credittype == "outcome") {
 
-              console.log("key " + data.key );
+              console.log("key " + data.key);
 
               firebase.database().ref('dailyrecord').child(data.key).once("value", function(snapshott) {
 
@@ -2495,83 +2495,83 @@
                 // //start
                 //
                 // //CTF
-                if(snapshott.exists() == true){
+                if (snapshott.exists() == true) {
 
 
-                var creditdata = snapshott.val().withdrawal_amount;
+                  var creditdata = snapshott.val().withdrawal_amount;
 
-                console.log("data check " + creditdata);
-               var out_total_amount = snapshott.val().withdrawal_amount + snapshott.val().withdrawal_credit;
-
-
-
-                var out_pay_amount = snapshott.val().withdrawal_amount;
-
-                var out_credit = snapshott.val().withdrawal_credit;
-
-                var out_active = snapshott.val().withdrawal_credit;
-
-                if (data.child("payhistory").exists() == true) {
-
-                  data.child("payhistory").forEach((childSnapshot) => {
-                    var childKey = childSnapshot.key;
-                    var payamount  = childSnapshot.val().payamount;
-
-
-                    out_active = out_active - payamount;
+                  console.log("data check " + creditdata);
+                  var out_total_amount = snapshott.val().withdrawal_amount + snapshott.val().withdrawal_credit;
 
 
 
-                  });
+                  var out_pay_amount = snapshott.val().withdrawal_amount;
+
+                  var out_credit = snapshott.val().withdrawal_credit;
+
+                  var out_active = snapshott.val().withdrawal_credit;
+
+                  if (data.child("payhistory").exists() == true) {
+
+                    data.child("payhistory").forEach((childSnapshot) => {
+                      var childKey = childSnapshot.key;
+                      var payamount = childSnapshot.val().payamount;
 
 
+                      out_active = out_active - payamount;
+
+
+
+                    });
+
+
+
+                  }
+
+                  var record = {
+                    date: snapshott.val().date,
+                    creditfrom_name: "-",
+                    creditto_name: snapshott.val().withdrawal_name,
+                    credit_source: "W_Credit",
+                    credit_total_amount: out_total_amount,
+                    credit_pay_amount: out_pay_amount,
+                    credit_amount: out_credit,
+                    credit_active_amount: out_active,
+                    credit_note: snapshott.val().withdrawal_note,
+                    credit_status: out_active == 0 ? false : true,
+                    key: snapshott.key
+                  };
+
+                  var recordtest = {
+                    date: new Date().getTime(),
+                    creditfrom_name: "TempFrom",
+                    creditto_name: "TempTo",
+                    credit_source: "I_Credit",
+                    credit_amount: 1000,
+                    credit_note: "Test Add Temp",
+                    credit_status: true,
+                    key: "_ATESTSETEST"
+                  };
+
+
+
+                  console.log("add to record " + record.creditto_name + " before add " + $scope.creditrecords.length);
+
+                  if (indexz == -1) {
+
+                    addRecordCallback(function() {
+
+                      return record;
+
+
+                    });
+
+
+
+                  }
+                  console.log("after add " + $scope.creditrecords.length);
 
                 }
-
-                var record = {
-                  date: snapshott.val().date,
-                  creditfrom_name: "-",
-                  creditto_name: snapshott.val().withdrawal_name,
-                  credit_source: "W_Credit",
-                  credit_total_amount: out_total_amount,
-                  credit_pay_amount: out_pay_amount,
-                  credit_amount: out_credit,
-                  credit_active_amount: out_active,
-                  credit_note: snapshott.val().withdrawal_note,
-                  credit_status: out_active == 0 ? false : true,
-                  key: snapshott.key
-                };
-
-                var recordtest = {
-                  date: new Date().getTime(),
-                  creditfrom_name: "TempFrom",
-                  creditto_name: "TempTo",
-                  credit_source: "I_Credit",
-                  credit_amount: 1000,
-                  credit_note: "Test Add Temp",
-                  credit_status: true,
-                  key: "_ATESTSETEST"
-                };
-
-
-
-                console.log("add to record " + record.creditto_name + " before add " + $scope.creditrecords.length);
-
-                if (indexz == -1) {
-
-                  addRecordCallback(function() {
-
-                    return record;
-
-
-                  });
-
-
-
-                }
-                console.log("after add " + $scope.creditrecords.length);
-
-              }
                 //end
               });
 
@@ -2589,7 +2589,7 @@
 
         querycredits.on('child_changed', function(data) {
 
-           //alert("Credit Table Change : " + data.key);
+          //alert("Credit Table Change : " + data.key);
 
           if (data.val().credittype == "outcome") {
 
@@ -2620,12 +2620,12 @@
 
                   data.child("payhistory").forEach((childSnapshot) => {
                     var childKey = childSnapshot.key;
-                    var payamount  = childSnapshot.val().payamount;
+                    var payamount = childSnapshot.val().payamount;
                     //childData['payamount'] = childKey;
 
                     out_active = out_active - payamount;
 
-                  //  console.log($scope.records.length);
+                    //  console.log($scope.records.length);
 
                   });
 
@@ -2641,11 +2641,11 @@
                 $scope.creditrecords[indexz].credit_source = "W_Credit";
                 //$scope.creditrecords[indexz].credit_amount = snapshott.val().withdrawal_amount;
                 $scope.creditrecords[indexz].credit_total_amount = out_total_amount;
-                $scope.creditrecords[indexz].credit_pay_amount =  out_pay_amount;
+                $scope.creditrecords[indexz].credit_pay_amount = out_pay_amount;
                 $scope.creditrecords[indexz].credit_amount = out_credit;
                 $scope.creditrecords[indexz].credit_active_amount = out_active;
                 $scope.creditrecords[indexz].credit_note = snapshott.val().withdrawal_note;
-                $scope.creditrecords[indexz].credit_status = data.val().creditstatus;
+                $scope.creditrecords[indexz].credit_status = out_active == 0 ? false : true;
                 //  alert("credit_status " + data.val().creditstatus);
 
 
@@ -2687,12 +2687,12 @@
 
                   data.child("payhistory").forEach((childSnapshot) => {
                     var childKey = childSnapshot.key;
-                    var payamount  = childSnapshot.val().payamount;
+                    var payamount = childSnapshot.val().payamount;
                     //childData['payamount'] = childKey;
 
                     out_active = out_active - payamount;
 
-                  //  console.log($scope.records.length);
+                    //  console.log($scope.records.length);
 
                   });
 
@@ -2704,12 +2704,12 @@
                 $scope.creditrecords[indexz].creditfrom_name = snapshott.val().cashfrom_name;
                 $scope.creditrecords[indexz].creditto_name = snapshott.val().cashin_name;
                 $scope.creditrecords[indexz].credit_source = snapshott.val().cashfrom_source;
-                $scope.creditrecords[indexz].credit_total_amount =  out_total_amount;
-                $scope.creditrecords[indexz].credit_pay_amount =  out_pay_amount;
-                $scope.creditrecords[indexz].credit_amount =  out_credit;
-                $scope.creditrecords[indexz].credit_active_amount =  out_active;
+                $scope.creditrecords[indexz].credit_total_amount = out_total_amount;
+                $scope.creditrecords[indexz].credit_pay_amount = out_pay_amount;
+                $scope.creditrecords[indexz].credit_amount = out_credit;
+                $scope.creditrecords[indexz].credit_active_amount = out_active;
                 $scope.creditrecords[indexz].credit_note = snapshott.val().cashfrom_note;
-                $scope.creditrecords[indexz].credit_status = data.val().creditstatus;
+                $scope.creditrecords[indexz].credit_status = out_active == 0 ? false : true;
                 //  alert("credit_status " + data.val().creditstatus);
 
 
@@ -3170,7 +3170,8 @@
 
       $scope.deleteDailyRecord = function(rowdatainfo) {
 
-        //  alert($('#date3').val());
+
+      //lert($('#date3').val());
 
         //  alert($('#datetimepicker3').datetimepicker().getDate().getTime());
 
@@ -3191,6 +3192,8 @@
             firebase.database().ref("dailyrecord/" + $scope.rowdatainfo.key).remove().then(function() {
                 console.log('Delete Data successfully ');
 
+
+                //  a
 
 
                 firebase.database().ref("creditdatas/" + rowdatainfo.withdrawal_credit_link + "/payhistory/" + $scope.rowdatainfo.key).remove().then(function() {
@@ -3216,6 +3219,17 @@
 
                 if ($scope.withdrawal_credit > 0) {
                   //   alert("Found ICredit so need to delete");
+
+                  firebase.database().ref("creditdatas/" + $scope.rowdatainfo.key + "/payhistory/").once('value', (snapshot) => {
+
+                    snapshot.forEach((childSnapshot) => {
+                                 firebase.database().ref("dailyrecord/" + childSnapshot.key).remove().then(function() {   console.log(childSnapshot.key + ' Delete PayHistory Creditlink In expense successfully ');});
+                    });
+
+
+                  });
+
+
                   firebase.database().ref("creditdatas/" + $scope.rowdatainfo.key).remove().then(function() {
                     console.log('Delete Creditlink successfully ');
                   });
@@ -3407,7 +3421,7 @@
 
 
 
-        alert(noteadd);
+      //  alert(noteadd);
 
         //alert("creditrowdatainfo.key " + ($scope.cashfrom_amount_credit == null) + " : " + $scope.cashfrom_amount_credit);
         var dateCreditmilli = new Date($('#date5').val()).getTime();
