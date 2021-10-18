@@ -105,6 +105,8 @@
   <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
   <!-- End Toggle Switch -->
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.json"></script>
 
   <style>
     body {
@@ -522,7 +524,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class='col col-lg-6'>
+        <div class='col-3'>
           <div class="form-group">
             <div class='input-group date' id='datetimepicker2'>
               <input type='text' class="form-control" ng-model="datepick2" id="date2" />
@@ -533,7 +535,7 @@
           </div>
         </div>
 
-        <div class="col-4 input-group mb-3">
+        <div class="col-3 input-group mb-3">
           <label for="SearchType" class="form-label mt-5"></label>
           <select class="form-select mt-5" id="SearchType" ng-model="searchtype">
 
@@ -543,16 +545,16 @@
           </select>
         </div>
 
-        <div class="col-4 input-group-btn">
+        <div class="col-3 input-group-btn">
           <button class="btn btn-default" type="submit" id="btnRefresh" ng-click="refreshTable()"><i class="glyphicon glyphicon-refresh"></i></button>
         </div>
 
-        <div class="col-4 input-group-btn">
+        <div class="col-3 input-group-btn">
           <!-- data-toggle="modal" data-target="#myModal5" -->
           <button class="btn btn-default" type="submit" id="btnShowDailyPlus" ng-click="showDailyPlus()"><i class="glyphicon glyphicon-plus"></i></button>
         </div>
 
-        <div class="col-4 input-group-btn">
+        <div class="col-3 input-group-btn">
           <button class="btn btn-default" type="submit" id="btnShowDailyMinus" ng-click="showDailyMinus()"><i class="glyphicon glyphicon-minus"></i></button>
         </div>
 
@@ -566,6 +568,7 @@
 
         <div class="table-responsive">
           <table id="mt" class="table table-hover">
+              <caption>List of users</caption>
             <thead>
               <tr>
                 <!--  <th scope="col">#</th> -->
@@ -714,8 +717,8 @@
                 <td>{{x.credit_note}}</td>
                 <!--<td><div class="form-check"><input class="form-check-input" type="checkbox"   ng-checked=x.credit_status disabled></div></td> -->
                 <td>
-                  <div ng-if="x.credit_status == true" style="background-color: red;"><i class="glyphicon glyphicon-flash"></i></div>
-                  <div ng-if="x.credit_status == false" style="background-color: green;"><i class="glyphicon glyphicon-ok"></i></div>
+                  <div ng-if="x.credit_status == true" style="background-color: red;"><i class="bi bi-lightning-charge"></i></div>
+                  <div ng-if="x.credit_status == false" style="background-color: green;"><i class="bi bi-hand-thumbs-up"></i></div>
                 </td>
                 <td><button class="btn btn-primary" id="btn_apply_credit" ng-click="applyCreditData(x)">Pay</button></td>
 
@@ -847,19 +850,19 @@
 
             <div class="row mb-3 mt-5" style="margin-top : 15px">
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xs-3">
                 <button class="btn btn-primary" id="btn_daily_insert" ng-click="addDailyRecord()">Insert</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xs-3">
                 <button class="btn btn-primary" id="btn_daily_update" ng-click="updateDailyRecord(rowdatainfo)">Update</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xs-3">
                 <button class="btn btn-primary" id="btn_daily_delete" ng-click="deleteDailyRecord(rowdatainfo)">Delete</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4 col-xs-3">
                 <button class="btn btn-primary" id="byn_daily_cancel" data-dismiss="modal">Cancel</button>
               </div>
 
@@ -970,19 +973,19 @@
 
             <div class="row mb-3 mt-5" style="margin-top : 15px">
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4  col-xs-3">
                 <button class="btn btn-primary" id="btn_cash_insert" ng-click="addCashRecord()">Insert</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4   col-xs-3">
                 <button class="btn btn-primary" id="btn_cash_update" ng-click="updateCashRecord()">Update</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4  col-xs-3">
                 <button class="btn btn-primary" id="btn_cash_delete" ng-click="deleteCashRecord()">Delete</button>
               </div>
 
-              <div class="col-6 col-md-4">
+              <div class="col-6 col-md-4  col-xs-3">
                 <button class="btn btn-primary" id="byn_cash_cancel" data-dismiss="modal">Cancel</button>
               </div>
 
