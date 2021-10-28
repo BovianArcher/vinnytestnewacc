@@ -1,0 +1,4407 @@
+{
+  "creditdatas" : {
+    "-MkmAekDMw-r3QomfArV" : {
+      "udate" : 1633261878660
+    },
+    "-Ml4kPLupSfWUb2UZdOL" : {
+      "creditstatus" : true,
+      "credittype" : "income"
+    },
+    "-Ml4x8nU79U4uqXvv0Tu" : {
+      "creditstatus" : true,
+      "credittype" : "income"
+    },
+    "-Ml5MtiAKxFoO-MWzZXJ" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273699296
+    },
+    "-Ml5O5FWSFKP--3obnhB" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273837670
+    },
+    "-Ml5OI3NNvB-BKUrlj2R" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273848439
+    },
+    "-Ml5PEHP_xF5VIggGOlj" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273858589
+    },
+    "-Ml5PRswcUdCwbWyFCIN" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273866734
+    },
+    "-Ml5Pex1YqL0fWcpuDD-" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273878410
+    },
+    "-Ml5QhwOAesBfgsbrqo7" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273885983
+    },
+    "-Ml5RGSqaaR9t7qjZ43J" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273895622
+    },
+    "-Ml5RUvrEaxhRzG3izFb" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273903476
+    },
+    "-Ml5Ree3FwZNQYK-elub" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633273913713
+    },
+    "-Ml5RkE6Sr32aLAJOOQm" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274319632
+    },
+    "-Ml5SOCwJJMaW5B6PtFO" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274327886
+    },
+    "-Ml5S_c1OJIiNS8c2Gj_" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274338974
+    },
+    "-Ml5dGlIepfJMo93Ns52" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274346496
+    },
+    "-Ml5dRZX9Csb2wmnXNEp" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274443142
+    },
+    "-Ml5ePzQ0UaiIitq6C56" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274451961
+    },
+    "-Ml5ec_j-792s5e9tkMt" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274458588
+    },
+    "-Ml5g6oGwfLMV02Jh2lv" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274465894
+    },
+    "-Ml5gIEPJYk4cGVrm_K9" : {
+      "creditstatus" : true,
+      "credittype" : "outcome",
+      "udate" : 1633274472874
+    },
+    "-Ml8eyaNQ7O-bm5hPgTp" : {
+      "udate" : 1633323672344
+    },
+    "-Ml8fiXZHH37k8BRR2FZ" : {
+      "udate" : 1633323910463
+    },
+    "-Ml8g-lrT92RvIHkgCuC" : {
+      "udate" : 1633323918288
+    },
+    "-Ml8gAKb05or8LnHrfZ0" : {
+      "udate" : 1633323948169
+    },
+    "FFFF" : {
+      "default" : "nothing"
+    }
+  },
+  "dailyincome" : {
+    "-MjIQrfivhjv60enF13o" : {
+      "cashfrom_amount" : 30000,
+      "cashfrom_deficit" : 1500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 28500,
+      "cashin_name" : "Moe D",
+      "date" : 1630475820000
+    },
+    "-MjIR7lg-s_ZxEfXktJc" : {
+      "cashfrom_amount" : 41500,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "31.8.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 41500,
+      "cashin_name" : 0,
+      "date" : 1630432680000
+    },
+    "-MjIR_5Os6n2ijo10q9C" : {
+      "cashfrom_amount" : 35000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : " ",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 35000,
+      "cashin_name" : "Moe D",
+      "date" : 1630432800000
+    },
+    "-MjIYwnpfWhZa3ABX0BN" : {
+      "cashfrom_amount" : 100000,
+      "cashfrom_deficit" : 5000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 95000,
+      "cashin_name" : "Moe D",
+      "date" : 1630564320000
+    },
+    "-MjIZePpTjJxHAHPk1Uw" : {
+      "cashfrom_amount" : 30000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5% ထုတ်ခ ၁၅၀၀ ကိုတရုတ်စိုက်ပေး",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 30000,
+      "cashin_name" : "Moe D",
+      "date" : 1630564500000
+    },
+    "-MjIZxE4SY14Wllu2me0" : {
+      "cashfrom_amount" : 27300,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "1.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 27300,
+      "cashin_name" : 0,
+      "date" : 1630564620000
+    },
+    "-MjI_cowWpEEV7Bu0b9I" : {
+      "cashfrom_amount" : 900000,
+      "cashfrom_deficit" : 45000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 855000,
+      "cashin_name" : "Moe D",
+      "date" : 1630651200000
+    },
+    "-MjIaJGSkpUIvga1teM4" : {
+      "cashfrom_amount" : 80000,
+      "cashfrom_deficit" : 4000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 76000,
+      "cashin_name" : "Moe D",
+      "date" : 1630651380000
+    },
+    "-MjIcJrex09Ncx52KGgK" : {
+      "cashfrom_amount" : 250,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "2.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 250,
+      "cashin_name" : 0,
+      "date" : 1630651800000
+    },
+    "-MjIdPaZGVvHVJxb8owZ" : {
+      "cashfrom_amount" : 900000,
+      "cashfrom_deficit" : 45000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 855000,
+      "cashin_name" : "Moe D",
+      "date" : 1630738560000
+    },
+    "-MjIdtfBeEmj_8Y_v_7F" : {
+      "cashfrom_amount" : 90000,
+      "cashfrom_deficit" : 4500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 85500,
+      "cashin_name" : "Moe D",
+      "date" : 1630738680000
+    },
+    "-MjIe4xaBVzPTqIASufN" : {
+      "cashfrom_amount" : 950,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "3.9.2021",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 950,
+      "cashin_name" : 0,
+      "date" : 1630738740000
+    },
+    "-MjIeRPQ45hoTME7qUpg" : {
+      "cashfrom_amount" : 330000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "အရည်ကြို",
+      "cashfrom_note" : "Voucher",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 330000,
+      "cashin_name" : "Moe D",
+      "date" : 1630825200000
+    },
+    "-MjIen_E5U1ShQ8wW7gV" : {
+      "cashfrom_amount" : 19000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Taxi သမား",
+      "cashfrom_note" : "ပစ္စည်းဝယ်လိုတာစိုက်",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 19000,
+      "cashin_name" : "",
+      "date" : 1630825320000
+    },
+    "-MjIf71t55n1tIo4IxvN" : {
+      "cashfrom_amount" : 5000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Moe D",
+      "cashfrom_note" : "ဟင်းဖိုးလိုတာစိုက်ငွေ",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 5000,
+      "cashin_name" : 0,
+      "date" : 1630825440000
+    },
+    "-MjIfIDw3DmIQa63a2BD" : {
+      "cashfrom_amount" : 2300,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "4.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 2300,
+      "cashin_name" : 0,
+      "date" : 1630825500000
+    },
+    "-MjIfbCqDrJVGj1sOc-C" : {
+      "cashfrom_amount" : 980000,
+      "cashfrom_deficit" : 49000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 931000,
+      "cashin_name" : "Moe D",
+      "date" : 1630911960000
+    },
+    "-MjIfpl-FN2omRv3geBe" : {
+      "cashfrom_amount" : 32000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : " ",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 32000,
+      "cashin_name" : "Ko Ta Yoke",
+      "date" : 1630912020000
+    },
+    "-MjIfxnnCwcb9W86ahgf" : {
+      "cashfrom_amount" : 1800,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "5.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 1800,
+      "cashin_name" : 0,
+      "date" : 1630912080000
+    },
+    "-MjIgOd-Dc0e1z78cMop" : {
+      "cashfrom_amount" : 100000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Ko Ta Yoke",
+      "cashfrom_note" : "6.9.2021 ယူထားငွေပြန်ပေး",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 100000,
+      "cashin_name" : " ",
+      "date" : 1630998540000
+    },
+    "-MjIgf4Q5wG6Mk_KzDlI" : {
+      "cashfrom_amount" : 700000,
+      "cashfrom_deficit" : 35000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 665000,
+      "cashin_name" : "Moe D",
+      "date" : 1630998600000
+    },
+    "-MjIgua3GWmwxajNdrxn" : {
+      "cashfrom_amount" : 55200,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "6.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 55200,
+      "cashin_name" : 0,
+      "date" : 1630998720000
+    },
+    "-MjIhChV-eTwOstUQDOI" : {
+      "cashfrom_amount" : 200000,
+      "cashfrom_deficit" : 10000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 190000,
+      "cashin_name" : "Moe D",
+      "date" : 1631085180000
+    },
+    "-MjIhOnXYfYhmfOaM9lJ" : {
+      "cashfrom_amount" : 43100,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "7.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 43100,
+      "cashin_name" : 0,
+      "date" : 1631085240000
+    },
+    "-MjIhiOPpJiEOtne1Mvp" : {
+      "cashfrom_amount" : 133000,
+      "cashfrom_deficit" : 6500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 126500,
+      "cashin_name" : "Moe D",
+      "date" : 1631171700000
+    },
+    "-MjIhwXXeBc4O7YJmQrO" : {
+      "cashfrom_amount" : 65000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Zayar",
+      "cashfrom_note" : "ပစ္စည်းဝယ်လိုစိုက်ငွေ",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 65000,
+      "cashin_name" : "Moe D",
+      "date" : 1631171760000
+    },
+    "-MjIi8HAUYSx8zIHranB" : {
+      "cashfrom_amount" : 10000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Zayar",
+      "cashfrom_note" : " ",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 10000,
+      "cashin_name" : "Moe D",
+      "date" : 1631171820000
+    },
+    "-MjIiS9n6ljVqfpJvA9C" : {
+      "cashfrom_amount" : 30000,
+      "cashfrom_deficit" : 1500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 28500,
+      "cashin_name" : "PK",
+      "date" : 1631171880000
+    },
+    "-MjIilJWyGfbQBT_cm-o" : {
+      "cashfrom_amount" : 7100,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "8.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 7100,
+      "cashin_name" : 0,
+      "date" : 1631172000000
+    },
+    "-MjIj6U9K81xwDrBMqmG" : {
+      "cashfrom_amount" : 450000,
+      "cashfrom_deficit" : 22500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 427500,
+      "cashin_name" : "Moe D",
+      "date" : 1631258460000
+    },
+    "-MjIjFnBmBqO_5abpsZP" : {
+      "cashfrom_amount" : 400000,
+      "cashfrom_deficit" : 20000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 380000,
+      "cashin_name" : "Moe D",
+      "date" : 1631258520000
+    },
+    "-MjKT-UkN1OFSSrpZ5Qs" : {
+      "cashfrom_amount" : 78400,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "10.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 78400,
+      "cashin_name" : 0,
+      "date" : 1631373960000
+    },
+    "-MjULsRaOGFmCR5AjVkD" : {
+      "cashfrom_amount" : 30000,
+      "cashfrom_deficit" : 1500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 28500,
+      "cashin_name" : "Moe D",
+      "date" : 1631539680000
+    },
+    "-MjULyxkbGZ0x_7e9MY_" : {
+      "cashfrom_amount" : 17900,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "11.9.2021 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 17900,
+      "cashin_name" : 0,
+      "date" : 1631539920000
+    },
+    "-MjhyOiygcQbhebwoYwp" : {
+      "cashfrom_amount" : 9000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Zayar",
+      "cashfrom_note" : "ဟင်းဖိုး-5000,ပစ္စည်းဝယ်-4000",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 9000,
+      "cashin_name" : "Moe D",
+      "date" : 1631612160000
+    },
+    "-MjhykDQ3Z6OsIqDf60d" : {
+      "cashfrom_amount" : 5000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Ye Lin Tun",
+      "cashfrom_note" : "ညနေဟင်းဖိုး",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 5000,
+      "cashin_name" : "Moe D",
+      "date" : 1631612340000
+    },
+    "-Mji-4OGleQa_wQ2aCQ5" : {
+      "cashfrom_amount" : 172200,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "13.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 172200,
+      "cashin_name" : 0,
+      "date" : 1631612460000
+    },
+    "-Mji1qHX2pt8JkQcELGB" : {
+      "cashfrom_amount" : 380000,
+      "cashfrom_deficit" : 19000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 361000,
+      "cashin_name" : "Moe D",
+      "date" : 1631699880000
+    },
+    "-Mji1zIFHpo6BGWtWDTg" : {
+      "cashfrom_amount" : 140000,
+      "cashfrom_deficit" : 7000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 133000,
+      "cashin_name" : "Moe D",
+      "date" : 1631699880000
+    },
+    "-Mji28-qQ76cLhrG8zOi" : {
+      "cashfrom_amount" : 110000,
+      "cashfrom_deficit" : 5500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 104500,
+      "cashin_name" : "Moe D",
+      "date" : 1631699940000
+    },
+    "-Mji49kBEfemwxTHQSVg" : {
+      "cashfrom_amount" : 98000,
+      "cashfrom_deficit" : 5000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 93000,
+      "cashin_name" : "Moe D",
+      "date" : 1631700480000
+    },
+    "-Mji4LrGS3fpPdp037RE" : {
+      "cashfrom_amount" : 200000,
+      "cashfrom_deficit" : 10000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 190000,
+      "cashin_name" : "Moe D",
+      "date" : 1631700540000
+    },
+    "-Mji4Xvtoak06xCvnalq" : {
+      "cashfrom_amount" : 300,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "14.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 300,
+      "cashin_name" : 0,
+      "date" : 1631700600000
+    },
+    "-MjjAvpNChctY5_5KHq1" : {
+      "cashfrom_amount" : 290000,
+      "cashfrom_deficit" : 14500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 275500,
+      "cashin_name" : "Moe D",
+      "date" : 1631805420000
+    },
+    "-MjjB3j6BDJXwW7Zyhj6" : {
+      "cashfrom_amount" : 540000,
+      "cashfrom_deficit" : 27000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 513000,
+      "cashin_name" : "Moe D",
+      "date" : 1631805480000
+    },
+    "-MjjBDmPIb4UGTfGbtjf" : {
+      "cashfrom_amount" : 600000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : "unavailable",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 600000,
+      "cashin_name" : "Moe D",
+      "date" : 1631805480000
+    },
+    "-MjjBM63P5C3xzWNtRCW" : {
+      "cashfrom_amount" : 20000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "15.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 20000,
+      "cashin_name" : 0,
+      "date" : 1631805540000
+    },
+    "-MjoAJylf0Kg4O9jL1G2" : {
+      "cashfrom_amount" : 1000000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : "unavailable",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 1000000,
+      "cashin_name" : "Moe D",
+      "date" : 1631889120000
+    },
+    "-MjoA_HaXVXDXK1yO-B3" : {
+      "cashfrom_amount" : 380850,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "16.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 380850,
+      "cashin_name" : 0,
+      "date" : 1631889180000
+    },
+    "-Mjt-9T3HvyDKXbYgHRR" : {
+      "cashfrom_amount" : 545900,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "17.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 545900,
+      "cashin_name" : 0,
+      "date" : 1631970060000
+    },
+    "-Mk2ekeqNNZZQGdDiZ2O" : {
+      "cashfrom_amount" : 245100,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "18.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 245100,
+      "cashin_name" : 0,
+      "date" : 1632149040000
+    },
+    "-Mk7y9pJPEjp1JGHmDvY" : {
+      "cashfrom_amount" : 200000,
+      "cashfrom_deficit" : 10000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 190000,
+      "cashin_name" : "Moe D",
+      "date" : 1632238020000
+    },
+    "-Mk7yIVK8lfq13f3y2sV" : {
+      "cashfrom_amount" : 140000,
+      "cashfrom_deficit" : 7000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 133000,
+      "cashin_name" : "Moe D",
+      "date" : 1632238080000
+    },
+    "-Mk7yRjUKJNByRl8ZATE" : {
+      "cashfrom_amount" : 62100,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "20.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 62100,
+      "cashin_name" : 0,
+      "date" : 1632238080000
+    },
+    "-MkCVWfSDyZke-R0FiN_" : {
+      "cashfrom_amount" : 390000,
+      "cashfrom_deficit" : 19500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 370500,
+      "cashin_name" : "Moe D",
+      "date" : 1632314100000
+    },
+    "-MkCVf7-Vcn7EHMqpB7E" : {
+      "cashfrom_amount" : 3550,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "21.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 3550,
+      "cashin_name" : 0,
+      "date" : 1632314160000
+    },
+    "-MkHu-YiIrqNGcaoakPp" : {
+      "cashfrom_amount" : 590000,
+      "cashfrom_deficit" : 29500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 560500,
+      "cashin_name" : "Moe D",
+      "date" : 1632404700000
+    },
+    "-MkHu6ytI57UFvPet7Ze" : {
+      "cashfrom_amount" : 300000,
+      "cashfrom_deficit" : 15000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 285000,
+      "cashin_name" : "Moe D",
+      "date" : 1632404760000
+    },
+    "-MkHuDvsIUrkNFlZPu4Q" : {
+      "cashfrom_amount" : 3350,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "22.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 3350,
+      "cashin_name" : 0,
+      "date" : 1632404760000
+    },
+    "-MkN2kC9bRozm3tTyzp5" : {
+      "cashfrom_amount" : 16050,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "23.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 16050,
+      "cashin_name" : 0,
+      "date" : 1632491160000
+    },
+    "-MkRmzxa0Ujb7AOiGn3h" : {
+      "cashfrom_amount" : 430000,
+      "cashfrom_deficit" : 21500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 408500,
+      "cashin_name" : "Moe D",
+      "date" : 1632570600000
+    },
+    "-MkRnUCpWMQZ2JdDGPRP" : {
+      "cashfrom_amount" : 165000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : "Adjustable bench 3.3 lakhs",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 165000,
+      "cashin_name" : "Moe D",
+      "date" : 1632570780000
+    },
+    "-MkRnaRmeQwyC3TkGzyy" : {
+      "cashfrom_amount" : 150,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "24.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 150,
+      "cashin_name" : 0,
+      "date" : 1632570780000
+    },
+    "-MkWsHiA2ONEW8LN6Lqp" : {
+      "cashfrom_amount" : 43550,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "25.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 43550,
+      "cashin_name" : 0,
+      "date" : 1632655860000
+    },
+    "-MkbKNStNsG513EFpnHY" : {
+      "cashfrom_amount" : 55000,
+      "cashfrom_deficit" : 2750,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 52250,
+      "cashin_name" : "Twin Sayar",
+      "date" : 1632747360000
+    },
+    "-MkbKX7tz6VsfLHKbp8i" : {
+      "cashfrom_amount" : 150000,
+      "cashfrom_deficit" : 7500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 142500,
+      "cashin_name" : "Moe D",
+      "date" : 1632747480000
+    },
+    "-MkbKnyw_HHFzmOkahDe" : {
+      "cashfrom_amount" : 5000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Ko Ta Yoke",
+      "cashfrom_note" : "မနက်ဟင်းဖိုး",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 5000,
+      "cashin_name" : "Moe D",
+      "date" : 1632747480000
+    },
+    "-MkbMRLI_xgjG4Ptdt-1" : {
+      "cashfrom_amount" : 1650,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "26.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 1650,
+      "cashin_name" : 0,
+      "date" : 1632747960000
+    },
+    "-MkgVJbwmc67nmXS2f-T" : {
+      "cashfrom_amount" : 980000,
+      "cashfrom_deficit" : 49000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 931000,
+      "cashin_name" : "Moe D",
+      "date" : 1632834180000
+    },
+    "-MkgVbg5EtYYiy0q00I1" : {
+      "cashfrom_amount" : 250000,
+      "cashfrom_deficit" : 12500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 237500,
+      "cashin_name" : "Moe D",
+      "date" : 1632834240000
+    },
+    "-MkgVjVgMcgP-HjB11Dz" : {
+      "cashfrom_amount" : 250,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "27.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 250,
+      "cashin_name" : 0,
+      "date" : 1632834300000
+    },
+    "-Mkm3tUTh2SPOM7QcQD1" : {
+      "cashfrom_amount" : 250000,
+      "cashfrom_deficit" : 12500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 237500,
+      "cashin_name" : "Moe D",
+      "date" : 1632927660000
+    },
+    "-Mkm41nJgc27Kk8AqY6H" : {
+      "cashfrom_amount" : 100000,
+      "cashfrom_deficit" : 5000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 95000,
+      "cashin_name" : "Moe D",
+      "date" : 1632927720000
+    },
+    "-Mkm4A9NxUS6kLgFy33q" : {
+      "cashfrom_amount" : 82050,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "28.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 82050,
+      "cashin_name" : 0,
+      "date" : 1632927720000
+    },
+    "-Mkr7M-RT6f8OQijaKW2" : {
+      "cashfrom_amount" : 837000,
+      "cashfrom_deficit" : 41850,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 795150,
+      "cashin_name" : "Moe D",
+      "date" : 1633012440000
+    },
+    "-Mkr7UnjfSq7YJIhqkTs" : {
+      "cashfrom_amount" : 150000,
+      "cashfrom_deficit" : 7500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 142500,
+      "cashin_name" : "Moe D",
+      "date" : 1633012500000
+    },
+    "-Mkr7atpVV7g3Knqc5jo" : {
+      "cashfrom_amount" : 60000,
+      "cashfrom_deficit" : 3000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "KPay",
+      "cashfrom_totalin" : 57000,
+      "cashin_name" : "Moe D",
+      "date" : 1633012500000
+    },
+    "-Mkr7jKuWkqUu8JrxV4D" : {
+      "cashfrom_amount" : 4950,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "29.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 4950,
+      "cashin_name" : 0,
+      "date" : 1633012560000
+    },
+    "-MkvvBKoQWeJEpXwixGX" : {
+      "cashfrom_amount" : 200000,
+      "cashfrom_deficit" : 10000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "KPay",
+      "cashfrom_totalin" : 190000,
+      "cashin_name" : "Moe D",
+      "date" : 1633092900000
+    },
+    "-MkvvHLg5OOgBjyJ045Y" : {
+      "cashfrom_amount" : 1250,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "30.9.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 1250,
+      "cashin_name" : 0,
+      "date" : 1633092900000
+    },
+    "-Ml-2ZikZtFMJVPRiGGa" : {
+      "cashfrom_amount" : 90000,
+      "cashfrom_deficit" : 4500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 85500,
+      "cashin_name" : "Moe D",
+      "date" : 1633075740000
+    },
+    "-Ml0QKQ6Ya7iNkqqjTkL" : {
+      "cashfrom_amount" : 165000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Customer",
+      "cashfrom_note" : "Adjustable Bench(3.3L)",
+      "cashfrom_source" : "Cash Down",
+      "cashfrom_totalin" : 165000,
+      "cashin_name" : "Moe D",
+      "date" : 1633185180000
+    },
+    "-Ml0QS8fVu93mR_8Nt_I" : {
+      "cashfrom_amount" : 1000000,
+      "cashfrom_deficit" : 50000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 950000,
+      "cashin_name" : "Moe D",
+      "date" : 1633185240000
+    },
+    "-Ml0QjzWUKNiJkeKM2NM" : {
+      "cashfrom_amount" : 200000,
+      "cashfrom_deficit" : 10000,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 190000,
+      "cashin_name" : "Moe D",
+      "date" : 1633185240000
+    },
+    "-Ml0QsylxelCyB83AIly" : {
+      "cashfrom_amount" : 1100,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "1.10.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 1100,
+      "cashin_name" : 0,
+      "date" : 1633185360000
+    },
+    "-Ml4kPLupSfWUb2UZdOL" : {
+      "cashfrom_amount" : 470000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Ko ta yote",
+      "cashfrom_note" : "tan pyar wal yan",
+      "cashfrom_source" : "I_Credit",
+      "cashfrom_totalin" : 470000,
+      "cashin_name" : "moe d",
+      "date" : 1632825840000
+    },
+    "-Ml4x8nU79U4uqXvv0Tu" : {
+      "cashfrom_amount" : 425000,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Ko Ta Yoke",
+      "cashfrom_note" : "unavailable",
+      "cashfrom_source" : "I_Credit",
+      "cashfrom_totalin" : 425000,
+      "cashin_name" : "Moe D",
+      "date" : 1631533140000
+    },
+    "-Ml8d5GSVubRIFYctF9d" : {
+      "cashfrom_amount" : 450000,
+      "cashfrom_deficit" : 22500,
+      "cashfrom_name" : "KoVinny",
+      "cashfrom_note" : "5%",
+      "cashfrom_source" : "Wave",
+      "cashfrom_totalin" : 427500,
+      "cashin_name" : "Moe D",
+      "date" : 1633279800000
+    },
+    "-Ml8dIpoGNUBO3xsy1dm" : {
+      "cashfrom_amount" : 539700,
+      "cashfrom_deficit" : 0,
+      "cashfrom_name" : "Work",
+      "cashfrom_note" : "2.10.21 ပိုငွေ",
+      "cashfrom_source" : "Balance Sheet",
+      "cashfrom_totalin" : 539700,
+      "cashin_name" : 0,
+      "date" : 1633279860000
+    }
+  },
+  "dailyrecord" : {
+    "-MjIjfsEdBo6RtVW-ql-" : {
+      "date" : 1630481040000,
+      "withdrawal_amount" : 31000,
+      "withdrawal_cashback" : 1000,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆန်အိတ်",
+      "withdrawal_total" : 30000
+    },
+    "-MjIjq3PRr0yDGJNREml" : {
+      "date" : 1630481040000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 100,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကျော်လျှပ်စစ်(ဆော့ပင်-၃)",
+      "withdrawal_total" : 900
+    },
+    "-MjIjvU_4_J-XhU4BG3E" : {
+      "date" : 1630481040000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 6000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၃မတ်လက်ကိုင် ၉\"",
+      "withdrawal_total" : 4000
+    },
+    "-MjIkE35wsPpx_LexSg2" : {
+      "date" : 1630481040000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပိုက် ၅\",1000 ပေးရန်ကျန်",
+      "withdrawal_total" : 5000
+    },
+    "-MjIkYLJEzrfKlG9dEfX" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လက်ဖက်ရည်",
+      "withdrawal_total" : 1000
+    },
+    "-MjIkh6Z9wRYYJ21gmfL" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကျော်လျှပ်စစ်(၃x၁/၂),(၁၁/၂x၁၁/၂),ပြည့််ဖြိုးအောင် M8 Lkey",
+      "withdrawal_total" : 4000
+    },
+    "-MjIktb8aovlc7wbSjO0" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၂.၉.၂၀၂၁ ဟင်းဖိုး",
+      "withdrawal_total" : 8000
+    },
+    "-MjIl-8AihIB_c9x7ubD" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjIl51lvdMmtiEyX5yT" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီ",
+      "withdrawal_total" : 1300
+    },
+    "-MjIlF15BxuQYKdaMo6n" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 3500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကားဂိတ်ပစ္စည်းရွေး,ရေ,ကွမ်း",
+      "withdrawal_total" : 3500
+    },
+    "-MjIlUjEbDS_zY7Z36hH" : {
+      "date" : 1630481280000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Taxi",
+      "withdrawal_note" : "ကြည်မြင့်တိုင်,မြောက်ဥက္ကလာ",
+      "withdrawal_total" : 15000
+    },
+    "-MjIooQtvcg9vblqsJ92" : {
+      "date" : 1630568700000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Voucher မပါ အင်ဂျင်ဝိုင်ဝယ်",
+      "withdrawal_total" : 2000
+    },
+    "-MjIqiCztrpXZ_gEuLnY" : {
+      "date" : 1630569240000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေ,မုန့်,လက်ဖက်ရည်",
+      "withdrawal_total" : 2000
+    },
+    "-MjIsSk-47izEy9fcbrx" : {
+      "date" : 1630569600000,
+      "withdrawal_amount" : 120000,
+      "withdrawal_cashback" : 2400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4\"ဖြတ်ပါး(ကျော်လျှပ်စစ်),M6/M10 Tap,5ဘူးမီး,4\"ကော်ပတ်(သံ)(HJကိုတင်ဝင်း),၁/၂\",၁/၂\"ကြေး(ဆန်းသစ်),ရှပ်၁၂၀(ဝါ),ရှပ်၁၀၀PP(ဦးမုတ်ဆိတ်),ကြေးဘွတ်(ကိုစိုးမြင့်),M1-4 တွင် Lkey,M61/2ဖြတ်(ပြည့်ဖြိုးအောင်)",
+      "withdrawal_total" : 117600
+    },
+    "-MjIsj7dDVTzFOm5fPp5" : {
+      "date" : 1630569840000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-MjIt5rZjqVvEkHFdIzS" : {
+      "date" : 1630569900000,
+      "withdrawal_amount" : 28000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁\"ရှပ် ၁၀'(Thai),ဝရိန်ခ",
+      "withdrawal_total" : 28000
+    },
+    "-MjIvju6UcBtlfY8hvcj" : {
+      "date" : 1630570620000,
+      "withdrawal_amount" : 700,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "စတီးနပ်",
+      "withdrawal_total" : 700
+    },
+    "-MjIw6FgCwOYOmcTQ3Ma" : {
+      "date" : 1630570680000,
+      "withdrawal_amount" : 19000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၈ခေါက်အကြွေး",
+      "withdrawal_total" : 19000
+    },
+    "-MjIwJWZfex8cosJYulg" : {
+      "date" : 1630570740000,
+      "withdrawal_amount" : 450,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "စာအုပ်,ဘောပင်",
+      "withdrawal_total" : 450
+    },
+    "-MjIxIZKKnvF1L6cXaKO" : {
+      "date" : 1630657320000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၃မူး ၁\"(သံနပ်),M8မြှပ်ကီး Voucher မပါ",
+      "withdrawal_total" : 1300
+    },
+    "-MjIxOK4d_I9DzjXbJOd" : {
+      "date" : 1630657320000,
+      "withdrawal_amount" : 13000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၄\" ကော်ပတ်,၄\" ကျောက်ပြား",
+      "withdrawal_total" : 13000
+    },
+    "-MjIxSfg1U4oaUVLp3OX" : {
+      "date" : 1630657320000,
+      "withdrawal_amount" : 800000,
+      "withdrawal_cashback" : 900,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၄\"x၂\" ms(၈),၁\"ရှပ်,၂x၁/၄ F Or(ခင်ဇော်)\n၃/၄-၈၀,၂x၂(၁.၅mm)၈mmဂျိတ်(Steel Dragon)\n၄\"x၄\"ms (ရွှေမိတ်ဆွေ)",
+      "withdrawal_total" : 799100
+    },
+    "-MjIyIf-dK8mVyUFaCfH" : {
+      "date" : 1630657620000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 1700,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ပိုင်းဟင်ဖိုး,ဆိုင်ကယ်ဆီဖိုး,လက်ဖက်ရည်,မုန့်,ရေ",
+      "withdrawal_total" : 8300
+    },
+    "-MjIybNFcBaFvlnwlkRH" : {
+      "date" : 1630657740000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "မျက်စဉ်းဆေးဝယ်",
+      "withdrawal_total" : 2000
+    },
+    "-MjIyniwmlNkL-i9Vapr" : {
+      "date" : 1630657800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjIysXZnn7tU-cCulQY" : {
+      "date" : 1630657800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjIyvxvWWiFk96zCJ3S" : {
+      "date" : 1630657800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjIz5xpG5Osv-ZqLYCb" : {
+      "date" : 1630657860000,
+      "withdrawal_amount" : 76000,
+      "withdrawal_cashback" : 60400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "အပိတ်,တိပ်(ကျော်လျှပ်စစ်)\nလေဆာဖြတ်ခ(Steel Dragon)",
+      "withdrawal_total" : 15600
+    },
+    "-MjIzarxLntpBdfM6byX" : {
+      "date" : 1630658040000,
+      "withdrawal_amount" : 22000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ(အကြွေး၁၉၀၀၀,ဒီနေ့-၅ခေါက်၁၃၀၀၀,ကျန်ငွေ၁၀၀၀၀)",
+      "withdrawal_total" : 22000
+    },
+    "-MjJ5EGNLMEw7359sVJp" : {
+      "date" : 1630659540000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "YeLinTun",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 10000
+    },
+    "-MjJ5Mw5jVXtda_2hzvi" : {
+      "date" : 1630659540000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Daily",
+      "withdrawal_total" : 12000
+    },
+    "-MjJ5rn6HM68ottnVMuH" : {
+      "date" : 1630659840000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJ79BNljMPg09uRtFy" : {
+      "date" : 1630660200000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Mask",
+      "withdrawal_total" : 1000
+    },
+    "-MjJ7yu2BwIruItVa0kt" : {
+      "date" : 1630746780000,
+      "withdrawal_amount" : 3300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေ,မုန့်,လက်ဖက်ရည်,ဆိုင်ကယ်ဆီ",
+      "withdrawal_total" : 3300
+    },
+    "-MjJ8lzhyEHmFCbp-jWq" : {
+      "date" : 1630746900000,
+      "withdrawal_amount" : 855000,
+      "withdrawal_cashback" : 668000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4mm 4'x8'",
+      "withdrawal_total" : 187000
+    },
+    "-MjJAIKwv-guHTqh3fyt" : {
+      "date" : 1630747440000,
+      "withdrawal_amount" : 17000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "RC No.2 (တဖလွန်)",
+      "withdrawal_total" : 17000
+    },
+    "-MjJCLd7CT0ck9AAWlpE" : {
+      "date" : 1630748040000,
+      "withdrawal_amount" : 445000,
+      "withdrawal_cashback" : 29000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "ဝိတ်ပြား (၆၀ချပ်)",
+      "withdrawal_total" : 416000
+    },
+    "-MjJDfPVH8Tzc6H7FoZM" : {
+      "date" : 1630748340000,
+      "withdrawal_amount" : 230000,
+      "withdrawal_cashback" : 25000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လေဆာဖြတ်ခ-၁၅၀၀၀၀/-(SD)\nCo2/Co2 coil(Naing)",
+      "withdrawal_total" : 205000
+    },
+    "-MjJE2xUa9Jhv2CcXRX-" : {
+      "date" : 1630748460000,
+      "withdrawal_amount" : 85500,
+      "withdrawal_cashback" : 30500,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဘုန်းကြီးဝတ္တုကပ်,မီးပြင်ခ",
+      "withdrawal_total" : 55000
+    },
+    "-MjJEQJ9Mehqz_I1Uipb" : {
+      "date" : 1630748520000,
+      "withdrawal_amount" : 3000,
+      "withdrawal_cashback" : 1300,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "သာမိုမီတာ ဓါတ်ခဲ",
+      "withdrawal_total" : 1700
+    },
+    "-MjJODQnHnJFeJHBIxzE" : {
+      "date" : 1630751100000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခအကြွေးဆပ်",
+      "withdrawal_total" : 10000
+    },
+    "-MjJOiNhJwlS5mDGW9P-" : {
+      "date" : 1630751220000,
+      "withdrawal_amount" : 6000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီ(Gas အိုး,လေဆာဖြတ်တာယူ,အလေးပြားယူ) ၃ခေါက်",
+      "withdrawal_total" : 6000
+    },
+    "-MjJOwgeP89xVlHK2owW" : {
+      "date" : 1630751340000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-MjJRSjAQ4XAv4hm02AF" : {
+      "date" : 1630752000000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Kyaw Kyaw",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJReFy_rLWdI8Q6kdh" : {
+      "date" : 1630752060000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 3750,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M10 5\"(8.8)\nNozzle P80(1.5)\nNozzle P80",
+      "withdrawal_total" : 16250
+    },
+    "-MjJRsAhI34qoETLvtIm" : {
+      "date" : 1630752060000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "P80(1.1,1.7) Nozzel",
+      "withdrawal_total" : 3600
+    },
+    "-MjJS1-DFT2qg-fwoX4z" : {
+      "date" : 1630752120000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကွမ်း၃၀၀၀,ညနေဟင်း၆၀၀၀",
+      "withdrawal_total" : 9000
+    },
+    "-MjJS7Cj78MK4e3Hicxa" : {
+      "date" : 1630752180000,
+      "withdrawal_amount" : 3000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 3000
+    },
+    "-MjJWe00On-NLg27eKxf" : {
+      "date" : 1630839720000,
+      "withdrawal_amount" : 13000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၆ခေါက်",
+      "withdrawal_total" : 13000
+    },
+    "-MjJX2PVOzEGBDUWaz4s" : {
+      "date" : 1630839840000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကတ္တားချိန်-၂၀၀၀,ရေ,မုန့်,လက်ဖက်ရည်",
+      "withdrawal_total" : 4000
+    },
+    "-MjJXbACkWUy8QPoJB7V" : {
+      "date" : 1630839960000,
+      "withdrawal_amount" : 100000,
+      "withdrawal_cashback" : 14000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "အားကစာကြိုး,၁ ၃/၄ ပိုက်,၃\" ပိုက်(ကြွေးကျန် ၁.၉.၂၀၂၁(၁၀၀၀ အပါ)",
+      "withdrawal_total" : 86000
+    },
+    "-MjJZJJL_lHUZSXUsYW9" : {
+      "date" : 1630840080000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 200,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး 3500,ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 4800
+    },
+    "-MjJZaxoAMNvy-37VsKf" : {
+      "date" : 1630840500000,
+      "withdrawal_amount" : 30000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "General",
+      "withdrawal_total" : 30000
+    },
+    "-MjJZtVY4TygjQwahAwJ" : {
+      "date" : 1630840560000,
+      "withdrawal_amount" : 50000,
+      "withdrawal_cashback" : 28600,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "သတ္တု-၂၀၀၀၀,၁\" စက္ကူတိတ်",
+      "withdrawal_total" : 21400
+    },
+    "-MjJ_Ob3qjBh-zxvFJQM" : {
+      "date" : 1630840680000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 700,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေပိုက်(ပျော့/မာ),စတီးပိုက်လုံး,M6LKey,စတီးကွင်း Vouchers မပါ(၆၄၀၀),၆ ယူဘိုး,Lkey",
+      "withdrawal_total" : 9300
+    },
+    "-MjJ_vViEJc2kh-cfi7u" : {
+      "date" : 1630840860000,
+      "withdrawal_amount" : 50000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ယောက်ကော်လမ်းမြက်ရှင်း",
+      "withdrawal_total" : 50000
+    },
+    "-MjJaE13VPsS6Fkd0Leb" : {
+      "date" : 1630840920000,
+      "withdrawal_amount" : 200,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆရာလေးလှူ",
+      "withdrawal_total" : 200
+    },
+    "-MjJaWr_oVI3nbBq_3Rr" : {
+      "date" : 1630840980000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 10000
+    },
+    "-MjJaq2JIz30StwnBN33" : {
+      "date" : 1630841100000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 200,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M6 Lkey",
+      "withdrawal_total" : 800
+    },
+    "-MjJbAB9hoWJMyME3Yhh" : {
+      "date" : 1630841160000,
+      "withdrawal_amount" : 81000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Taxi သမား",
+      "withdrawal_note" : "SportsWorld,ရွှေတောင်ရိုး",
+      "withdrawal_total" : 81000
+    },
+    "-MjJbRmE_g7cpOocT6ox" : {
+      "date" : 1630841220000,
+      "withdrawal_amount" : 39000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Taxi သမား",
+      "withdrawal_note" : "ကူရှင်ချုပ်,M10x1 1/8ylh,အိတ်Voucher မပါ ၆၅၀၀,Taxi သမား၁၉၀၀၀စိုက်",
+      "withdrawal_total" : 39000
+    },
+    "-MjJcbw1rX8vaYb5bjRa" : {
+      "date" : 1630841580000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJh1BUD4FUNmPfttCT" : {
+      "date" : 1630929060000,
+      "withdrawal_amount" : 48000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Taxi သမား",
+      "withdrawal_note" : "၅.၉.၂၀၂၁ အကြွေးဆပ်",
+      "withdrawal_total" : 48000
+    },
+    "-MjJhImf_kfTzQ__2JMD" : {
+      "date" : 1630929180000,
+      "withdrawal_amount" : 60000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Daily(၁.၉.၂၁-၆.၉.၂၁ ထိ) ၃.၉.၂၁ အလုပ်မဆင်း",
+      "withdrawal_total" : 60000
+    },
+    "-MjJht2xsK-0g1UBwYLg" : {
+      "date" : 1630929360000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၅.၉.၂၀၂၁ အကြွေးဆပ်",
+      "withdrawal_total" : 5000
+    },
+    "-MjJiF-Cg58LKwYyGy38" : {
+      "date" : 1630929420000,
+      "withdrawal_amount" : 7800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ပိုင်းဟင်းဖိုး,လက်ဖက်ရည်,ရေ,ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 7800
+    },
+    "-MjJijQAYED7Xg9nUTHJ" : {
+      "date" : 1630929540000,
+      "withdrawal_amount" : 150000,
+      "withdrawal_cashback" : 20700,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁၄\"ပါး,၄\"ထူကျောက်ပြား,ကော်ပတ်ဝိုင်း,အိတ်,၃၀၀၀x၂/၁၅၀၀x၅/၂၅၀၀x၂ ဆိုးပြား,၁\",၂\"ကြိတ်သား\nVoucher မပါ ၂၀၀၀ (တိပ်)",
+      "withdrawal_total" : 129300
+    },
+    "-MjJjMDqKRxodLVjjhIM" : {
+      "date" : 1630929720000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJjQLcy-dTm0StKL7T" : {
+      "date" : 1630929720000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxiခ နန္ဒဝန်ဈေးသွား/ပြန်",
+      "withdrawal_total" : 8000
+    },
+    "-MjJjqDuwvmZ-nSoY5PE" : {
+      "date" : 1630929840000,
+      "withdrawal_amount" : 35000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Kyaw Kyaw",
+      "withdrawal_note" : "11.7.21-11.8.21 လစာကျန်ငွေပေး",
+      "withdrawal_total" : 35000
+    },
+    "-MjJjuT7LdD5Rua1HbHY" : {
+      "date" : 1630929840000,
+      "withdrawal_amount" : 35000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Ye Lin Tun",
+      "withdrawal_note" : "11.7.21-11.8.21 လစာကျန်ငွေပေး",
+      "withdrawal_total" : 35000
+    },
+    "-MjJkdqtTtd79RX5iBqP" : {
+      "date" : 1630930080000,
+      "withdrawal_amount" : 338000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Zayar",
+      "withdrawal_note" : "Daily(10.8.21-6.9.21ထိ/၁ရက်အလုပ်နား/၁ရက် Dayကြေးထုတ်",
+      "withdrawal_total" : 338000
+    },
+    "-MjJlO3ivS7suoz4sl6T" : {
+      "date" : 1630930200000,
+      "withdrawal_amount" : 32000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "18.8.21 ကယူထားငွေစာရင်းအပ်",
+      "withdrawal_total" : 32000
+    },
+    "-MjJlgEm1qdSJo21xaKI" : {
+      "date" : 1630930320000,
+      "withdrawal_amount" : 100000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "General",
+      "withdrawal_total" : 100000
+    },
+    "-MjJm3aYujuezCBufDf3" : {
+      "date" : 1630930380000,
+      "withdrawal_amount" : 91500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကူရှင်ချုပ်ခ (၂.၉.၂၁ အကြွေး ၁၈၀၀၀ အပါ)",
+      "withdrawal_total" : 91500
+    },
+    "-MjJmIvagWyQbgs_iS6B" : {
+      "date" : 1630930500000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThuRa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjJmLkBJpwPC1knCLnL" : {
+      "date" : 1630930500000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjJmP3_cBHnIV_h38mp" : {
+      "date" : 1630930500000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjJmfeUJETr3MOeJbn4" : {
+      "date" : 1631016960000,
+      "withdrawal_amount" : 40000,
+      "withdrawal_cashback" : 4700,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "12ဂဟေ,Welding Gloves,M10x1\"BN LKey,၃မူးx၂ ၁/၂BN,12ဘူးမီး,4\"slc ကာဂွန်",
+      "withdrawal_total" : 35300
+    },
+    "-MjJmkw1g1th3OLAp2Ux" : {
+      "date" : 1631016960000,
+      "withdrawal_amount" : 665000,
+      "withdrawal_cashback" : 306100,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4mm 4'x8',1.5mm 4'x8',1\" solid",
+      "withdrawal_total" : 358900
+    },
+    "-MjJn6SlMe-GRjANa2D9" : {
+      "date" : 1631016960000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "31.8.21 (17000/-),18.8.21 (3000/-) အကြွေးဆပ်",
+      "withdrawal_total" : 20000
+    },
+    "-MjJnfF8OMHyBHSZ6aFx" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-MjJnldBxPVdx61rYjtX" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "3\" Nut",
+      "withdrawal_total" : 600
+    },
+    "-MjJnq7lKrfk2DQDqNMy" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJnv69F0rnIhMBbDYO" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 195000,
+      "withdrawal_cashback" : 2100,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "100mm,120mm,50mm သတ္တု,အားကစားကြိုး,Nozzle P80(1.1,1.7)\nပိုက်ကလစ် Voucher မပါ ၃၀၀",
+      "withdrawal_total" : 192900
+    },
+    "-MjJnzcCWttbq5omInDe" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 14100,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4x4 ,ဆူးသွား",
+      "withdrawal_total" : 5900
+    },
+    "-MjJo3f3-g9b-smO8UqN" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 46700,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၃/၄x၁ ၁/၄,M10 1\" LKey,တိပ်,၄x၂,၃x၁ ၁/၂,6202",
+      "withdrawal_total" : 46700
+    },
+    "-MjJo7bdxImGQJ1_aiN9" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-MjJoEwB2mWLTnguZrFK" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 40100,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "Wt ပလာဇာ,ကျောက်မြောင်းကားခ ၈၀၀၀/ဂိတ်ကြေး ၃၂၁၀၀",
+      "withdrawal_total" : 40100
+    },
+    "-MjJoMQGIWT_xZZMqv-A" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 21000,
+      "withdrawal_cashback" : 100,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "6.9.21 ပြည့်ဖြိုးအောင်ဆိုင်အကြွေးဆပ်",
+      "withdrawal_total" : 20900
+    },
+    "-MjJoSZGgIOGd-IdnTql" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 3800,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကော်ပတ်",
+      "withdrawal_total" : 6200
+    },
+    "-MjJoXnutP8xwPlGsbBV" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJob3WitBpoV8thTWn" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 10000
+    },
+    "-MjJogiHmQ_0y8w2arfl" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 12000
+    },
+    "-MjJokxH1r4p-y2-6g7v" : {
+      "date" : 1631017260000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၇ခေါက်",
+      "withdrawal_total" : 15000
+    },
+    "-MjJqdiszYMnrga8PeYL" : {
+      "date" : 1631104440000,
+      "withdrawal_amount" : 42000,
+      "withdrawal_cashback" : 3700,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ပြင် ၂၅၀၀၀,ဆီဖိုး ၁၃၀၀,ဟင်းဖိုး ၅၀၀၀,ကယ်ရီခ ၁၀၀၀",
+      "withdrawal_total" : 38300
+    },
+    "-MjJqjQpIw2VciS8RokK" : {
+      "date" : 1631104440000,
+      "withdrawal_amount" : 190000,
+      "withdrawal_cashback" : 24300,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၄\"ကော်ပတ်,၇\"ညှစ်ကောက်,ကူရှင်မြက်နု/မြက်နီ,Pxပြာ\nလေဆာဖြတ်ခ,ခေါက်ခ(Steel Dragon)",
+      "withdrawal_total" : 165700
+    },
+    "-MjJqoeLv6YWHF2OkiER" : {
+      "date" : 1631104440000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Daily",
+      "withdrawal_total" : 12000
+    },
+    "-MjJqy5pPLJbe6KZseUE" : {
+      "date" : 1631104440000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjJqzJpdefajCqMvI1J" : {
+      "date" : 1631104440000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "အိတ်အကြီး ၈လုံး",
+      "withdrawal_total" : 5000
+    },
+    "-MjK3sVS7BHOv5SIOZwc" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 120000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကရိန်းခ",
+      "withdrawal_total" : 120000
+    },
+    "-MjK3uiNLuG8pb9mAtW1" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ကာဗရိုက်တာလဲ",
+      "withdrawal_total" : 12000
+    },
+    "-MjK41NO8mTSCRDCNWer" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 61900,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဓါးဆံ,ဆော့ပင်,A-210,၃x၁ခွဲ,၄x၂,၁ခွဲx၁ခွဲ,ယူဘိုး,၃/၄-2mm,M10 2\"(8.8),M10 2ခွဲ,M10 1\" Voucher ပါ\nBosny,၃မူး ၁\",၃မူး၁ခွဲ(သံနပ်) Vr မပါ 4800",
+      "withdrawal_total" : 61900
+    },
+    "-MjK44VCp55Dp94LvNy8" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 2600,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 2600
+    },
+    "-MjK47c_0UeBQNYTKh_W" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 11000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်,ည ဟင်းဖိုး",
+      "withdrawal_total" : 11000
+    },
+    "-MjK4E9LbAdYQx1qBBtW" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 28500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK (31.8.21 54000/- အကြွေးမှ 28500/-ဆပ်ပြီး)",
+      "withdrawal_total" : 28500
+    },
+    "-MjK4KXHf7HR1opbTLXq" : {
+      "date" : 1631194560000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Mask",
+      "withdrawal_total" : 1500
+    },
+    "-MjK6uT3jMG5BMT5ex7H" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Pom 30mm",
+      "withdrawal_total" : 16000
+    },
+    "-MjK7-K5DgRa-vIxXrbM" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 16500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၉.၉.၂၁ ပြည့်ဝဆိုင်ကြွေးဆပ်",
+      "withdrawal_total" : 16500
+    },
+    "-MjK72143dOLyu6X-jsb" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 75000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၉.၉.၂၁ ဇေယျာ အကြွေးဆပ်",
+      "withdrawal_total" : 75000
+    },
+    "-MjK74Hq1WYJZklqWKwb" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၈.၉.၂၁ ကယ်ရီခ အကြွေးဆပ်",
+      "withdrawal_total" : 16000
+    },
+    "-MjK77tMeU2-HRP8G6Qj" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၅ခေါက် ၉.၉.၂၁",
+      "withdrawal_total" : 12000
+    },
+    "-MjK7CQggfY8EJ-vvf_t" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 1000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4\" ကော်ပတ်,ထူကျောက်ကြမ်း",
+      "withdrawal_total" : 14000
+    },
+    "-MjK7IhBI-vc8gNSjlg5" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 4000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဘတ်ကြိုး Vr ပါ ၄၅၀၀\n၃မူး ရေပိုက်Vr မပါ ၁၅၀၀",
+      "withdrawal_total" : 6000
+    },
+    "-MjK7MdJZ8jVrH0pbUFP" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjK7ShW3bYFfKmZDBhV" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 2200,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "B65 ,3/8x2ခွဲ",
+      "withdrawal_total" : 7800
+    },
+    "-MjK7ZMh1H1LUYtM_Lth" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 623000,
+      "withdrawal_cashback" : 181400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁\"ရှပ်(Thai),၄\"x၂\" ms,M10 5\"(8.8),M10 1\",4'x8' 4mm",
+      "withdrawal_total" : 441600
+    },
+    "-MjK7cvxBwDDsJ7uKIHm" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 5000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "828 ကျောက်ပြား",
+      "withdrawal_total" : 10000
+    },
+    "-MjK7gSZc1CwMgniEVEP" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၄ခေါက်",
+      "withdrawal_total" : 9000
+    },
+    "-MjK7jYZxlRE8cSrgzgH" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၉.၉.၂၁ Taxi ခ အကြွေးဆပ်",
+      "withdrawal_total" : 20000
+    },
+    "-MjK7o332UMvV9HlA3-w" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 1500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "3k ဆူးသွား 9mm",
+      "withdrawal_total" : 3500
+    },
+    "-MjK7suTcLhWXrwDbIOY" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 22000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 22000
+    },
+    "-MjK7u_LInZkaE14XRTz" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်ဖိုး",
+      "withdrawal_total" : 5000
+    },
+    "-MjK80HWkiiU_leEceD7" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 24000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "၉.၉.၂၁-၁၀.၉.၂၁ Day ကြေး",
+      "withdrawal_total" : 24000
+    },
+    "-MjK863pV-X_2XY9Otpw" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "General",
+      "withdrawal_total" : 300
+    },
+    "-MjK8A_UlJodFPbnykNs" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 10000
+    },
+    "-MjK8FbFt2LJrRwa7Y06" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjK8I0VElt0yF3K-qLh" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjK8KdLDhCyVQp-5pXg" : {
+      "date" : 1631281800000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "Salary",
+      "withdrawal_total" : 5000
+    },
+    "-MjKQWEm7sOnIpTm0JnA" : {
+      "date" : 1631372940000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 5500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "3\"ရှပ်ဖြတ် Dm",
+      "withdrawal_total" : 4500
+    },
+    "-MjKQvubMiNhukt82nEc" : {
+      "date" : 1631373420000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်,ည ဟင်းဖိုး",
+      "withdrawal_total" : 10000
+    },
+    "-MjKR-uUWbZSjG2D1YKj" : {
+      "date" : 1631373420000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "General",
+      "withdrawal_total" : 2000
+    },
+    "-MjKR56JrS6K1rZsgOaj" : {
+      "date" : 1631373420000,
+      "withdrawal_amount" : 7000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 7000
+    },
+    "-MjKRAk28wcAbDz3eYeJ" : {
+      "date" : 1631373420000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ye Lin Tun",
+      "withdrawal_note" : "ရေသန့်ဗူး၁၀ဗူးလဲ",
+      "withdrawal_total" : 5000
+    },
+    "-MjKRaCvHHYDs4oF-VOP" : {
+      "date" : 1631373600000,
+      "withdrawal_amount" : 32000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "3မူးx2\" B.N,LM.25,3/4\"x11/4\" ပိုက် ၁ချောင်း,,၃x၁၁/၂ ကော်ပိတ်",
+      "withdrawal_total" : 32000
+    },
+    "-MjUMdOnTmvo6UQhK9nF" : {
+      "date" : 1631540040000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "12.9.2021 ဟင်းဖိုး",
+      "withdrawal_total" : 10000
+    },
+    "-MjUMwPInzYY-HDW6Po7" : {
+      "date" : 1631540100000,
+      "withdrawal_amount" : 13000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၅ခေါက်(၁၂/၁၃.၉.၂၁)",
+      "withdrawal_total" : 13000
+    },
+    "-MjUN1v8wjWPEh_RRkFm" : {
+      "date" : 1631540160000,
+      "withdrawal_amount" : 3000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 3000
+    },
+    "-MjUNJAh3MIehLUIHzL3" : {
+      "date" : 1631540220000,
+      "withdrawal_amount" : 10500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 10500
+    },
+    "-MjUOMdRHaMa9i02Lyas" : {
+      "date" : 1631540520000,
+      "withdrawal_amount" : 32000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆန်အိတ်",
+      "withdrawal_total" : 32000
+    },
+    "-MjUOjV2bArsV_snuJTu" : {
+      "date" : 1631540580000,
+      "withdrawal_amount" : 8400,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 8400
+    },
+    "-MjUP22S-ZajSvEeNH5t" : {
+      "date" : 1631540640000,
+      "withdrawal_amount" : 194000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "100/60 စက်ကော်ပတ်,4\"ထူ,2\" ပိုက် 4',3x1 1/2 ms,2x1 ms,1\"ရှပ်(Thai),205",
+      "withdrawal_total" : 194000
+    },
+    "-MjUP902nWSEmF7_rCV7" : {
+      "date" : 1631540760000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-MjUPI3lbSdRAMDWIjgy" : {
+      "date" : 1631540760000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 12000
+    },
+    "-MjUPO-T7JWTGcVskbDI" : {
+      "date" : 1631540820000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MjUPUt4HIQy9nqndMIO" : {
+      "date" : 1631540820000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MjUPbFi-fF11rsJpmrf" : {
+      "date" : 1631540820000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mji01YXLwb5PlpWtsyd" : {
+      "date" : 1631612940000,
+      "withdrawal_amount" : 46000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK (9.9.21 Vrs အကြွေးဆပ်)",
+      "withdrawal_total" : 46000
+    },
+    "-Mji0EAtjPY7d3tWUsjq" : {
+      "date" : 1631613000000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK 55000 ပေးရန်ကျန်,6202,6203,LM25",
+      "withdrawal_total" : 5000
+    },
+    "-Mji0PknrHhLwW-NNGPk" : {
+      "date" : 1631613060000,
+      "withdrawal_amount" : 86500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "5000 ပေးရန်ကျန်,ရှပ် 100mm အဖြူ(၂.၄kg),ရှပ် 120mmအဝါ",
+      "withdrawal_total" : 86500
+    },
+    "-Mji0YFpZjhW0975hGmd" : {
+      "date" : 1631613120000,
+      "withdrawal_amount" : 33100,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M42 ဂံဂျီပင်ကလိန်,၃မူး ၂\",၃\"စပရိန်,M20x2\",M10 2\"(8.8),M10 1\"LKey,M10 3\"(8.8)",
+      "withdrawal_total" : 33100
+    },
+    "-Mji0ekeJh2kvWi0_USj" : {
+      "date" : 1631613180000,
+      "withdrawal_amount" : 1300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1300
+    },
+    "-Mji12ILwmcr4H72W-AW" : {
+      "date" : 1631613240000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကလစ်ဆံ,Nut",
+      "withdrawal_total" : 4000
+    },
+    "-Mji1M3M2-VT6oTiNTJj" : {
+      "date" : 1631613360000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 10000
+    },
+    "-Mji4qTa2BRP064h3aMl" : {
+      "date" : 1631700600000,
+      "withdrawal_amount" : 200000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကော်ရုံ,အလေးပြား-၁၅၀၀၀၀/-(2 inches 10 length x 50 price 3000)",
+      "withdrawal_total" : 200000
+    },
+    "-Mji50Y-0UUK-5CLLIhf" : {
+      "date" : 1631700660000,
+      "withdrawal_amount" : 281700,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "သံဖြတ်လွှ,3x1 1/2 ms,4'x8' 4mm",
+      "withdrawal_total" : 281700
+    },
+    "-Mji5W7bkhRQgpl7IXIc" : {
+      "date" : 1631700780000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 500,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ph bill,ဆိုင်ကယ်ဆီ,မနက်ဟင်းဖိုး",
+      "withdrawal_total" : 9500
+    },
+    "-Mji5ofc5NqbXtUfDUU8" : {
+      "date" : 1631700840000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ကယ်ရီခ ၁၁ခေါက်(၂၁၀၀၀),၁၂၀၀၀ အကြွေးကျန်",
+      "withdrawal_total" : 9000
+    },
+    "-Mji6CpREftvaMZOJHRW" : {
+      "date" : 1631700960000,
+      "withdrawal_amount" : 96600,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1\"ရှပ်,1 3/4ပိုက်,Pom 30 mm(14.9.21 အကြွေး ၅၀၀၀ ဆပ်ပြီး)",
+      "withdrawal_total" : 96600
+    },
+    "-Mji6R4Hq8-b6jQg30rh" : {
+      "date" : 1631701080000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ye Lin Tun",
+      "withdrawal_note" : "14.9.21 ယူငွေပြန်ပေး",
+      "withdrawal_total" : 5000
+    },
+    "-Mji6h4iQ4PU7VMx5t7j" : {
+      "date" : 1631701140000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေ ဆိုင်ကယ် ကယ်ရီခ ၂ခေါက် မနက်ကကျန်ငွေ၁၂၀၀၀ ပေး",
+      "withdrawal_total" : 15000
+    },
+    "-Mji6sGkaLRCN-eCISSV" : {
+      "date" : 1631701200000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကူရှင်ရိုက်ဂန်း",
+      "withdrawal_total" : 5000
+    },
+    "-Mji8FkqUEbyuCMyKsVo" : {
+      "date" : 1631701560000,
+      "withdrawal_amount" : 185400,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လေဆာဖြတ်ခ,3/4 2mm,1.5mm,8mm ဂျိတ်(Steel Dragon),\nအားကစားကြိုး(၉၀၀၀၀/-)",
+      "withdrawal_total" : 185400
+    },
+    "-Mji8O13NwvbnpQOs6SP" : {
+      "date" : 1631701560000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-Mji8XtXPc4023cVCRZY" : {
+      "date" : 1631701620000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mji8bhJqV5ittKX9nlM" : {
+      "date" : 1631701680000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mji8i4Dl8LsImLGdhmX" : {
+      "date" : 1631701680000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mji8qXhAKRViPiP3xhx" : {
+      "date" : 1631701680000,
+      "withdrawal_amount" : 5500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ညနေဟင်းဖိုး",
+      "withdrawal_total" : 5500
+    },
+    "-Mji92pxy7XNLCt167Lh" : {
+      "date" : 1631701740000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကိုတရုတ်(လက်ဖက်ရည်,မုန့်)",
+      "withdrawal_total" : 2000
+    },
+    "-Mji9BzykNgsPf1iBFo_" : {
+      "date" : 1631701800000,
+      "withdrawal_amount" : 2100,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Vouchers မပါ",
+      "withdrawal_total" : 2100
+    },
+    "-MjiA0AwNLi-5RcquJAI" : {
+      "date" : 1631701860000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "13.9.21 425000/- ယူထားငွေမှ 15000/- ပြန်ပေး",
+      "withdrawal_total" : 15000
+    },
+    "-MjiA9N1sC7fmesJl4fI" : {
+      "date" : 1631702040000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Zayar",
+      "withdrawal_note" : "14.9.21 ယူထားငွေပြန်ပေး",
+      "withdrawal_total" : 9000
+    },
+    "-Mjj7_2OQnXgTfuu4EMo" : {
+      "date" : 1631718180000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mjj7sQ341zkOULTCbKv" : {
+      "date" : 1631804580000,
+      "withdrawal_amount" : 295500,
+      "withdrawal_cashback" : 59550,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4x2 အပိတ်,စက္ကူတိပ်,Gas,ATM,ယူဘိုး,စက်ကော်ပတ်,M10 4\",M10 မြှပ်ကီး,M6 34ကူရှင်,\nဝိတ်ပြား(195000/-)",
+      "withdrawal_total" : 235950
+    },
+    "-Mjj87NzwDX_dqiR2IbV" : {
+      "date" : 1631804640000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပစ္စည်းပို့ကားခ,mask",
+      "withdrawal_total" : 16000
+    },
+    "-Mjj8OOd2uXUotB5oTLl" : {
+      "date" : 1631804700000,
+      "withdrawal_amount" : 15900,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "15.9.21 ပြည့်ဖြိုးအောင်ဆိုင်အကြွေးဆပ်",
+      "withdrawal_total" : 15900
+    },
+    "-Mjj8Wgk1a_C5sWGo5_b" : {
+      "date" : 1631804820000,
+      "withdrawal_amount" : 276800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1\" Solid 202,ကော်ရုံ(100000/-)",
+      "withdrawal_total" : 276800
+    },
+    "-Mjj8qGmT1yfIeJ9Z-cR" : {
+      "date" : 1631804820000,
+      "withdrawal_amount" : 95000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မင်းဇော် ဘေးစက်ရုံကားမှန်လျော်ကြေးပေး",
+      "withdrawal_total" : 95000
+    },
+    "-Mjj8wqPB4CVVQDPSJGb" : {
+      "date" : 1631804940000,
+      "withdrawal_amount" : 18000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK",
+      "withdrawal_total" : 18000
+    },
+    "-Mjj94Ppv98b5PxcssB0" : {
+      "date" : 1631804940000,
+      "withdrawal_amount" : 25000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 25000
+    },
+    "-Mjj9U1afzraS4kaXZJI" : {
+      "date" : 1631805000000,
+      "withdrawal_amount" : 30000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး ၅ရက်စာကျန်ဒီနေ့အပါ ၆၀၀၀၀/-,၃၀၀၀၀/-ပေးထား ၃၀၀၀၀/-ကျန်",
+      "withdrawal_total" : 30000
+    },
+    "-Mjj9dF4wiaJwIN_wG-G" : {
+      "date" : 1631805060000,
+      "withdrawal_amount" : 150000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "MLM သွားကားခ",
+      "withdrawal_total" : 150000
+    },
+    "-Mjj9iFQUdSKvTdvKytY" : {
+      "date" : 1631805120000,
+      "withdrawal_amount" : 90000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "4.8.21-4.9.21 လစာကျန်ငွေရှင်းပြီး",
+      "withdrawal_total" : 90000
+    },
+    "-Mjj9p6yzvLIr_wFL2GQ" : {
+      "date" : 1631805120000,
+      "withdrawal_amount" : 75000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "4.8.21-4.9.21 လစာကျန်ငွေရှင်းပြီး",
+      "withdrawal_total" : 75000
+    },
+    "-MjoAvFt9onRh6yJchvW" : {
+      "date" : 1631889240000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနေ့ကဟင်းဖိုး,ဒီနေ့ဟင်းဖိုး-၄၅၀၀,ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 16000
+    },
+    "-MjoB3KVTKNqUPiIt34f" : {
+      "date" : 1631889360000,
+      "withdrawal_amount" : 26500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "3မူး 2\",M10x1/2 LKey,M10x1\"LKey,အားကစားကြိုး",
+      "withdrawal_total" : 26500
+    },
+    "-MjoBCQMoExikdEd5fYI" : {
+      "date" : 1631889360000,
+      "withdrawal_amount" : 24800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁၆ခွဲပိုက်,၃ ၁/၄ပိုက်ကွေးခ(ပြင်ခ ၅၀၀)",
+      "withdrawal_total" : 24800
+    },
+    "-MjoBN8Sq-U9k4VdccAO" : {
+      "date" : 1631889420000,
+      "withdrawal_amount" : 4150,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေမီတာခ",
+      "withdrawal_total" : 4150
+    },
+    "-MjoBYGShqlbgXhfp1St" : {
+      "date" : 1631889480000,
+      "withdrawal_amount" : 22000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ(စံပြဈေး,ပလာဇာ)",
+      "withdrawal_total" : 22000
+    },
+    "-MjoBgpwrh8YGKG9rC91" : {
+      "date" : 1631889540000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေ,မုန့်,ph bill",
+      "withdrawal_total" : 2000
+    },
+    "-MjoBnITcP2Pfem1fyhH" : {
+      "date" : 1631889540000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-MjoCCEhNkaHtZ5b_Pbe" : {
+      "date" : 1631889600000,
+      "withdrawal_amount" : 425000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "13.9.21 ကိုတရုတ်ဆီကယူငွေပြန်ဆပ်",
+      "withdrawal_total" : 425000
+    },
+    "-MjoCSKbd6qEorHZHkR3" : {
+      "date" : 1631889660000,
+      "withdrawal_amount" : 300000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Taxi",
+      "withdrawal_note" : "BNS",
+      "withdrawal_total" : 300000
+    },
+    "-MjoCYdlRzP_0G2asZkP" : {
+      "date" : 1631889720000,
+      "withdrawal_amount" : 4500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဒီနေ့ညဟင်းဖိုး",
+      "withdrawal_total" : 4500
+    },
+    "-Mjt-xca-xXX6NQLTL9J" : {
+      "date" : 1631970300000,
+      "withdrawal_amount" : 10500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး,ဟင်းဖိုးမနက်/ည",
+      "withdrawal_total" : 10500
+    },
+    "-Mjt0M9MAK7ejEAiJgpb" : {
+      "date" : 1631970360000,
+      "withdrawal_amount" : 32300,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဖြတ်ပါး,10mm ရှပ်,၁\" ကြေး,၁\"ပိုက်,မီးခြစ်",
+      "withdrawal_total" : 32300
+    },
+    "-Mjt0thD4uQEyW2lQCEq" : {
+      "date" : 1631970600000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Mjt0yLa-v4E9sSrxZ-q" : {
+      "date" : 1631970600000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Ye Lin Tun",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-Mjt1f1UeseeYfTgQH8-" : {
+      "date" : 1631970600000,
+      "withdrawal_amount" : 243000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "5%11500,231500 မင်းဇော်ပစ္စည်းဝယ်ရန်ငွေလွှဲ",
+      "withdrawal_total" : 243000
+    },
+    "-Mk2eyOnPJRBOgM_uIvm" : {
+      "date" : 1632149100000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-Mk2f2cJQ9mjfjPiMJ4q" : {
+      "date" : 1632149160000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-Mk2f7-IneeZT4d_aXp_" : {
+      "date" : 1632149160000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-Mk2fCcDKV0DoL-RKwZN" : {
+      "date" : 1632149160000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "19.9.21 ဟင်းဖိုး",
+      "withdrawal_total" : 8000
+    },
+    "-Mk2fJncBvn4FHkTdk-q" : {
+      "date" : 1632149220000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ရေသန့်လဲ",
+      "withdrawal_total" : 5000
+    },
+    "-Mk2fV2xgmB36Q2hT4VU" : {
+      "date" : 1632149220000,
+      "withdrawal_amount" : 60000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "ဆေးမှုတ်သမား၂ယောက်ခရှင်း",
+      "withdrawal_total" : 60000
+    },
+    "-Mk2fcLKQPtSyg_36JOd" : {
+      "date" : 1632149280000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "ကားဆီထည့်",
+      "withdrawal_total" : 10000
+    },
+    "-Mk2fnHaMbbHFHYPoi-z" : {
+      "date" : 1632149340000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 5500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကော်ပတ်ဝယ်",
+      "withdrawal_total" : 4500
+    },
+    "-Mk2fw89XzMHjrqVwiw-" : {
+      "date" : 1632149340000,
+      "withdrawal_amount" : 50000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "MLM ကားခ",
+      "withdrawal_total" : 50000
+    },
+    "-Mk2g1ZZKbo8U4ks0Ttz" : {
+      "date" : 1632149400000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-Mk2g9Wp-aNWCnfXNKXZ" : {
+      "date" : 1632149400000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 9000
+    },
+    "-Mk2gDzsf5eyd_5VLzDV" : {
+      "date" : 1632149460000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkAy5URkK8Fym7yeJVg" : {
+      "date" : 1632244980000,
+      "withdrawal_amount" : 31800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "9mmဆူးသွား,8.4မဲ့,ဆော့ပင်,ဂျစ်စော,ဓါးဆံ,ကူရှင်ရိုက်ကလစ်",
+      "withdrawal_total" : 31800
+    },
+    "-MkAytX6DDD3LnwOFDe2" : {
+      "date" : 1632245160000,
+      "withdrawal_amount" : 40000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "15.9.21 PK (83000-40000ဆပ်),43000 ကျန်",
+      "withdrawal_total" : 40000
+    },
+    "-MkAzPMGpLPkgq0a-Arn" : {
+      "date" : 1632159000000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1\" M10 Nut(10D) ပြည့်ဖြိုးအောင်ဆိုင် ၄၅၀၀/- ကြွေးကျန်",
+      "withdrawal_total" : 10000
+    },
+    "-MkAzYca974y_17-gWka" : {
+      "date" : 1632159120000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 9000
+    },
+    "-MkB-ZSo7uIcFL3Z8s2w" : {
+      "date" : 1632159180000,
+      "withdrawal_amount" : 52000,
+      "withdrawal_cashback" : 250,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကူရှင်မြက်နု အုတ်ကျိုး(6.5),အူလွှာ(7),အမဲကြောပါး(14)",
+      "withdrawal_total" : 51750
+    },
+    "-MkB-kqXW3p8kir3QxS6" : {
+      "date" : 1632159420000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကူရှင်သွားဝယ်ကားခ",
+      "withdrawal_total" : 8000
+    },
+    "-MkB0T_ejICU_oO5rIr4" : {
+      "date" : 1632159480000,
+      "withdrawal_amount" : 27000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝဆိုင်ကူရှင်ချုပ်ခ (80000-27000ပေး) 53000/- ကြွေးကျန်",
+      "withdrawal_total" : 27000
+    },
+    "-MkB2b9HAaVG5QEztqPY" : {
+      "date" : 1632159660000,
+      "withdrawal_amount" : 170000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကလစ်ဆံ,တိတ်,ဓါးဆံ(ကျော်လျှပ်စစ်)/122(1),101(2yl),စက်ကော်ပတ်,တင်နာ(3gl),2kလိုက်ကာ(1yl),၁\"တိတ်,220,အဝါ(1lb)(အလင်းရောင်)/MK နက်ထူကူရှင်စ(3.5)(ပြည့်ဝဆိုင်)",
+      "withdrawal_total" : 170000
+    },
+    "-MkB2ktWzVikCqVlujh3" : {
+      "date" : 1632160200000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ကယ်ရီခ",
+      "withdrawal_total" : 2000
+    },
+    "-MkB3A_Zv6IEHYIB7JPV" : {
+      "date" : 1632160320000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆေးသမားဟင်းဖိုး",
+      "withdrawal_total" : 1000
+    },
+    "-MkB3S-1PTfAXJIEikA8" : {
+      "date" : 1632160380000,
+      "withdrawal_amount" : 500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Nut ဝယ် Voucher မပါ",
+      "withdrawal_total" : 500
+    },
+    "-MkB3cQd-fDCRx-MDYJK" : {
+      "date" : 1632160440000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Zayar",
+      "withdrawal_note" : "",
+      "withdrawal_total" : 10000
+    },
+    "-MkB3hTPlh6lZCfayhv0" : {
+      "date" : 1632160500000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "",
+      "withdrawal_total" : 5000
+    },
+    "-MkB3wY6-m921x7SuIzu" : {
+      "date" : 1632160500000,
+      "withdrawal_amount" : 15500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင် ကြွေးဆပ်",
+      "withdrawal_total" : 15500
+    },
+    "-MkCVn6MGvH-MbTZsRuD" : {
+      "date" : 1632314220000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 2000
+    },
+    "-MkCWAd8L1E0TdWmYyaP" : {
+      "date" : 1632314220000,
+      "withdrawal_amount" : 30000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး ၁၈၀၀၀/- ကျန်ပေး,ဒီနေ့ နေ့တဝက်ဆင်း 12000/- ပေးလိုက်ရ KoVinny ကိုဖုန်းဆက်ပြောတယ်ပြော",
+      "withdrawal_total" : 30000
+    },
+    "-MkCWmtJDNjy9ZgCWp3k" : {
+      "date" : 1632314340000,
+      "withdrawal_amount" : 370500,
+      "withdrawal_cashback" : 247600,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1.2Matt Black(SteelnDragon),2k လိုက်ကာ(2lb)5000Ks",
+      "withdrawal_total" : 122900
+    },
+    "-MkCXFcTzZLuTNkThc4f" : {
+      "date" : 1632314580000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 10000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "8mm 13\" သံပြား",
+      "withdrawal_total" : 10000
+    },
+    "-MkCYQU5xCSjCxmL6hFH" : {
+      "date" : 1632314640000,
+      "withdrawal_amount" : 25000,
+      "withdrawal_cashback" : 1000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လေဆာခ Steel Dragon",
+      "withdrawal_total" : 24000
+    },
+    "-MkCYd1Q_OYKM5-KSNQV" : {
+      "date" : 1632314940000,
+      "withdrawal_amount" : 50000,
+      "withdrawal_cashback" : 2400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "LM50(PK),48 Tap,M10စတီးနပ်,M10 4\"",
+      "withdrawal_total" : 47600
+    },
+    "-MkCZInvFAi2gMqR7yC3" : {
+      "date" : 1632315120000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "ဂွမ်းဘီး,၄.၂ဆူးသွား",
+      "withdrawal_total" : 1500
+    },
+    "-MkCZV57YOw_crPSUL6z" : {
+      "date" : 1632315180000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ကယ်ရီခ,ဟင်းဖိုး",
+      "withdrawal_total" : 12000
+    },
+    "-MkCZvK0t6HKJzIl_dSS" : {
+      "date" : 1632315240000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "21.9.21 ကယ်ရီခ ၁၉၀၀၀ပေးရန် ၈၀၀၀ ပေးပြီး ၁၁၀၀၀ ပေးရန်ကျန်",
+      "withdrawal_total" : 8000
+    },
+    "-MkC_PBNFxTM4ZYCQjMZ" : {
+      "date" : 1632315360000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 3300,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "10m 1\"စတီး,12m 3\",12 ဝါ",
+      "withdrawal_total" : 6700
+    },
+    "-MkC_ZmU6YlVDGPmuIus" : {
+      "date" : 1632315480000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-MkC_jJxwu17zvZMnTEk" : {
+      "date" : 1632315480000,
+      "withdrawal_amount" : 4500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "21.9.21 ပြည့်ဖြိုးအောင်ဆိုင်ကြွေးဆပ်",
+      "withdrawal_total" : 4500
+    },
+    "-MkC_wl3guIKGq8OhI00" : {
+      "date" : 1632315540000,
+      "withdrawal_amount" : 100000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆေးသမားပေးငွေ",
+      "withdrawal_total" : 100000
+    },
+    "-MkHuw3FyAxxp47y_GKH" : {
+      "date" : 1632404820000,
+      "withdrawal_amount" : 560500,
+      "withdrawal_cashback" : 38500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "3\"x11/2\" ms(4),4\"x2\"(6)",
+      "withdrawal_total" : 522000
+    },
+    "-MkHv7-gIvXVPwc4dwD-" : {
+      "date" : 1632405000000,
+      "withdrawal_amount" : 11000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "22.9.21 ဆိုင်ကယ်ကယ်ရီခ ကြွေးဆပ်",
+      "withdrawal_total" : 11000
+    },
+    "-MkHvRl4UHUFn19kbj8m" : {
+      "date" : 1632405060000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ကယ်ရီခ (၂ခေါက်)",
+      "withdrawal_total" : 4000
+    },
+    "-MkHvYRHYBX5GFWJr0go" : {
+      "date" : 1632405120000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 9000
+    },
+    "-MkHvmBCK0NwOgVm6meg" : {
+      "date" : 1632405120000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 3500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "1/2 Gi DPlus,Sk",
+      "withdrawal_total" : 1500
+    },
+    "-MkHw38uOyrofa8xkFo-" : {
+      "date" : 1632405240000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 1500,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "14ဆူးသွား",
+      "withdrawal_total" : 8500
+    },
+    "-MkHwSjWQzESn-AUJ440" : {
+      "date" : 1632405300000,
+      "withdrawal_amount" : 285000,
+      "withdrawal_cashback" : 206000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1\"ရှပ် P,2 1/4 F Or",
+      "withdrawal_total" : 79000
+    },
+    "-MkHweDg16C-fOl8dCTa" : {
+      "date" : 1632405420000,
+      "withdrawal_amount" : 53000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "21.9.21 ပြည့်ဝဆိုင် ကြွေးဆပ်",
+      "withdrawal_total" : 53000
+    },
+    "-MkHwkLCSb59DnsBCgk_" : {
+      "date" : 1632405420000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-MkHx-CLzAgQAYf8tP0O" : {
+      "date" : 1632405480000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 5700,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "12ဂဟေ,M10 4\"(8.8)",
+      "withdrawal_total" : 9300
+    },
+    "-MkHxBTLTZMcUYjh0Kg_" : {
+      "date" : 1632405540000,
+      "withdrawal_amount" : 24000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး(၂၂/၂၃.၉.၂၁)",
+      "withdrawal_total" : 24000
+    },
+    "-MkHxGTXJ_uSRFuqTez2" : {
+      "date" : 1632405600000,
+      "withdrawal_amount" : 90000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 90000
+    },
+    "-MkHxKmD2wOS8pAWLz0n" : {
+      "date" : 1632405600000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkHxR-wBQFwQqUA7btV" : {
+      "date" : 1632405600000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkHxUnZGyyiTufbml7O" : {
+      "date" : 1632405660000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkHxZWMeG_i4NDNv8uV" : {
+      "date" : 1632405660000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkN2se87HBI8VNMEp-r" : {
+      "date" : 1632491160000,
+      "withdrawal_amount" : 8400,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M10 5\"(8.8)",
+      "withdrawal_total" : 8400
+    },
+    "-MkN2ynHyzMe7zZ69rQk" : {
+      "date" : 1632491220000,
+      "withdrawal_amount" : 4500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး",
+      "withdrawal_total" : 4500
+    },
+    "-MkN3225OC3BrgJuN6Ee" : {
+      "date" : 1632491220000,
+      "withdrawal_amount" : 3000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 3000
+    },
+    "-MkRokUkB8aFLiYKHWtJ" : {
+      "date" : 1632570840000,
+      "withdrawal_amount" : 408500,
+      "withdrawal_cashback" : 33000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "2x2 ms,4mm 4'x4'=117500Ks,6mm 4'x4'=170000Ks,3/4\" ပေါလစ်ရှပ်,3/4\"x1 1/4\",Pom(တဖရွန်)",
+      "withdrawal_total" : 375500
+    },
+    "-MkRoxnfJvyGx3nICuli" : {
+      "date" : 1632571140000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 5000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁ခွဲ ပိုက်",
+      "withdrawal_total" : 5000
+    },
+    "-MkRpjQcKWvbJIxzhBum" : {
+      "date" : 1632571200000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 1400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "P80(1.5,1.7)Nozzle,9mm ဆူးသွား",
+      "withdrawal_total" : 8600
+    },
+    "-MkRpxCPwKia7ha2H9aZ" : {
+      "date" : 1632571380000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 4500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4\" ကော်ပတ်ဝိုင်း",
+      "withdrawal_total" : 5500
+    },
+    "-MkRq30O1rmsPQ3Zo0j6" : {
+      "date" : 1632571440000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-MkRq9gwzPjILsqNR__v" : {
+      "date" : 1632571500000,
+      "withdrawal_amount" : 40000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "OT",
+      "withdrawal_total" : 40000
+    },
+    "-MkRqGfQ9Ze-vR7_-ed0" : {
+      "date" : 1632571500000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 12000
+    },
+    "-MkRqSp6hvgnoWJegqyn" : {
+      "date" : 1632571560000,
+      "withdrawal_amount" : 27000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "2x1/4 F Or",
+      "withdrawal_total" : 27000
+    },
+    "-MkRqZFdH_8iH0XtqgNX" : {
+      "date" : 1632571560000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 2000
+    },
+    "-MkRqiDfsCxgbxAN-3ly" : {
+      "date" : 1632571620000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ (၃ခေါက်)",
+      "withdrawal_total" : 9000
+    },
+    "-MkRqwwGkpC8_SYl1d8j" : {
+      "date" : 1632571680000,
+      "withdrawal_amount" : 14000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "24.9.21 ညနေဟင်းဖိုး-၄၅၀၀/-\nဒီနေ့ဟင်းဖိုး ၉၅၀၀/-",
+      "withdrawal_total" : 14000
+    },
+    "-MkSTore9sfMfg81NRH3" : {
+      "date" : 1632582120000,
+      "withdrawal_amount" : 30000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Min Zaw",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 30000
+    },
+    "-MkWsk9a3hZP7jJBEAth" : {
+      "date" : 1632655920000,
+      "withdrawal_amount" : 23900,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M10 4\"(8.8),M10 4\" steel,M10 6\" (steel),M20 1ခွဲ(8.8)",
+      "withdrawal_total" : 23900
+    },
+    "-MkWssGmpSQIKfV6gOPI" : {
+      "date" : 1632656100000,
+      "withdrawal_amount" : 3000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "စပရိန်",
+      "withdrawal_total" : 3000
+    },
+    "-MkWszX4jBZXDIckWGA_" : {
+      "date" : 1632656100000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 10000
+    },
+    "-MkWtBHTX4VtMBYlSAaP" : {
+      "date" : 1632656160000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-MkbLTlZFTMP0fLOguXy" : {
+      "date" : 1632747600000,
+      "withdrawal_amount" : 142500,
+      "withdrawal_cashback" : 55500,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "၁၂ဂဟေ,၄\"ထူ,၄\"ကော်ပတ်,Co2,Co2 coil (1),လက်အိတ်",
+      "withdrawal_total" : 87000
+    },
+    "-MkbLcksYgt2zeOcJ1YH" : {
+      "date" : 1632747780000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကိုတရုတ် Taxi ခ",
+      "withdrawal_total" : 16000
+    },
+    "-MkbLkA7OOy1u1Wj6Adw" : {
+      "date" : 1632747780000,
+      "withdrawal_amount" : 6500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနက်ဟင်းဖိုး,ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 6500
+    },
+    "-MkbLqJVgULunTsdldsg" : {
+      "date" : 1632747840000,
+      "withdrawal_amount" : 34000,
+      "withdrawal_cashback" : 2000,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆန်အိတ်ဝယ်",
+      "withdrawal_total" : 32000
+    },
+    "-MkbLwoavAhgXNrYtNCv" : {
+      "date" : 1632747840000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Zayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 5000
+    },
+    "-MkbM1VW0rNenIW1vfPe" : {
+      "date" : 1632747900000,
+      "withdrawal_amount" : 800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 800
+    },
+    "-MkbM4RUp5iRYI32Q4_Z" : {
+      "date" : 1632747900000,
+      "withdrawal_amount" : 800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 800
+    },
+    "-MkbM8kU675MgtVlD_fW" : {
+      "date" : 1632747900000,
+      "withdrawal_amount" : 800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 800
+    },
+    "-MkbMKNP0aIlAoKtwb8E" : {
+      "date" : 1632747900000,
+      "withdrawal_amount" : 52250,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin sayar",
+      "withdrawal_note" : "OT htae ka u",
+      "withdrawal_total" : 52250
+    },
+    "-MkgWlJA5XXykr2ZRMgs" : {
+      "date" : 1632834300000,
+      "withdrawal_amount" : 1401000,
+      "withdrawal_cashback" : 98300,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပိုက်ဆူး,၁\"ရှပ်,30mm ရှပ်,၃x၁ခွဲ ms,4'x8' 4mm,4'x4' 6mm,4'x8' 4mm,4\"x4\" ms(20mm),10x1.5 (Tap),3ရှပ် ဖြတ် DM,4\"x2\" ms,အုန်းဆီ",
+      "withdrawal_total" : 1302700
+    },
+    "-MkgXAZzKRag4Q-SWbtS" : {
+      "date" : 1632834600000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မနေ့ကညပိုင်းဟင်းဖိုး(၅၀၀၀/-),ဒီနေ့ဟင်းဖိုး(၁၀၀၀၀/-)",
+      "withdrawal_total" : 15000
+    },
+    "-MkgXQAhKXkVcsZDkm1u" : {
+      "date" : 1632834720000,
+      "withdrawal_amount" : 18000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi (မြောက်ဒဂုံ-2,ကိုတရုတ်အိမ်)",
+      "withdrawal_total" : 18000
+    },
+    "-MkgXXwzWK6maqL-G6qb" : {
+      "date" : 1632834780000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 12000
+    },
+    "-MkgXdGwhftEY9VeYGcE" : {
+      "date" : 1632834780000,
+      "withdrawal_amount" : 40000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 40000
+    },
+    "-MkgXjJ5bbozZFIebklQ" : {
+      "date" : 1632834840000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-MkgXmSV8L3_04SNOLv5" : {
+      "date" : 1632834840000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-MkgXrRX9JuIKwkKgnt7" : {
+      "date" : 1632834840000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 10000
+    },
+    "-MkgY9cC-gS5U6PKTAMu" : {
+      "date" : 1632834900000,
+      "withdrawal_amount" : 120000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Zayar",
+      "withdrawal_note" : "52000/- MLM မှာစိုက်ထားငွေပြန်ပေး\n68000/- Day ကြေးပေး",
+      "withdrawal_total" : 120000
+    },
+    "-MkgYIeCyjDrT1EhCrNA" : {
+      "date" : 1632834960000,
+      "withdrawal_amount" : 19000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ (၉ခေါက်)",
+      "withdrawal_total" : 19000
+    },
+    "-Mkm54zdrHo_UyMBdRjN" : {
+      "date" : 1632927780000,
+      "withdrawal_amount" : 36000,
+      "withdrawal_cashback" : 1850,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "828 ကျောက်ပြား,၃မူး ၁\" m BN,M20x2\" m BN,စပရိန်အရှည်/အတို,13/8,ဆော့ပင်",
+      "withdrawal_total" : 34150
+    },
+    "-Mkm6um2dxgnvVL7KOvC" : {
+      "date" : 1632928020000,
+      "withdrawal_amount" : 60000,
+      "withdrawal_cashback" : 1200,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "MIG-350 service charges,M10x4\" steel,M10x1 ကော်နရှင် LKey,17mm ခြောက်မြှောင့်,M10x3/4 မြှပ်ကီး,M10x1\" ကော်နရှင် LKey,ပီနံအိတ်",
+      "withdrawal_total" : 58800
+    },
+    "-Mkm788Oh1qnAVPtBDur" : {
+      "date" : 1632928500000,
+      "withdrawal_amount" : 200000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4mm 4'x8' သံပြား 50000/ပေးရန်ကျန်(စိုးတင့်ဆိုင်)",
+      "withdrawal_total" : 200000
+    },
+    "-Mkm7Q5zTluvJPTVSKol" : {
+      "date" : 1632928560000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "4mm steel ဆူးသွား",
+      "withdrawal_total" : 2000
+    },
+    "-Mkm8IImWHcAeYlOgwsB" : {
+      "date" : 1632928680000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 1200,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "တိပ်,Plasma Nozzle P80(1.5),Plasma Electrode P80 Black Wolf",
+      "withdrawal_total" : 8800
+    },
+    "-Mkm8n-2U0C4ObUkbpc9" : {
+      "date" : 1632928860000,
+      "withdrawal_amount" : 2000,
+      "withdrawal_cashback" : 200,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဂန်းဆံ,3x1ခွဲ ကော်စွတ်",
+      "withdrawal_total" : 1800
+    },
+    "-Mkm9peHwTK-zy7uKGsn" : {
+      "date" : 1632928980000,
+      "withdrawal_amount" : 95000,
+      "withdrawal_cashback" : 52450,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Steel Nut & Blot,3\"x1\"ခွဲ/1\"ခွဲx1\"ခွဲ,2\"x2\" ကော်စွတ်,မြှပ်ကီး steel,Bosny,Plasma Nozzle P80(1.5),(1.7),Plasma Nozzle Electrode P80 Black wolf",
+      "withdrawal_total" : 42550
+    },
+    "-MkmAu2dXPecc3dMSkq1" : {
+      "date" : 1632929460000,
+      "withdrawal_amount" : 4500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး-၁၅၀၀/-, ရေသန့်လဲ-၃၀၀၀/-",
+      "withdrawal_total" : 4500
+    },
+    "-MkmB09lE3y9PVopQK0h" : {
+      "date" : 1632929520000,
+      "withdrawal_amount" : 7000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 7000
+    },
+    "-MkmBEBHHOjpdbGsH7YR" : {
+      "date" : 1632929580000,
+      "withdrawal_amount" : 28000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "အောင်မင်္ဂလာ ကားခ(၂ခေါက်)",
+      "withdrawal_total" : 28000
+    },
+    "-MkmBKKWtJqDjgSlzJHf" : {
+      "date" : 1632929640000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 10000
+    },
+    "-MkmBmcbjc3WCWcjHPg2" : {
+      "date" : 1632929700000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 12000
+    },
+    "-Mkr9HOipd-a3-Ixhs2R" : {
+      "date" : 1633012620000,
+      "withdrawal_amount" : 795150,
+      "withdrawal_cashback" : 93550,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "M10x5\"(4.8),M10x6\"(4.8),M16x3\" steel,M10x1\" ကော်နရှင် LKey,၁\"ရှပ်,4\"x2\" ms,3\"x1\"ခွဲ ms,2 1/4 F Or",
+      "withdrawal_total" : 701600
+    },
+    "-Mkr9_8RZdO1KR3wyaNu" : {
+      "date" : 1633013040000,
+      "withdrawal_amount" : 43000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "21.9.21 (PK ဆိုင် 43000/- အကြွေးဆပ်)",
+      "withdrawal_total" : 43000
+    },
+    "-Mkr9lJSDo7c-asO8exH" : {
+      "date" : 1633013040000,
+      "withdrawal_amount" : 50000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "29.9.21 (စိုးတင့်ဆိုင် 50000/- အကြွေးဆပ်)",
+      "withdrawal_total" : 50000
+    },
+    "-MkrA72NUQM4QFltMYc8" : {
+      "date" : 1633013160000,
+      "withdrawal_amount" : 1000,
+      "withdrawal_cashback" : 400,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "ကံ့ကူဆံ",
+      "withdrawal_total" : 600
+    },
+    "-MkrAJihXUge_nrm_Kk6" : {
+      "date" : 1633013220000,
+      "withdrawal_amount" : 14000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "UCFL-205",
+      "withdrawal_total" : 14000
+    },
+    "-MkrBjoaTyEoPL5oeHd9" : {
+      "date" : 1633013280000,
+      "withdrawal_amount" : 95450,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "30mm ရှပ်(Thai),43/47 တောက်,2' ပိုက်,1 1/4ပိုက်,M16x2\" steel,1 8/5\"x2 1/8\" ပိုက်,1 1/4\"x 1 1/2\" ပိုက်,32 ASSGC,ပိုက်ဆူး",
+      "withdrawal_total" : 95450
+    },
+    "-MkrBy9IRaeGWlTsDRiz" : {
+      "date" : 1633013700000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 12000
+    },
+    "-MkrC7BajFHGLVjq-lq7" : {
+      "date" : 1633013700000,
+      "withdrawal_amount" : 1700,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး, သီလရှင်လှူ",
+      "withdrawal_total" : 1700
+    },
+    "-MkrCY3-bCvZhCXUWWYU" : {
+      "date" : 1633013760000,
+      "withdrawal_amount" : 100000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "28.9.21 ယူထားငွေ 470000/- ထဲမှ 100000/- ပြန်ဆပ် (370000/- ပေးရန်ကျန်)",
+      "withdrawal_total" : 100000
+    },
+    "-MkrDU1_aP7XZg1Pw_kB" : {
+      "date" : 1633013880000,
+      "withdrawal_amount" : 0,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "6203 (700x5)=3500Ks\n6205 (1200x10)=12000Ks\nLM-25(7500x8)=60000Ks\nLM-30(9000x8)=72000Ks\n147500/- အကြွေးယူလာ(PK ဆိုင်)",
+      "withdrawal_total" : 0
+    },
+    "-Mkvvx7rVcRJUt_HaKYG" : {
+      "date" : 1633092960000,
+      "withdrawal_amount" : 247000,
+      "withdrawal_cashback" : 105250,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "4\"x4\" ms 2.5mm,1 1/4 ပိုက်ဆူး,စက်ကော်ပတ် 4\",6 ဆူးဇီး,3မူးx1\" m BN",
+      "withdrawal_total" : 141750
+    },
+    "-MkvwDX2lso2Xmho2XOX" : {
+      "date" : 1633093140000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "30.9.21 Zayar ဆီကယူငွေပြန်ပေး",
+      "withdrawal_total" : 20000
+    },
+    "-MkvwWCHb9DswGtPukTF" : {
+      "date" : 1633093200000,
+      "withdrawal_amount" : 36000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မင်းဇော် ဆီငွေလွှဲ (ငွေလွှဲခ ၁၀၀၀/- အပါ)",
+      "withdrawal_total" : 36000
+    },
+    "-Mkvwk0wm1c8yMFANBO5" : {
+      "date" : 1633093260000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "29.9.21 ပြည့်ဝဆိုင် အကြွေးဆပ်",
+      "withdrawal_total" : 15000
+    },
+    "-MkvxCCb4tVVJuBTwgSg" : {
+      "date" : 1633093320000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကူရှင်ချုပ်ခ",
+      "withdrawal_total" : 12000
+    },
+    "-Mkvx_mkWqMfRY9zbtto" : {
+      "date" : 1633093440000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "29.9.21 ကယ်ရီခ 11000/- ပေးရန်ကျန်  ထဲမှ 9000/-ပေး 2000/- ပေးရန်ကျန်",
+      "withdrawal_total" : 9000
+    },
+    "-MkvxwhBU-N6Yi-9TFRa" : {
+      "date" : 1633093560000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 1600,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "6'channel,M16x2\",ပိုက်,မီးတိပ်",
+      "withdrawal_total" : 13400
+    },
+    "-MkvyCqV-98p609GG-r-" : {
+      "date" : 1633093620000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 5000,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လေဆာဖြတ်ခ-10000/-,2ခွဲပိုက်",
+      "withdrawal_total" : 15000
+    },
+    "-MkvyOwlI5k7wvfkQCV-" : {
+      "date" : 1633093740000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-MkvyUQnRzqeOnNrL4QR" : {
+      "date" : 1633093740000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "Day ကြေး",
+      "withdrawal_total" : 12000
+    },
+    "-Ml0RFQVhBWYApsL4Xcp" : {
+      "date" : 1633185360000,
+      "withdrawal_amount" : 26000,
+      "withdrawal_cashback" : 800,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "1/2.10.21 (2ရက်စာ ဟင်းဖိုး)\nမနက်-6000/-\nည-6600/-",
+      "withdrawal_total" : 25200
+    },
+    "-Ml0RXJZynxhyyxmCRtM" : {
+      "date" : 1633185480000,
+      "withdrawal_amount" : 3500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "Taxi ခ,ရေသန့်",
+      "withdrawal_total" : 3500
+    },
+    "-Ml0SDHNQlFTOOr_QeuU" : {
+      "date" : 1633185600000,
+      "withdrawal_amount" : 100000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "30.9.21 (PK -147500/-) 100000/- ဆပ် 47500/ ကျန်",
+      "withdrawal_total" : 100000
+    },
+    "-Ml0Sot2TEbe9gRO8bMb" : {
+      "date" : 1633185720000,
+      "withdrawal_amount" : 529600,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လေဂန်း,6mm 4'x8',2x2 /3x1ခွဲ ကော်,30mm ရှပ်,Pom 30mm,,1\"ရှပ်,M10 အဝင်ဝါရှာ",
+      "withdrawal_total" : 529600
+    },
+    "-Ml0TDgurOIRcLIoPIHg" : {
+      "date" : 1633185900000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ(29.9.21 2000/- ကျန်+ 1.10.21 18000/- ကျန်) အကြွေးဆပ်",
+      "withdrawal_total" : 20000
+    },
+    "-Ml0TLTDLJdqcIEzLx0y" : {
+      "date" : 1633186020000,
+      "withdrawal_amount" : 13000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ (၆ခေါက်)",
+      "withdrawal_total" : 13000
+    },
+    "-Ml0TWXKq1eCSBI0j28I" : {
+      "date" : 1633186020000,
+      "withdrawal_amount" : 6000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "လက်ဖက်ရည်,မုန့်,ကွမ်း",
+      "withdrawal_total" : 6000
+    },
+    "-Ml0TcEVnB7i3_E2f_E7" : {
+      "date" : 1633186080000,
+      "withdrawal_amount" : 1500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဆိုင်ကယ်ဆီဖိုး",
+      "withdrawal_total" : 1500
+    },
+    "-Ml0TiQb9ksKbqf6QMr-" : {
+      "date" : 1633186080000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Wai ThuRa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Ml0TnH7Hnuo6u0kUw3j" : {
+      "date" : 1633186140000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Soe ThiHa",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Ml0Ts2CQrVjOLyYWW0Y" : {
+      "date" : 1633186140000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Thet Naing Oo",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 5000
+    },
+    "-Ml0U75Dy4uyEu5_-Lf9" : {
+      "date" : 1633186140000,
+      "withdrawal_amount" : 24000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "26/30.9.21 Day ကြေးကျန်ငွေပေး\nဒီနေ့ Day ကြေးကျန်",
+      "withdrawal_total" : 24000
+    },
+    "-Ml0UF1JVwxkzNWUqYpQ" : {
+      "date" : 1633186200000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 4000
+    },
+    "-Ml0UNqZx3irNSslcwb9" : {
+      "date" : 1633186260000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Pyae Phyo Aung",
+      "withdrawal_note" : "Day ကြေး ၂ရက်ခ",
+      "withdrawal_total" : 20000
+    },
+    "-Ml0USb2101LqTGMbOO4" : {
+      "date" : 1633186320000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 4000
+    },
+    "-Ml0U_JeLJWUDOjA9PFC" : {
+      "date" : 1633186320000,
+      "withdrawal_amount" : 600,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဖြိုးအောင် OT ဆင်းဟင်းဖိုး",
+      "withdrawal_total" : 600
+    },
+    "-Ml5MtiAKxFoO-MWzZXJ" : {
+      "date" : 1630589760000,
+      "withdrawal_amount" : 18000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 18000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင်",
+      "withdrawal_total" : 18000
+    },
+    "-Ml5O5FWSFKP--3obnhB" : {
+      "date" : 1630849200000,
+      "withdrawal_amount" : 29000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 29000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Taxi Driver",
+      "withdrawal_note" : "Taxi ခ (၆ခေါက်)",
+      "withdrawal_total" : 29000
+    },
+    "-Ml5OI3NNvB-BKUrlj2R" : {
+      "date" : 1630935720000,
+      "withdrawal_amount" : 20900,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 20900,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဖြိုးအောင်ဆိုင်",
+      "withdrawal_total" : 20900
+    },
+    "-Ml5PEHP_xF5VIggGOlj" : {
+      "date" : 1633700760000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 16000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ ၈ခေါက်",
+      "withdrawal_total" : 16000
+    },
+    "-Ml5PRswcUdCwbWyFCIN" : {
+      "date" : 1631195220000,
+      "withdrawal_amount" : 16500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 16500,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင်",
+      "withdrawal_total" : 16500
+    },
+    "-Ml5Pex1YqL0fWcpuDD-" : {
+      "date" : 1631195280000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 20000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "မြောက်ပဒဂုံစ္စည်းပို့ ကားခ",
+      "withdrawal_total" : 20000
+    },
+    "-Ml5QhwOAesBfgsbrqo7" : {
+      "date" : 1631541180000,
+      "withdrawal_amount" : 11500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 11500,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင်",
+      "withdrawal_total" : 11500
+    },
+    "-Ml5RGSqaaR9t7qjZ43J" : {
+      "date" : 1631627700000,
+      "withdrawal_amount" : 55000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 55000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK",
+      "withdrawal_total" : 55000
+    },
+    "-Ml5RUvrEaxhRzG3izFb" : {
+      "date" : 1631627760000,
+      "withdrawal_amount" : 5000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 5000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဖြိုးအောင်ဆိုင်",
+      "withdrawal_total" : 5000
+    },
+    "-Ml5Ree3FwZNQYK-elub" : {
+      "date" : 1631627820000,
+      "withdrawal_amount" : 4000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 4000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင်",
+      "withdrawal_total" : 4000
+    },
+    "-Ml5RkE6Sr32aLAJOOQm" : {
+      "date" : 1631627880000,
+      "withdrawal_amount" : 14000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 14000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK",
+      "withdrawal_total" : 14000
+    },
+    "-Ml5SOCwJJMaW5B6PtFO" : {
+      "date" : 1631714400000,
+      "withdrawal_amount" : 14000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 14000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK",
+      "withdrawal_total" : 14000
+    },
+    "-Ml5S_c1OJIiNS8c2Gj_" : {
+      "date" : 1631714460000,
+      "withdrawal_amount" : 15900,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 15900,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဖြိုးအောင်ဆိုင်",
+      "withdrawal_total" : 15900
+    },
+    "-Ml5dGlIepfJMo93Ns52" : {
+      "date" : 1632235920000,
+      "withdrawal_amount" : 4500,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 4500,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဖြိုးအောင်ဆိုင်",
+      "withdrawal_total" : 4500
+    },
+    "-Ml5dRZX9Csb2wmnXNEp" : {
+      "date" : 1632235980000,
+      "withdrawal_amount" : 19000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 19000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ (၈ခေါက်)",
+      "withdrawal_total" : 19000
+    },
+    "-Ml5ePzQ0UaiIitq6C56" : {
+      "date" : 1632927420000,
+      "withdrawal_amount" : 15000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 15000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပြည့်ဝကူရှင်ဆိုင်",
+      "withdrawal_total" : 15000
+    },
+    "-Ml5ec_j-792s5e9tkMt" : {
+      "date" : 1632927480000,
+      "withdrawal_amount" : 11000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 11000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ",
+      "withdrawal_total" : 11000
+    },
+    "-Ml5g6oGwfLMV02Jh2lv" : {
+      "date" : 1633100700000,
+      "withdrawal_amount" : 18000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 18000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ (၆ခေါက်)",
+      "withdrawal_total" : 18000
+    },
+    "-Ml5gIEPJYk4cGVrm_K9" : {
+      "date" : 1633100700000,
+      "withdrawal_amount" : 26000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 26000,
+      "withdrawal_des" : "W_Credit",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "PK(6205,UCFL205)",
+      "withdrawal_total" : 26000
+    },
+    "-Ml8e9UcB0Sfn9YFD-jt" : {
+      "date" : 1633279920000,
+      "withdrawal_amount" : 261800,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ပန်ကာကြိုး(ချိန်း)BGI,4\"ထူ,Co2,Co2 coil,လက်အိတ်နီ,4'3 ကာဂွန်,မဲကြောပါး/မြက်နက်/မြက်နီကူရှင်စ,၁\"/၂\"ကြိတ်သား",
+      "withdrawal_total" : 261800
+    },
+    "-Ml8eLKctpCMc4DtTc7H" : {
+      "date" : 1633366560000,
+      "withdrawal_amount" : 16000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Raw Materials",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "စက်ကော်ပတ်,ကျောက်ကြမ်း Voucher မပါ",
+      "withdrawal_total" : 16000
+    },
+    "-Ml8eZKGIrRtv7OrZqDY" : {
+      "date" : 1633366620000,
+      "withdrawal_amount" : 12000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီခ-၆ခေါက်",
+      "withdrawal_total" : 12000
+    },
+    "-Ml8elcCYzP3gyzrebQc" : {
+      "date" : 1633280220000,
+      "withdrawal_amount" : 8000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ကယ်ရီသမား Day ကြေးပေး",
+      "withdrawal_total" : 8000
+    },
+    "-Ml8eyaNQ7O-bm5hPgTp" : {
+      "date" : 1633280280000,
+      "withdrawal_amount" : 10000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Pyae Phyo Aung",
+      "withdrawal_note" : "Day ကြေး-7000/-\nOt-3000/-",
+      "withdrawal_total" : 10000
+    },
+    "-Ml8f5BFvninWV-8xlNP" : {
+      "date" : 1633280340000,
+      "withdrawal_amount" : 12600,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "ဟင်းဖိုး",
+      "withdrawal_total" : 12600
+    },
+    "-Ml8fG2SUnGMTWuXVXNq" : {
+      "date" : 1633366800000,
+      "withdrawal_amount" : 9000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "Taxi ခ",
+      "withdrawal_total" : 9000
+    },
+    "-Ml8fbP3ogOW4eU8SssE" : {
+      "date" : 1633280460000,
+      "withdrawal_amount" : 24000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Twin Sayar",
+      "withdrawal_note" : "2,3.10.21 Day ကြေး၂ရက်ခ",
+      "withdrawal_total" : 24000
+    },
+    "-Ml8fiXZHH37k8BRR2FZ" : {
+      "date" : 1633280520000,
+      "withdrawal_amount" : 6000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Moe D",
+      "withdrawal_note" : "unavailable",
+      "withdrawal_total" : 6000
+    },
+    "-Ml8g-lrT92RvIHkgCuC" : {
+      "date" : 1633280520000,
+      "withdrawal_amount" : 20000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "Salary",
+      "withdrawal_name" : "Ye Lin Tun",
+      "withdrawal_note" : "2.1.21 (10000/- ပျောက်ပြန်စိုက်ပေးငွေ)",
+      "withdrawal_total" : 20000
+    },
+    "-Ml8gAKb05or8LnHrfZ0" : {
+      "date" : 1633280640000,
+      "withdrawal_amount" : 470000,
+      "withdrawal_cashback" : 0,
+      "withdrawal_credit" : 0,
+      "withdrawal_des" : "General",
+      "withdrawal_name" : "Ko Ta Yoke",
+      "withdrawal_note" : "28.9.21 ယူထားငွေပြန်ပေး",
+      "withdrawal_total" : 470000
+    }
+  },
+  "test" : {
+    "3jkhkjhk3w" : {
+      "name" : "momo"
+    },
+    "43e6dgrdy" : {
+      "commentnew" : "this data is new update",
+      "commenttest" : "change this data",
+      "name" : "Ma MA Moe",
+      "utime" : 1631107029253
+    }
+  },
+  "test12" : "ioyhoiyuio"
+}

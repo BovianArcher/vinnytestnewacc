@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vinnyapptest1-326204",
+  "private_key_id": "9988e3ee20d8ff86f3723a7b911a657ce442aa73",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCq/NhUng2sSRtJ\nL4F13z5Jfbk0+Nd1ahyAuvLofIBt22oNxudWyMcTwEr9Ln0Y+VruhA7HglcwkH+R\neTfpOYOM2KCvJmWJLJM9JUR4rwb+56Ab/TeMlTRyJg8lnQkDNlGdXhf3IZ1lCQDI\nRtk3ezz/GmjLppWYZxKfJuUbYFOs8Y1Klz9cgca079+kDf3bydJEQwKfiAqsVg5A\nkysZdMYERV88TuXd1FH4JFslI2pYmDo2sBijugc1B0x4xVz4ebcaAVZqV7mWe/uf\nmQUCBl/CyrJbLEaSddf9ccCUJTCKsGcfGd2TrTt3pdGMtD47rHpxDW9lEyL5Kicb\nXzK9sh0FAgMBAAECggEACCGK9gcoFkvJsOLB8MWDdEI2xvaYZFx96384Yubcwpye\n//W39ZAJq35G8qA90ay17sa33zPrCoOslVHi30PdZhq9FWcph+rnO46koWqNVhzU\np9AUTqqfulfl+39quMzh965MTHO8RNw3Pc7ksHc7UNRELH8I+RzZrVjPp0we3ofw\nKeODTUiSEJj8gi1zAA2AVrTsK2FFLMjWWQeJsFGwYfWAl8y5MYgY2lZleytIWzDG\nobUFgRomlzn17ZMz42biqrRoVU0fh1RlSsMXrOU9p+QjOGEvuK06fiCryl8V72eu\nE7S4RBRBUdfN3WsCDTF/+B+FZgdGGPBYafM83TkwUQKBgQDabMnwAIxEHIKT2DQC\nKBcPOTWuWNugPLf2/5RcPy5l/ZoFFAZQU8w0yoStm3/KwF6AINawRpGA/hH74ypL\nYz2Kp9P0o7Han1WEJMc4/pPvLwXuPEt7hj/G6WWH95RTGDOlHZC/J/tsKJK+r5CC\ntqcytBjza16pRq9oFQuPf3kzLQKBgQDIZveOoFqZn3IsxhBY+cQ57b8ZBptIyzTa\nrx41v8Cri3axqAgaI4itjPjG/yosGml3gm4m7S8e+HFhNyvO9L7RLWBERPJxTs2z\nY/O6MHfwbDFEtvltieUPM2m/h1eLeAXGSW2FXOgycqxrG9NRC5E9QTTsjIWvMjeb\nJRO0Sn+YOQKBgQCBtTS+BzVEhUGtlihcV35KFgkgvbe+khAU53UsyoA9JLo/5cJS\nFVEg0Fq11a+vsUjtAZM8HsvtM/NuB1poZkh3fG5LyqGlWBUqYcTEvbkPwnbdIIUa\nl4BsGNGoSoeUSLzygnogahfOBNIP1qYUWW80lupyMwKFt2oWftjcoDBTCQKBgD3y\n7oXtdfRVQLMsivMmSo1pvBAdZbVL88vCJIGTBBlDZG6otdB2uZKEqIbDbCL0CzRB\nYpGv8kgNnubhai5wo+f/semIsrVqGdZhiH8+6mSs3VITieldnixjxUXKrbpUYNyZ\n6Dw4qyKlJj15/YnpHH2mAZk6Gz08NcpE3OF3whepAoGBAKdPfZGzgNwSfCkjuv9s\ngcaHEbODRWdy0UZR2h8/ZkwntKRKsO3qLMsPvXBGryUVc9yBEgzXrgnsG38QfPDi\nefSibgJuipM9jHv54zNmF+qeLYDY7OwQAh5qrf2dewkRs5r4hLufKT6NuXuiEC9l\ni33/t8ZHaVRRWU1KnTGoolLS\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-action-vinnytestfb@vinnyapptest1-326204.iam.gserviceaccount.com",
+  "client_id": "101919403433531669201",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-action-vinnytestfb%40vinnyapptest1-326204.iam.gserviceaccount.com"
+}
