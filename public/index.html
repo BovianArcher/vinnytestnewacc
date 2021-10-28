@@ -41,8 +41,9 @@
   <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/css/bootstrap-slider.min.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.0/bootstrap-slider.min.js"></script>
@@ -105,8 +106,10 @@
   <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
   <!-- End Toggle Switch -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.css" rel="stylesheet"> -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.json"></script> -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
 
   <style>
     body {
@@ -142,6 +145,9 @@
         margin: 0
       }
     }
+
+
+
   </style>
 
   <!--
@@ -329,9 +335,9 @@
       z-index: 9999 !important;
     }
 
-    .modal-content {
+    .modal {
       margin: 2px auto;
-      z-index: 9999 !important;
+      z-index: 10000;
     }
 
 
@@ -436,6 +442,15 @@
   <script src="/__/firebase/8.1.1/firebase-firestore.js"></script>
   <script src="/__/firebase/init.js?useEmulator=true"></script>
 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
 
   <!--
     <div id="navbar" class="navbar navbar-default">
@@ -523,9 +538,11 @@
     <div id="firebaseui-auth-container"></div>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class='col-3'>
-          <div class="form-group">
+
+
+      <div class="d-flex border border-primary justify-content-start flex-wrap">
+
+          <div class="form-group flex-shrink-0 align-self-center  p-3">
             <div class='input-group date' id='datetimepicker2'>
               <input type='text' class="form-control" ng-model="datepick2" id="date2" />
               <span class="input-group-addon">
@@ -533,29 +550,29 @@
               </span>
             </div>
           </div>
-        </div>
 
-        <div class="col-3 input-group mb-3">
-          <label for="SearchType" class="form-label mt-5"></label>
-          <select class="form-select mt-5" id="SearchType" ng-model="searchtype">
 
-            <option value="Search All" selected>Search All</option>
+
+
+          <select class="w-auto form-select align-self-center px-5 py-4 border border-warning form-select-lg" id="SearchType" ng-model="searchtype">
+
+            <option value="Search All">Search All</option>
             <option value="Search By Date">Search By Date</option>
-            <option value="Search By Month">Search By Month</option>
+            <option value="Search By Month" selected>Search By Month</option>
           </select>
-        </div>
 
-        <div class="col-3 input-group-btn">
+
+          <div class="d-flex justify-content-around p-3 ms- 1 flex-fill">
           <button class="btn btn-default" type="submit" id="btnRefresh" ng-click="refreshTable()"><i class="glyphicon glyphicon-refresh"></i></button>
-        </div>
 
-        <div class="col-3 input-group-btn">
-          <!-- data-toggle="modal" data-target="#myModal5" -->
-          <button class="btn btn-default" type="submit" id="btnShowDailyPlus" ng-click="showDailyPlus()"><i class="glyphicon glyphicon-plus"></i></button>
-        </div>
 
-        <div class="col-3 input-group-btn">
-          <button class="btn btn-default" type="submit" id="btnShowDailyMinus" ng-click="showDailyMinus()"><i class="glyphicon glyphicon-minus"></i></button>
+
+
+          <button class="btn btn-default" type="submit" id="btnShowDailyPlus" data-bs-toggle="modal" data-bs-target="#myModal9" ng-click="showDailyPlus()"><i class="glyphicon glyphicon-plus"></i></button>
+
+
+
+          <button class="btn btn-default" type="submit" id="btnShowDailyMinus" data-bs-toggle="modal" data-bs-target="#myModal5" ng-click="showDailyMinus()"><i class="glyphicon glyphicon-minus"></i></button>
         </div>
 
 
@@ -568,7 +585,7 @@
 
         <div class="table-responsive">
           <table id="mt" class="table table-hover">
-              <caption>List of users</caption>
+
             <thead>
               <tr>
                 <!--  <th scope="col">#</th> -->
@@ -599,7 +616,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="d-flex d-flex justify-content-end">
 
         <h3> Total Income : {{total_income | number:'1.0':'en-US'}}</h3>
 
@@ -646,7 +663,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr ng-repeat="x in records | advsearch:searchdes" ng-click="showRowData(x)">
+              <tr ng-repeat="x in records" ng-click="showRowData(x)">
                 <!-- <th scope="row">1</th> -->
                 <td>{{x.date | date:'dd-MM-yyyy HH:mm'}}</td>
                 <td>{{x.withdrawal_name}}</td>
@@ -663,18 +680,18 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="d-flex d-flex justify-content-end">
 
-        <div class="col">
+
           <h3>Total Expense : {{total_expense | number:'1.0':'en-US'}}</h3>
-        </div>
+
       </div>
 
-      <div class="row">
+      <div class="d-flex d-flex justify-content-end">
 
-        <div class="col">
+
           <h3>Balance Sheet : {{total_income - total_expense | number:'1.0':'en-US'}}</h3>
-        </div>
+
       </div>
 
 
@@ -717,10 +734,10 @@
                 <td>{{x.credit_note}}</td>
                 <!--<td><div class="form-check"><input class="form-check-input" type="checkbox"   ng-checked=x.credit_status disabled></div></td> -->
                 <td>
-                  <div ng-if="x.credit_status == true" style="background-color: red;"><i class="bi bi-hand-thumbs-down-fill"></i></div>
+                  <div ng-if="x.credit_status == true" style="background-color: red;"><i class="bi bi-lightning-charge"></i></div>
                   <div ng-if="x.credit_status == false" style="background-color: green;"><i class="bi bi-hand-thumbs-up"></i></div>
                 </td>
-                <td><button class="btn btn-primary" id="btn_apply_credit" ng-click="applyCreditData(x)">Pay</button></td>
+                <td><button class="btn btn-primary" id="btn_apply_credit" ng-click="applyCreditData(x)"  data-bs-toggle="modal" data-bs-target="#myModal10">Pay</button></td>
 
 
 
@@ -766,14 +783,14 @@
 
 
     <!-- The Modal 5  style="z-index: 9999;" > -->
-    <div class="modal" id="myModal5" ng-model="rowdatainfo">
+    <div class="modal" id="myModal5" ng-model="rowdatainfo" tabindex="-1" aria-labelledby="myModal5Label" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
 
           <!-- Modal Header -->
           <div class="modal-header">
 
-            <button type="button" class="close" data-dismiss="modal">×</button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <!-- Modal body -->
@@ -863,7 +880,7 @@
               </div>
 
               <div class="col-6 col-md-4 col-xs-3">
-                <button class="btn btn-primary" id="byn_daily_cancel" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary" id="byn_daily_cancel" data-bs-dismiss="modal">Cancel</button>
               </div>
 
             </div>
@@ -883,14 +900,14 @@
 
 
     <!-- The Modal 9  style="z-index: 9999;" > -->
-    <div class="modal" id="myModal9" ng-model="cashrowdatainfo">
+    <div class="modal" id="myModal9" ng-model="cashrowdatainfo"  tabindex="-1" aria-labelledby="myModal9Label" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
 
           <!-- Modal Header -->
           <div class="modal-header">
 
-            <button type="button" class="close" data-dismiss="modal">×</button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <!-- Modal body -->
@@ -986,7 +1003,7 @@
               </div>
 
               <div class="col-6 col-md-4  col-xs-3">
-                <button class="btn btn-primary" id="byn_cash_cancel" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary" id="byn_cash_cancel" data-bs-dismiss="modal">Cancel</button>
               </div>
 
             </div>
@@ -1005,14 +1022,14 @@
 
 
     <!-- The Modal 10  style="z-index: 9999;" > -->
-    <div class="modal" id="myModal10" ng-model="creditrowdatainfo">
+    <div class="modal" id="myModal10" ng-model="creditrowdatainfo"  tabindex="-1" aria-labelledby="myModal10Label" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
 
           <!-- Modal Header -->
           <div class="modal-header">
 
-            <button type="button" class="close" data-dismiss="modal">×</button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
 
           <!-- Modal body -->
@@ -1112,7 +1129,7 @@
 
 
               <div class="col-6 col-md-4">
-                <button class="btn btn-primary" id="btn_credit_cancel" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary" id="btn_credit_cancel" data-bs-dismiss="modal">Cancel</button>
               </div>
 
               <!--
@@ -1371,38 +1388,38 @@
     var app = angular.module("myApp", []);
 
 
-    app.filter('advsearch', function() {
-      return function(items, tagName) {
-        var filtered = [];
-        //  alert("tagName : " + tagName + " : " + (tagName == null));
-        var destotal = 0;
-        var destype = null;
-        angular.forEach(items, function(el) {
-          if (el.withdrawal_des == tagName) {
-            filtered.push(el);
-            destotal += el.withdrawal_total;
-            if (destype == null) {
-              destype = el.withdrawal_des;
-            }
-            // alert(" el.Total " +  el.withdrawal_total);
-          }
-          if (tagName == null || tagName == "None") {
-            filtered.push(el);
-          }
-
-        });
-
-        if (destotal > 0) {
-
-          alert("total " + destype + " : " + destotal);
-
-        } else {
-          console.log("destoal " + destotal);
-        }
-
-        return filtered;
-      }
-    });
+    // app.filter('advsearch', function() {
+    //   return function(items, tagName) {
+    //     var filtered = [];
+    //     //  alert("tagName : " + tagName + " : " + (tagName == null));
+    //     var destotal = 0;
+    //     var destype = null;
+    //     angular.forEach(items, function(el) {
+    //       if (el.withdrawal_des == tagName) {
+    //         filtered.push(el);
+    //         destotal += el.withdrawal_total;
+    //         if (destype == null) {
+    //           destype = el.withdrawal_des;
+    //         }
+    //         // alert(" el.Total " +  el.withdrawal_total);
+    //       }
+    //       if (tagName == null || tagName == "None") {
+    //         filtered.push(el);
+    //       }
+    //
+    //     });
+    //
+    //     if (destotal > 0) {
+    //
+    //       alert("total " + destype + " : " + destotal);
+    //
+    //     } else {
+    //       console.log("destoal " + destotal);
+    //     }
+    //
+    //     return filtered;
+    //   }
+    // });
 
 
     app.controller("myCtrl", function($scope, $http, $log) {
@@ -1585,7 +1602,12 @@
 
 
       $scope.showRowData = function(x) {
-        $("#myModal5").modal();
+        var myModal = new bootstrap.Modal(document.getElementById('myModal5'));
+      myModal.show();
+
+       //$("#myModal5").modal();
+
+        //$("#myModal5").modal();
 
 
 
@@ -1614,7 +1636,10 @@
 
       $scope.showIncomeData = function(x) {
 
-        $("#myModal9").modal();
+        var myModal = new bootstrap.Modal(document.getElementById('myModal9'));
+        myModal.show();
+
+        //$("#myModal9").modal();
 
 
 
@@ -1643,7 +1668,9 @@
       }
 
       $scope.showDailyPlus = function() {
-        $("#myModal9").modal();
+
+
+        //$("#myModal9").modal();
 
         //  $("#myfields").prop("disabled", true);
 
@@ -1662,10 +1689,12 @@
       }
 
       $scope.showDailyMinus = function() {
-        $("#myModal5").modal();
+
+        var myModal = new bootstrap.Modal(document.getElementById('myModal5'));
+      //  $("#myModal5").modal();
 
         //  $("#myfields").prop("disabled", false);
-
+        myModal.show()
 
 
         $("#btn_daily_insert").show();
@@ -2890,7 +2919,7 @@
 
       $scope.applyCreditData = function(data) {
 
-        $("#myModal10").modal();
+      //  $("#myModal10").modal();
         //  alert(data.creditfrom_name);
 
         $scope.payhistory = [];
